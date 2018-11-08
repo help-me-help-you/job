@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Silk';
+  src:
+    url('fonts/Silk.ttf?f5rnlq') format('truetype'),
+    url('fonts/Silk.woff?f5rnlq') format('woff'),
+    url('fonts/Silk.svg?f5rnlq#Silk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.silk {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Silk' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.silk-pencil:before {
+  content: "\e927";
+}
+.silk-magnifier:before {
+  content: "\e926";
+}
+.silk-explanation:before {
+  content: "\e925";
+}
+.silk-chart:before {
+  content: "\e923";
+}
+.silk-flag:before {
+  content: "\e924";
+}
+.silk-close:before {
+  content: "\e922";
+}
+.silk-envelope:before {
+  content: "\e920";
+}
+.silk-close-circle:before {
+  content: "\e921";
+}
+.silk-pizza:before {
+  content: "\e91c";
+}
+.silk-marker:before {
+  content: "\e91d";
+}
+.silk-paw:before {
+  content: "\e91e";
+}
+.silk-suitcase:before {
+  content: "\e91f";
+}
+.silk-tick:before {
+  content: "\e91b";
+}
+.silk-add-circle:before {
+  content: "\e915";
+}
+.silk-calendar:before {
+  content: "\e916";
+}
+.silk-remove-circle:before {
+  content: "\e917";
+}
+.silk-remove:before {
+  content: "\e918";
+}
+.silk-sign-in:before {
+  content: "\e919";
+}
+.silk-sign-out:before {
+  content: "\e91a";
+}
+.silk-add:before {
+  content: "\e90c";
+}
+.silk-book:before {
+  content: "\e90d";
+}
+.silk-dashboard:before {
+  content: "\e90e";
+}
+.silk-heart-full:before {
+  content: "\e90f";
+}
+.silk-heart:before {
+  content: "\e910";
+}
+.silk-life-ring:before {
+  content: "\e911";
+}
+.silk-lock:before {
+  content: "\e912";
+}
+.silk-star-full:before {
+  content: "\e913";
+}
+.silk-star:before {
+  content: "\e914";
+}
+.silk-clock:before {
+  content: "\e90b";
+}
+.silk-chevron-down:before {
+  content: "\e909";
+}
+.silk-chevron-up:before {
+  content: "\e90a";
+}
+.silk-cart:before {
+  content: "\e908";
+}
+.silk-user:before {
+  content: "\e907";
+}
+.silk-chevron-right:before {
+  content: "\e906";
+}
+.silk-chevron-left:before {
+  content: "\e905";
+}
+.silk-comment:before {
+  content: "\e904";
+}
+.silk-buildings:before {
+  content: "\e900";
+}
+.silk-cog:before {
+  content: "\e901";
+}
+.silk-home:before {
+  content: "\e902";
+}
+.silk-layers:before {
+  content: "\e903";
+}

@@ -1,0 +1,9 @@
+2018-11-01T23:18:21+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\job\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:551
+Stack trace:
+#0 C:\xampp\htdocs\job\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(460): ActionScheduler_wpPostStore->claim_actions('cd12bd93072fbbe...', 25, NULL, Array, '')
+#1 C:\xampp\htdocs\job\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(71): ActionScheduler_wpPostStore->stake_claim(25)
+#2 C:\xampp\htdocs\job\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(61): ActionScheduler_QueueRunner->do_batch(25)
+#3 C:\xampp\htdocs\job\wp-includes\class-wp-hook.php(286): ActionScheduler_QueueRunner->run()
+#4 C:\xampp\htdocs\job\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\job\wp-includes\plugin.p in C:\xampp\htdocs\job\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 551
+

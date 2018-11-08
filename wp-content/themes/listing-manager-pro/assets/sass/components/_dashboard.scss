@@ -1,0 +1,33 @@
+.listing-manager-dashboard {
+	h2 {
+		font-size: 18px;
+	}
+}
+
+.listing-manager-dashboard-nav {
+	@include susy-clearfix();
+
+	list-style: none;
+	margin: 20px 0 40px 0;
+	padding: 0;
+
+	li {
+		display: block;
+		float: left;
+		margin: 0 40px 0 0;
+
+		a {
+			color: rgba($color-black, .5);
+
+			&:hover {
+				color: $color-primary;
+			}
+		}
+	}	
+}
+
+.listing-manager-dashboard-packages,
+.listing-manager-dashboard-listings {
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba($color-black, .08);
+}

@@ -1,0 +1,140 @@
+.listing-manager-listing-info {
+  clear: both;
+}
+
+.listing-manager-listing-info-image {
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba($color-black, .1);
+  display: block;
+  height: 80px;
+  margin: 0 auto 5px auto;
+  width: 80px;
+}
+
+.listing-manager-listing-info-title {
+  font-weight: 400;
+  margin: 7px 0;
+  text-align: center;
+
+  a {
+    color: $color-black-medium;
+    font-size: 16px;
+  }
+}
+
+.woocommerce .listing-manager-listing-info-actions {
+  border-radius: 0 0 3px 3px;
+  border-top: 1px solid rgba($color-black, .08);
+  display: flex;
+  font-size: 11px;
+  margin: 25px -20px -20px -20px;
+  padding: 0 20px;
+  width: 100%;
+
+  > div {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  a.button, .button {
+    background-color: transparent !important;
+    color: rgba($color-black, .5) !important;
+    cursor: pointer;
+    height: auto !important;
+    line-height: 47px !important;
+    padding: 0 !important;
+
+    &:hover {
+      background-color: transparent !important;
+      color: $color-primary !important;
+    }
+  }
+}
+
+.listing-manager-listing-info-social {
+  clear: both;
+  margin: 0;
+  text-align: center;
+
+  li {
+    border: 0 !important;
+    display: inline-block;
+    margin: 10px 7px 0 7px;
+    padding: 0 !important;
+  }
+
+  a {
+    color: $color-black-light;
+
+    span {
+      display: none;
+    }
+
+    &:before {
+      -webkit-font-smoothing: antialiased;
+      background-color: rgba(#000, .1);
+      border-radius: 50%;
+      color: #fff;
+      display: inline-block;
+      font-family: 'FontAwesome';
+      font-size: 12px;
+      height: 28px;
+      line-height: 28px;
+      margin: 0;
+      text-align: center;
+      vertical-align: middle;
+      width: 28px;
+    }
+
+    &.facebook:before {
+      background-color: $color-facebook;
+      content: '\f09a';
+    }
+
+    &.twitter:before {
+      background-color: $color-twitter;
+      content: '\f099';
+    }
+
+    &.linkedin:before {
+      background-color: $color-linkedin;
+      content: '\f0e1';
+    }
+
+    &.google:before {
+      background-color: $color-google-plus;
+      content: '\f1a0';
+    }
+
+    &.youtube:before {
+      background-color: $color-youtube;
+      content: '\f167';
+    }
+
+    &.vimeo:before {
+      background-color: $color-vimeo;
+      content: '\f27d';
+    }
+
+    &.foursquare:before {
+      background-color: $color-foursquare;
+      content: '\f180';
+    }
+
+    &.skype:before {
+      background-color: $color-skype;
+      content: '\f17e';
+    }
+
+    &.dribbble:before {
+      background-color: $color-dribbble;
+      content: '\f17d';
+    }
+
+    &.behance:before {
+      background-color: $color-behance;
+      content: '\f1b4';
+    }
+  }
+}

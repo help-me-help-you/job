@@ -1,0 +1,12 @@
+{
+  "blogname": "Listing Manager Pro",
+  "blogdescription": "Listings & Directory Theme",
+  "show_on_front": "page",
+  "permalink_structure": "/%postname%/",
+  "page_on_front": "home",
+  "page_for_posts": "blog",
+  "locations": {
+    "primary": "primary",
+    "authenticated": "authenticated"
+  }
+}

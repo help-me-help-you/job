@@ -1,0 +1,437 @@
+.map-wrapper {
+  background-color: transparent;
+
+  .so-panel & {
+    .map {
+      margin: 0 -1200px;
+    }
+
+    .map-inner {
+      margin: 0 auto;
+      width: 100vw;
+    }
+  }
+
+  .listing-manager-filter-form-wrapper {
+    @include container($width-page);
+
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .listing-manager-filter-form {
+    @include span(3 of 12);
+    @include last();
+
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: 0 0 4px rgba(#000, .06);
+    display: flex;
+    float: none;
+
+    h2 {
+      background-color: rgba(#000, .05);
+      border-bottom: 1px solid rgba(#000, .02);
+      color: rgba(#000, .8);
+      font-size: 16px;
+      margin: 0;
+      padding: 20px 15px;
+    }
+
+    label {
+      color: rgba(#fff, .6);
+      font-size: 9px;
+      font-weight: 400;
+      padding: 0 15px;
+      position: absolute;
+      top: 4px;
+    }
+
+    .listing-manager-filter-form-inner {
+      background-color: #fff;
+      border-radius: 3px;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      pointer-events: all;
+      width: 100%;
+    }
+
+    .form-group {
+      background-image: linear-gradient(to bottom, rgba(#000, .04), rgba(#000, .02)) !important;
+      float: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 100%;
+    }
+
+    .form-group-button {
+      .button {
+        border-radius: 0;
+      }
+    }
+
+    .input-group-addon {
+      background-color: transparent;
+      border: 0;
+      box-shadow: none;
+      color: rgba(#000, .5);
+      font-size: 11px;
+    }
+
+    .form-control {
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      color: rgba(#000, .7);
+      font-size: 13px;
+      height: auto;
+      padding-bottom: 16px;
+      padding-top: 16px;
+
+      &::-webkit-input-placeholder {
+        color: rgba(#000, .5);
+      }
+    }
+
+    .button {
+      border-radius: 0;
+      font-weight: 400;
+      font-size: 15px;
+      height: auto;
+      padding-bottom: 3px;
+      padding-top: 3px;
+    }
+  }
+}
+
+.map-content {
+  @include container($width-page);
+}
+
+.map-message {
+  font-size: 32px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#map-control-current-position {
+  &:before {
+    display: none;
+  }
+
+  &:after {
+    -webkit-font-smoothing: antialiased;
+    content: '\f124';
+    font-family: 'FontAwesome';
+    font-size: 11px;
+    margin: 0;
+  }
+
+  span {
+    display: none;
+  }
+}
+
+.map-actions {
+  line-height: 1;
+
+  .map-actions-group {
+    background-color: $color-black-medium;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    overflow: hidden;
+
+    a {
+      background-color: transparent;
+
+      span {
+        font-size: 11px;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.listing-manager-google-map-single-map {
+  min-height: 260px;
+}
+
+.map-search {
+  margin: 0;
+  position: relative;
+  top: 0;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+
+.tse-scrollable.map-search-content {
+  background-color: #fff;
+  margin-top: 72px;
+  min-height: calc(100vh - 72px);
+  overflow: hidden;
+  padding: 0;
+  width: 700px;
+
+  @media (max-width: $tablet) {
+    height: auto;
+    width: auto;
+  }
+
+  .tse-scroll-content {
+    @media (max-width: $tablet) {
+      height: auto !important;
+      overflow: visible;
+      overflow-y: visible;
+      width: auto !important;
+    }
+  }
+
+  .admin-bar & {
+    min-height: calc(100vh - 104px);
+  }
+
+  .pagination {
+    margin-bottom: 40px;
+  }
+
+  .listing-manager-filter-form {
+    background-color: transparent;
+    border-radius: 0;
+    border-top: 1px solid rgba(#000, .08);
+    padding: 30px 0 0 0;
+
+    .form-group-button {
+      float: right;
+      margin: 0;
+    }
+
+    .button {
+      height: 44px;
+    }
+  }
+}
+
+.map-search-holder {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+
+  background-size: 1600px auto;
+  bottom: 0;
+  left: 700px;
+  min-height: calc(100vh - 72px);
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 72px;
+
+  &:after {
+    background-image: linear-gradient(to right, rgba(#000, .06), transparent);
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    pointer-event: none;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+
+  .admin-bar & {
+    min-height: calc(100vh - 102px);
+    top: 104px;
+  }
+
+  .header-type-minimal & {
+    top: 65px;
+  }
+
+  .header-type-minimal.admin-bar & {
+    top: calc(65px + 32px);
+  }
+
+  .map-content {
+    bottom: 30px;
+    left: 30px;
+    max-width: inherit;
+    transform: none;
+  }
+
+  .map-wrapper, .map, .map-inner, .map-container {
+    display: table;
+    height: 100%;    
+    padding: 0;
+    width: 100%;
+  }
+
+  .map-actions-group {
+    a {
+      height: 26px;
+      line-height: 26px;
+      overflow: hidden;
+
+      span {
+        font-size: 11px;
+      }
+
+      &:before {
+        height: 26px !important;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.map-search-wrapper {
+  margin: 0 -15px;
+}
+
+.map-search-items {
+  @include susy-clearfix();
+  padding: 30px 30px 0 30px;
+
+  @media (max-width: $tablet) {
+    padding: 0;
+  }
+}
+
+.map-search-item {
+  @media (min-width: $desktop) {
+    @include span(3 of 6);
+
+    &:nth-child(2n) {
+      @include last();
+    }
+  }
+
+  background-color: rgba(#000, .04);
+  border-radius: 3px;
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  h2 {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    padding: 0;
+    vertical-align: middle;
+
+    a {
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .listing-manager-favorite {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+    .button {
+      background-color: rgba(#000, .04);
+      border-radius: 50%;
+      color: rgba($color-black, .3);
+      height: 38px;
+      padding: 0;
+      text-shadow: none;
+      width: 38px;
+
+      &.marked {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.map-search-item-category {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(#000, .12);
+  color: $color-primary;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  right: 12px;
+  text-align: center;
+  top: 12px;
+  width: 30px;
+}
+
+.map-search-item-location {
+  color: rgba($color-black, .5);
+  font-size: 13px;
+  margin: -7px 0 0 0;
+}
+
+.map-search-item-price {
+  background-color: $color-primary;
+  color: #fff;
+  font-size: 11px;
+  left: 15px;
+  font-weight: 700;
+  padding: 3px 8px;
+  position: absolute;
+  top: 15px;
+}
+
+.map-search-item-image {
+  padding: 0;
+  position: relative;
+
+  img {
+    display: block;
+    height: auto;
+    margin: 0 20px 0 0;
+    width: 100%;
+  }
+
+  a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 180px;
+  }
+}
+
+.map-search-item-content {
+  padding: 16px;
+
+  h2 {
+    font-size: 16px;
+
+    a {
+      color: $color-black;
+    }
+  }
+
+  p {
+    color: rgba($color-black, .5);
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+  }
+}

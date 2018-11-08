@@ -1,0 +1,33 @@
+/*
+Theme Name: Listing Manager Pro
+Theme URI: http://listing-manager-pro.wearecodevision.com
+Author: Code Vision
+Author URI: http://wearecodevision.com
+Description: Directory & listings theme completely based on WooCommerce.
+Version: 1.0.9
+License: http://themeforest.net/licenses
+License URI: http://themeforest.net/licenses
+Tags: two-columns, right-sidebar, custom-menu, full-width-template, theme-options
+Text Domain: listing-manager-pro
+*/
+
+.center             { text-align: center; }
+.aligncenter        { margin: auto; text-align: center; margin-bottom: 22px; display: block !important;}
+.alignleft          { float: left; margin: 0 30px 22px 0;  }
+.alignright         { float: right; margin: 0 0 22px 30px; }
+
+.left               { float:left;  }
+.right              { float:right; }
+
+small               { font-size: 12px; line-height: 14px; }
+strong              { font-weight: 700; }
+b                   { font-weight: bold; }
+
+.normal             { font-weight: normal; }
+.hidden             { display: none; }
+.wp-caption         { font-style: italic; }
+.wp-caption-text    { font-style: italic;  }
+.sticky             { outline: 2px solid inherit; }
+.gallery-caption    { font-style: italic;  }
+.bypostauthor       { font-style: italic; }
+.screen-reader-text { display: none; }

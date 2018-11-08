@@ -1,0 +1,128 @@
+.hero-search {
+	@include susy-clearfix();
+
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(#000, .06);
+	left: 50%;
+	margin: 0;
+	padding: 160px 0 240px 0;
+	position: relative;
+	transform: translateX(-50%);
+	width: 100vw;
+
+	@media (max-width: $tablet) {
+		padding: 80px 0 160px 0;
+	}
+
+	> div {
+		@include container($width-page);
+		box-sizing: border-box;
+		padding-left: 20px;
+		padding-right: 20px;		
+	}
+	
+	.widget-title {
+		color: rgba($color-black-medium, .9);
+		font-size: 44px;
+		font-weight: 300;
+		line-height: 62px;
+		margin: 0 auto 80px auto;
+		padding: 0;
+		text-align: center;
+		width: 80%;
+
+		strong {
+			color: $color-primary;
+			display: inline-block;
+			font-weight: 300;
+			position: relative;
+		}
+
+		@media (max-width: $tablet) {
+			font-size: 20px;
+			line-height: 40px;			
+			width: auto;
+		}
+	}
+
+	.listing-manager-filter-form {
+		background-color: #fff;
+		border: 1px solid rgba(#000, .1);
+		border-radius: 3px;
+		box-shadow: 0 2px 4px rgba(#000, .04);
+		margin: 0;
+		opacity: .8;
+		transition: opacity .2s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.listing-manager-filter-form-inner {
+		align-items: center;
+		display: flex;
+		margin: 0;
+
+		@media (max-width: $mobile) {
+			flex-direction: column;
+		}
+
+		.form-control {
+			border: 0;
+			box-shadow: none;
+			font-size: 16px;
+			padding: 0;
+		}
+
+		.form-group {
+			border-right: 1px solid rgba(#000, .1);
+			float: none;
+			flex-grow: 1;
+			margin-bottom: 0;
+			padding: 9px 20px 3px 20px;
+			width: auto;
+
+			@media (max-width: $tablet) {
+				border-right: 0;
+				border-bottom: 1px solid rgba(#000, .1);
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0 15px;
+				width: 100%;
+			}
+
+			label {
+				color: rgba($color-black, .7);
+				font-size: 14px;
+				font-weight: 400;
+				margin: 0;
+
+				@media (max-width: $tablet) {
+					padding-top: 8px;
+				}
+			}
+
+			&:nth-last-child(2),
+			&:last-child {
+				border-right: 0;
+			}
+
+			&.form-group-button {
+				flex-grow: 0;
+				padding: 0 20px;
+				
+				@media (max-width: $tablet) {
+					border: 0;
+					margin: 15px 0;
+					padding: 0 15px;
+				}
+
+				.button {
+					font-size: 15px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

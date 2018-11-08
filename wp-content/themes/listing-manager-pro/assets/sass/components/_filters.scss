@@ -1,0 +1,11 @@
+.listing-manager-filter-form {
+	@include susy-clearfix();
+	.content &, .content-top & {
+		margin-bottom: 30px;
+		padding: 25px 25px 5px 25px;
+	}
+}
+
+.listing-manager-filter-form-wrapper {
+	clear: both;
+}

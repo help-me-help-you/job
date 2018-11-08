@@ -1,0 +1,2915 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listing Manager\n"
+"POT-Creation-Date: 2017-05-22 10:39+0200\n"
+"PO-Revision-Date: 2017-05-22 10:39+0200\n"
+"Last-Translator: Anderor | www.anderor.sk <andr3w.andr3w@gmail.com>\n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: src/ListingManager/Admin/MenuAdmin.php:20
+#: src/ListingManager/Logic/MembershipLogic.php:79
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:14
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:14
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:61
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:14
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:14
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:14
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:14
+msgid "Listing Manager"
+msgstr "Listing Manager"
+
+#: src/ListingManager/Admin/MenuAdmin.php:21
+#: src/ListingManager/Logic/FilterLogic.php:90
+#: src/ListingManager/Tab/LocationTab.php:75
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:14
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:24
+msgid "Locations"
+msgstr "Mestá"
+
+#: src/ListingManager/Admin/MenuAdmin.php:22
+#: src/ListingManager/Logic/SubmissionLogic.php:88
+#: src/ListingManager/Tab/AmenityTab.php:37
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:14
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:24
+#: templates/listing-manager/tabs/amenities.php:4
+msgid "Amenities"
+msgstr "Služby"
+
+#: src/ListingManager/Admin/MenuAdmin.php:23
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:14
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:24
+msgid "Contracts"
+msgstr ""
+
+#: src/ListingManager/Customization/EventCustomization.php:14
+msgid "Listing Manager Events"
+msgstr ""
+
+#: src/ListingManager/Customization/EventCustomization.php:26
+msgid "Unpublish passed events"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:14
+msgid "Listing Manager General"
+msgstr "Základné nastavenia Listing Manager"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:27
+msgid "Purchase code"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:41
+#: src/ListingManager/Customization/GoogleMapCustomization.php:48
+#: templates/listing-manager/widgets/google-map-form.php:67
+msgid "Style"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:45
+msgid "None"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:46
+#: templates/listing-manager/widgets/google-map-form.php:73
+msgid "Default"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:59
+msgid "Automatically login user after registration"
+msgstr "Automaticky prihlásiť užívateľa po zaregistrovaní."
+
+#: src/ListingManager/Customization/GeneralCustomization.php:73
+msgid "Inquire for authenticated"
+msgstr "Žiadosť o overenie."
+
+#: src/ListingManager/Customization/GeneralCustomization.php:87
+msgid "Contact information for authenticated"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:101
+msgid "Autocomplete"
+msgstr "Automatické doplňovanie"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:115
+msgid "Allow order featured"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:128
+msgid "Long Distance Unit"
+msgstr "Jednotka vzdialenosti"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:131
+msgid "Example: \"mi\" or \"km\""
+msgstr "Napríklad: \"mi\" alebo \"km\""
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:15
+msgid "Listing Manager Google Maps"
+msgstr ""
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:28
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:31
+msgid ""
+"Get an API key from <a href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key\">here</a>"
+msgstr ""
+"Získajte vlastný API kľúč <a href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key\">TU!</a>"
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:17
+msgid "Listing Manager Micropayments"
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:19
+msgid "Create new WooCommerce products with product type Micropayment."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:31
+msgid "Feature Listing"
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:35
+msgid "Assign micropayment product type for featuring a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:47
+msgid "Publish Listing"
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:51
+msgid "Assign micropayment product type for publishing a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:63
+msgid "Claim Listing"
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:67
+msgid "Assign micropayment product type for claiming a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:14
+msgid "Listing Manager Notifications"
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:26
+msgid "Expiring package"
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:27
+msgid ""
+"How many hours before the package expiration the notification should be send."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:17
+msgid "Listing Manager Pages"
+msgstr "Balíčky Listing Manager"
+
+#: src/ListingManager/Customization/PageCustomization.php:30
+#: src/ListingManager/Product/ListingProduct.php:50
+#: src/ListingManager/Type/ListingType.php:15
+#: src/ListingManager/Type/ListingType.php:21
+#: src/ListingManager/Type/ListingType.php:27
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:13
+#: templates/listing-manager/agent/overview.php:35
+#: templates/listing-manager/statistics.php:25
+msgid "Listings"
+msgstr "Ponuka"
+
+#: src/ListingManager/Customization/PageCustomization.php:33
+msgid ""
+"Separate page for listings. WooCommerce regular products and listings will "
+"be displayed at different pages. Please do not forget to visit \"Settings - "
+"Permalinks\" after changing this value."
+msgstr ""
+"Samostatná strana pre ponuky. Woocommerce produkty a ponuky budú zobrazené "
+"na rôznych stránkach. Po zmene tejto hodnoty prejdite do \"Nastavenia -> "
+"Trvalé odkazy\" kde si to viete upraviť."
+
+#: src/ListingManager/Customization/PageCustomization.php:45
+msgid "Listings Page Title"
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:59
+msgid "Dashboard"
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:62
+msgid "Page containing [listing_manager_dashboard] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:75
+msgid "Add Listing"
+msgstr "Pridať ponuku"
+
+#: src/ListingManager/Customization/PageCustomization.php:79
+msgid "Page containing [listing_manager_add] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:91
+msgid "List Listings"
+msgstr "Zoznam ponúk"
+
+#: src/ListingManager/Customization/PageCustomization.php:95
+msgid "Page containing [listing_manager_list] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:107
+msgid "Remove Listing"
+msgstr "Odstrániť ponuku"
+
+#: src/ListingManager/Customization/PageCustomization.php:111
+msgid "Page containing [listing_manager_remove] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:123
+#: src/ListingManager/Type/ListingType.php:19
+msgid "Edit Listing"
+msgstr "Upraviť ponuku"
+
+#: src/ListingManager/Customization/PageCustomization.php:127
+msgid "Page containing [listing_manager_edit] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:139
+msgid "Terms &amp; Conditions"
+msgstr "Obchodné podmienky"
+
+#: src/ListingManager/Customization/PageCustomization.php:154
+#: src/ListingManager/Type/ClaimType.php:15
+#: templates/listing-manager/claim.php:11
+msgid "Claim"
+msgstr "Pohľadávka"
+
+#: src/ListingManager/Customization/PageCustomization.php:158
+msgid "Page containing [listing_manager_claim] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:170
+#: src/ListingManager/Type/ReportType.php:15
+#: templates/listing-manager/report.php:4
+msgid "Report"
+msgstr "report"
+
+#: src/ListingManager/Customization/PageCustomization.php:174
+msgid "Page containing [listing_manager_report] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:186
+msgid "Login"
+msgstr "Prihlásiť sa"
+
+#: src/ListingManager/Customization/PageCustomization.php:190
+msgid "Page containing [listing_manager_login] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:202
+msgid "After login"
+msgstr "Po prihlásení"
+
+#: src/ListingManager/Customization/PageCustomization.php:206
+msgid "User will be redirected at this page after successful login."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:218
+msgid "After listing creation"
+msgstr "Po vytvorení ponuky"
+
+#: src/ListingManager/Customization/PageCustomization.php:222
+msgid "User will be redirected at this page after successful listing creation."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:235
+msgid "Register"
+msgstr "Registrácia"
+
+#: src/ListingManager/Customization/PageCustomization.php:239
+msgid "Page containing [listing_manager_register] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:251
+msgid "After register"
+msgstr "Po registrácií"
+
+#: src/ListingManager/Customization/PageCustomization.php:255
+msgid "User will be redirected at this page after successful registration."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:267
+msgid "Reset password"
+msgstr "Obnoviť heslo"
+
+#: src/ListingManager/Customization/PageCustomization.php:271
+msgid "Page containing [listing_manager_reset_password] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:283
+msgid "Change password"
+msgstr "Zmeniť heslo"
+
+#: src/ListingManager/Customization/PageCustomization.php:287
+msgid "Page containing [listing_manager_change_password] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:299
+msgid "Favorites"
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:303
+msgid "Page containing [listing_manager_favorites] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/StatisticCustomization.php:14
+msgid "Listing Manager Statistics"
+msgstr "Štatistiky Listing Manager"
+
+#: src/ListingManager/Customization/StatisticCustomization.php:27
+msgid "Enable Search Query Logging"
+msgstr "Povoliť: Search Query Logging"
+
+#: src/ListingManager/Customization/StatisticCustomization.php:41
+msgid "Enable Listing Views Logging"
+msgstr "Povoliť: Zobrazit ponuku po prihlásení"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:14
+msgid "Listing Manager Submission"
+msgstr "Zobrazenie Listing Manager"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:27
+#: src/ListingManager/Type/FieldType.php:102
+msgid "Type"
+msgstr "Typ"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:31
+msgid "Free"
+msgstr ""
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:32
+#: src/ListingManager/Product/PackageProduct.php:35
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:13
+#: templates/listing-manager/statistics.php:30
+msgid "Packages"
+msgstr "balíčky"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:33
+msgid "Memberships"
+msgstr ""
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:35
+msgid ""
+"Select if you want to use free for all front end submission, package system "
+"or memberships (WooCommerce Memberships plugin required)."
+msgstr ""
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:47
+msgid "Review before"
+msgstr ""
+
+#: src/ListingManager/Logic/ClaimLogic.php:24
+msgid "Listing is already verified."
+msgstr "Ponuka už je overená"
+
+#: src/ListingManager/Logic/ClaimLogic.php:32
+#: src/ListingManager/Logic/ClaimLogic.php:91
+msgid "You already claimed this listing."
+msgstr "Už ste potvrdil tento záznam."
+
+#: src/ListingManager/Logic/ClaimLogic.php:43
+#: src/ListingManager/Logic/FavoriteLogic.php:45
+#: src/ListingManager/Logic/FavoriteLogic.php:109
+msgid "Listing ID is missing."
+msgstr "Chýba ID ponuky"
+
+#: src/ListingManager/Logic/ClaimLogic.php:133
+msgid "Message has been successfully sent. Please, wait for admin review."
+msgstr ""
+"Správa bola úspešne odoslaná. Prosím, počkajte na kontrolu administrátora."
+
+#: src/ListingManager/Logic/ClaimLogic.php:135
+#: src/ListingManager/Logic/InquireLogic.php:73
+#: src/ListingManager/Logic/ReportLogic.php:69
+msgid "Unable to send a message."
+msgstr "Správu nie je možné odoslať."
+
+#: src/ListingManager/Logic/ClaimLogic.php:159
+#: src/ListingManager/Product/ListingProduct.php:111
+msgid "Verified"
+msgstr "Overený"
+
+#: src/ListingManager/Logic/CronLogic.php:93
+msgid "Your package is going to expire"
+msgstr ""
+
+#: src/ListingManager/Logic/FavoriteLogic.php:19
+#: src/ListingManager/Logic/FavoriteLogic.php:64
+msgid "You need to log in at first."
+msgstr "Najskôr sa musíte prihlásiť"
+
+#: src/ListingManager/Logic/FavoriteLogic.php:39
+msgid "No listings found in favorites."
+msgstr "Žiadna ponuka nebola nájdená v obľúbených"
+
+#: src/ListingManager/Logic/FavoriteLogic.php:80
+msgid "This is not listing ID."
+msgstr "Toto nie je ID ponuky"
+
+#: src/ListingManager/Logic/FavoriteLogic.php:102
+msgid "Listing is already in list"
+msgstr "Ponuka je už v zozname"
+
+#: src/ListingManager/Logic/FilterLogic.php:32
+msgid "Sort by event date"
+msgstr ""
+
+#: src/ListingManager/Logic/FilterLogic.php:84
+#: src/ListingManager/Logic/SubmissionLogic.php:37
+#: src/ListingManager/Type/ClaimType.php:89
+#: src/ListingManager/Type/FormType.php:59
+#: src/ListingManager/Type/ReportType.php:89
+#: src/ListingManager/Type/ReviewRatingType.php:59
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:35
+#: templates/listing-manager/favorites.php:6
+#: templates/listing-manager/filters/title.php:4
+#: templates/listing-manager/filters/title.php:8
+#: templates/listing-manager/listing-list.php:18
+#: templates/listing-manager/widgets/agents-form.php:15
+#: templates/listing-manager/widgets/categories-form.php:14
+#: templates/listing-manager/widgets/companies-form.php:15
+#: templates/listing-manager/widgets/cta-form.php:17
+#: templates/listing-manager/widgets/filter-form.php:16
+#: templates/listing-manager/widgets/google-map-form.php:28
+#: templates/listing-manager/widgets/google-map-single-form.php:13
+#: templates/listing-manager/widgets/inquire-form.php:13
+#: templates/listing-manager/widgets/listing-info-form.php:13
+#: templates/listing-manager/widgets/listings-form.php:16
+#: templates/listing-manager/widgets/purchase-form.php:13
+#: templates/listing-manager/widgets/stream-form.php:15
+#: templates/listing-manager/widgets/tiles-form.php:15
+msgid "Title"
+msgstr "Názov"
+
+#: src/ListingManager/Logic/FilterLogic.php:85
+#: src/ListingManager/Logic/SubmissionLogic.php:43
+#: templates/listing-manager/filters/description.php:4
+#: templates/listing-manager/filters/description.php:8
+#: templates/listing-manager/widgets/agents-form.php:28
+#: templates/listing-manager/widgets/categories-form.php:27
+#: templates/listing-manager/widgets/companies-form.php:28
+#: templates/listing-manager/widgets/cta-form.php:43
+#: templates/listing-manager/widgets/google-map-single-form.php:26
+#: templates/listing-manager/widgets/inquire-form.php:26
+#: templates/listing-manager/widgets/listing-info-form.php:26
+#: templates/listing-manager/widgets/listings-form.php:29
+#: templates/listing-manager/widgets/purchase-form.php:26
+#: templates/listing-manager/widgets/stream-form.php:28
+#: templates/listing-manager/widgets/tiles-form.php:28
+msgid "Description"
+msgstr "Popis"
+
+#: src/ListingManager/Logic/FilterLogic.php:86
+#: templates/listing-manager/filters/keyword.php:4
+#: templates/listing-manager/filters/keyword.php:19
+msgid "Keyword"
+msgstr "Kľúčové slová"
+
+#: src/ListingManager/Logic/FilterLogic.php:87
+#: templates/listing-manager/filters/distance.php:4
+#: templates/listing-manager/filters/distance.php:10
+msgid "Distance"
+msgstr "Vzdialenosť"
+
+#: src/ListingManager/Logic/FilterLogic.php:88
+msgid "Price"
+msgstr "Cena"
+
+#: src/ListingManager/Logic/FilterLogic.php:89
+#: templates/listing-manager/widgets/google-map-form.php:193
+msgid "Geolocation"
+msgstr "Geolokácia"
+
+#: src/ListingManager/Logic/FilterLogic.php:91
+#: src/ListingManager/Logic/SubmissionLogic.php:95
+msgid "Categories"
+msgstr "Kategória"
+
+#: src/ListingManager/Logic/FilterLogic.php:92
+msgid "Event Date"
+msgstr ""
+
+#: src/ListingManager/Logic/FilterLogic.php:95
+#: src/ListingManager/Tab/PropertyTab.php:58
+#: templates/listing-manager/filters/reference.php:4
+#: templates/listing-manager/filters/reference.php:8
+#: templates/listing-manager/panels/property.php:4
+#: templates/listing-manager/tabs/property.php:6
+msgid "Reference"
+msgstr "Referencie"
+
+#: src/ListingManager/Logic/FilterLogic.php:96
+msgid "Year Built"
+msgstr ""
+
+#: src/ListingManager/Logic/FilterLogic.php:97
+#: src/ListingManager/Tab/JobTab.php:64
+#: src/ListingManager/Tab/PropertyTab.php:71
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:15
+#: templates/listing-manager/filters/contract.php:4
+#: templates/listing-manager/filters/contract.php:19
+#: templates/listing-manager/panels/job.php:11
+#: templates/listing-manager/tabs/job.php:12
+#: templates/listing-manager/tabs/property.php:20
+msgid "Contract"
+msgstr "Zmluva"
+
+#: src/ListingManager/Logic/FilterLogic.php:98
+#: src/ListingManager/Tab/PropertyTab.php:77
+#: templates/listing-manager/filters/rooms.php:4
+#: templates/listing-manager/filters/rooms.php:8
+#: templates/listing-manager/panels/property.php:18
+#: templates/listing-manager/tabs/property.php:26
+msgid "Rooms"
+msgstr "Izby"
+
+#: src/ListingManager/Logic/FilterLogic.php:99
+#: src/ListingManager/Tab/PropertyTab.php:83
+#: templates/listing-manager/filters/bathrooms.php:4
+#: templates/listing-manager/filters/bathrooms.php:8
+#: templates/listing-manager/panels/property.php:25
+#: templates/listing-manager/tabs/property.php:32
+msgid "Bathrooms"
+msgstr "Kúpeľne"
+
+#: src/ListingManager/Logic/FilterLogic.php:100
+#: src/ListingManager/Tab/PropertyTab.php:89
+#: templates/listing-manager/filters/bedrooms.php:4
+#: templates/listing-manager/filters/bedrooms.php:8
+#: templates/listing-manager/panels/property.php:32
+#: templates/listing-manager/tabs/property.php:38
+msgid "Bedrooms"
+msgstr "Spálne"
+
+#: src/ListingManager/Logic/FilterLogic.php:101
+#: src/ListingManager/Tab/PropertyTab.php:95
+#: templates/listing-manager/filters/garages.php:4
+#: templates/listing-manager/filters/garages.php:8
+#: templates/listing-manager/panels/property.php:39
+#: templates/listing-manager/tabs/property.php:44
+msgid "Garages"
+msgstr "Garáže"
+
+#: src/ListingManager/Logic/FilterLogic.php:102
+#: src/ListingManager/Tab/PropertyTab.php:101
+#: templates/listing-manager/filters/parking-slots.php:4
+#: templates/listing-manager/filters/parking-slots.php:8
+#: templates/listing-manager/panels/property.php:46
+#: templates/listing-manager/tabs/property.php:50
+msgid "Parking slots"
+msgstr "Parkovacie miesta"
+
+#: src/ListingManager/Logic/FilterLogic.php:103
+#: src/ListingManager/Tab/PropertyTab.php:107
+#: templates/listing-manager/filters/home-area.php:4
+#: templates/listing-manager/filters/home-area.php:8
+#: templates/listing-manager/panels/property.php:53
+#: templates/listing-manager/tabs/property.php:56
+msgid "Home area"
+msgstr ""
+
+#: src/ListingManager/Logic/InquireLogic.php:29
+msgid "Message from enquire form"
+msgstr "Správa z kontaktného formulára"
+
+#: src/ListingManager/Logic/InquireLogic.php:71
+msgid "Message has been successfully sent."
+msgstr "Správa bola úspešne odoslaná."
+
+#: src/ListingManager/Logic/MembershipLogic.php:57
+msgid "Please select membership plan."
+msgstr ""
+
+#: src/ListingManager/Logic/MembershipLogic.php:67
+msgid "Your membership max. number of listings plan is reached."
+msgstr ""
+
+#: src/ListingManager/Logic/MenuLogic.php:15
+msgid "Archive Pages"
+msgstr ""
+
+#: src/ListingManager/Logic/MenuLogic.php:16
+msgid "Archive Page"
+msgstr ""
+
+#: src/ListingManager/Logic/ReportLogic.php:67
+msgid "Listing was reported. Please, wait for admin review."
+msgstr ""
+"Report ponuky bol zaznamenaný. Prosím, počkajte na kontrolu administrátora."
+
+#: src/ListingManager/Logic/ReviewLogic.php:49
+msgid "Submit Review"
+msgstr ""
+
+#: src/ListingManager/Logic/StatisticLogic.php:90
+#: templates/listing-manager/statistics.php:2
+msgid "Statistics"
+msgstr "Štatistiky"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:15
+msgid "General"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:16
+#: src/ListingManager/Tab/PropertyTab.php:14
+#: src/ListingManager/Tab/PropertyTab.php:52
+msgid "Property"
+msgstr "Nehnuteľnosť"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:17
+#: src/ListingManager/Tab/EventTab.php:14
+#: src/ListingManager/Tab/EventTab.php:51
+msgid "Event"
+msgstr "Udalosť"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:18
+#: src/ListingManager/Tab/CarTab.php:14 src/ListingManager/Tab/CarTab.php:52
+msgid "Car"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:19
+#: src/ListingManager/Tab/JobTab.php:14 src/ListingManager/Tab/JobTab.php:52
+msgid "Job"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:32
+msgid "General Information"
+msgstr "Základné informácie"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:50
+msgid "Featured Image"
+msgstr "Ilustračný obrázok"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:60
+#: src/ListingManager/Logic/SubmissionLogic.php:65
+msgid "Gallery"
+msgstr "Galéria"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:75
+msgid "Taxonomies"
+msgstr "Slovníky"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:81
+msgid "Tags"
+msgstr "Značky"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:106
+msgid "Price Options"
+msgstr "Nastavenie ceny"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:112
+msgid "Regular Price"
+msgstr "Normálna cena"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:118
+msgid "Sale Price"
+msgstr "Zľavnená cena"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:145
+msgid "Listing has been successfully removed."
+msgstr "Ponuka bola úspešne odstránená."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:147
+msgid "An error occurred when removing listing."
+msgstr "Pri odstraňovaní ponuky došlo k chybe."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:160
+msgid "You are not allowed to do this."
+msgstr "K tomuto nemáte dostatočné oprávnenie."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:165
+msgid "You are not owner of this listing."
+msgstr "Nie ste vlastník tejto ponuky."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:172
+msgid "Attachment does not exist."
+msgstr "Príloha neexistuje."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:177
+msgid "You are not an owner of this attachment file."
+msgstr "Nie ste vlastníkom tejto prílohy."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:182
+msgid "Attachment has been successfully removed."
+msgstr "Príloha bola úspešne odstránená."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:229
+msgid "There was an error when removing an attachment."
+msgstr "Vyskytla sa chyba pri odstraňovaní tejto prílohy."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:280
+msgid "Please select the package."
+msgstr "Prosím, vyberte si balíček."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:320
+msgid "No enough available listings for the selected package."
+msgstr "Nieje dostupný žiadna ponuka pre tento balíček."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:337
+#: src/ListingManager/Logic/UserLogic.php:236
+#: src/ListingManager/Logic/UserLogic.php:340
+msgid "You have been successfully registered."
+msgstr "Boli ste úspešne registrovaný."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:341
+msgid "Empty Listing Title"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:368
+#, php-format
+msgid ""
+"Package has been added into <a href=\"%s\">cart</a>. Please purchase it "
+"before your listing will be published."
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:432
+msgid "Listing has been successfully updated."
+msgstr "Ponuka bola úspešne upravená."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:435
+msgid "Listing has been successfully added."
+msgstr "Ponuka bola úspešne pridaná."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:444
+msgid "There was an error when saving the listing."
+msgstr "Vyskytla sa chyba pri vytváraní ponuky."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:520
+msgid "Field is required."
+msgstr "Povinné pole"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:615
+msgid "No fields defined."
+msgstr "Nie sú definované žiadne polia."
+
+#: src/ListingManager/Logic/UserLogic.php:28
+msgid "Create New Account <a href=\""
+msgstr ""
+
+#: src/ListingManager/Logic/UserLogic.php:30
+msgid "Create New Account"
+msgstr "Vytvoriť novú účet"
+
+#: src/ListingManager/Logic/UserLogic.php:46
+#: templates/listing-manager/accounts/login.php:10
+#: templates/listing-manager/accounts/register.php:11
+msgid "Username"
+msgstr "Užívateľské meno"
+
+#: src/ListingManager/Logic/UserLogic.php:52
+#: src/ListingManager/Tab/ContactTab.php:57
+#: src/ListingManager/Type/AgentType.php:69
+#: src/ListingManager/Type/ClaimType.php:64
+#: src/ListingManager/Type/CompanyType.php:55
+#: src/ListingManager/Type/FieldType.php:108
+#: src/ListingManager/Type/ReportType.php:64
+#: templates/listing-manager/accounts/register.php:16
+#: templates/listing-manager/agent/overview.php:5
+#: templates/listing-manager/agents.php:26
+#: templates/listing-manager/claim-form.php:23
+#: templates/listing-manager/inquire-form.php:30
+#: templates/listing-manager/mails/claim.php:12
+#: templates/listing-manager/mails/inquire.php:12
+#: templates/listing-manager/mails/report.php:17
+#: templates/listing-manager/panels/contact.php:4
+#: templates/listing-manager/report-form.php:98
+#: templates/listing-manager/tabs/contact.php:9
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/ListingManager/Logic/UserLogic.php:58
+#: templates/listing-manager/accounts/login.php:15
+#: templates/listing-manager/accounts/register.php:21
+msgid "Password"
+msgstr "Heslo"
+
+#: src/ListingManager/Logic/UserLogic.php:64
+#: templates/listing-manager/accounts/password.php:19
+msgid "Retype password"
+msgstr "Zopakujte heslo"
+
+#: src/ListingManager/Logic/UserLogic.php:73
+#, php-format
+msgid "I accept <a href=\"%s\" target=\"_blank\">terms and conditions</a>"
+msgstr "Súhlasím s <a href=\"%s\" target=\"_blank\">obchodnými podmienkami</a>"
+
+#: src/ListingManager/Logic/UserLogic.php:102
+msgid "All fields are required."
+msgstr "Všetky polia sú povinné"
+
+#: src/ListingManager/Logic/UserLogic.php:107
+msgid "New and retyped password are not same."
+msgstr "Heslá sa nezhodujú."
+
+#: src/ListingManager/Logic/UserLogic.php:114
+msgid "Your old password is not correct."
+msgstr "Vaše pôvodné heslo je zlé."
+
+#: src/ListingManager/Logic/UserLogic.php:119
+msgid "Your password has been successfully changed."
+msgstr "Vaše heslo bolo úspešne zmenené."
+
+#: src/ListingManager/Logic/UserLogic.php:136
+msgid "Login and password are required."
+msgstr "Prihlasovacie meno a heslo sú povinné."
+
+#: src/ListingManager/Logic/UserLogic.php:193
+msgid "Username and e-mail are required."
+msgstr "Používateľské meno a e-mail sú povinné."
+
+#: src/ListingManager/Logic/UserLogic.php:199
+msgid "Username already exists."
+msgstr "Používateľské meno je už zaregistrované."
+
+#: src/ListingManager/Logic/UserLogic.php:205
+msgid "Email already exists."
+msgstr "E-mailová adresa je už zaregistrovaná."
+
+#: src/ListingManager/Logic/UserLogic.php:210
+#: src/ListingManager/Logic/UserLogic.php:222
+#: src/ListingManager/Logic/UserLogic.php:297
+msgid "Passwords must be same."
+msgstr "Heslá sa musia zhodovať."
+
+#: src/ListingManager/Logic/UserLogic.php:217
+#: src/ListingManager/Logic/UserLogic.php:306
+msgid "You must agree terms &amp; conditions."
+msgstr "Je potrebné súhlasiť s obchodnými podmienkami."
+
+#: src/ListingManager/Logic/UserLogic.php:282
+msgid "Username already exists. Please choose another one."
+msgstr "Používateľské meno je už registrované. Prosím zvoľte si iné."
+
+#: src/ListingManager/Logic/UserLogic.php:290
+msgid "E-mail address already exists. Please choose another one."
+msgstr "E-mailová adresa už je registrovaná. Prosím použite inú."
+
+#: src/ListingManager/Product/ListingProduct.php:21
+#: src/ListingManager/Type/ClaimType.php:90
+#: src/ListingManager/Type/ListingType.php:16
+#: src/ListingManager/Type/ReportType.php:90
+msgid "Listing"
+msgstr "Ponuka"
+
+#: src/ListingManager/Product/ListingProduct.php:97
+msgid "Purchasable"
+msgstr "Predajný"
+
+#: src/ListingManager/Product/ListingProduct.php:124
+#: src/ListingManager/Utilities.php:43
+msgid "Not set"
+msgstr "Nie je nastavené"
+
+#: src/ListingManager/Product/ListingProduct.php:140
+#: src/ListingManager/Type/AgentType.php:17
+msgid "Agent"
+msgstr "Agent"
+
+#: src/ListingManager/Product/MicropaymentProduct.php:29
+msgid "Micropayment"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:39
+msgid "Micropayments"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:71
+msgid "Featuring listing"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:74
+msgid "Claim listing"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:77
+msgid "Publish listing"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:159
+msgid "Feature payment has been successfully added to cart."
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:193
+msgid "Publish payment has been successfully added to cart."
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:222
+msgid "Claim payment has been successfully added to cart."
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:25
+#: src/ListingManager/Tab/PackageTab.php:14
+#: templates/listing-manager/listing-list.php:29
+msgid "Package"
+msgstr "Balíček"
+
+#: src/ListingManager/Product/PackageProduct.php:139
+msgid "You are not allowed to purchase more than one package in single order."
+msgstr "Nemáte oprávnenie zakúpiť viac ako jeden balík v jednej objednávke."
+
+#: src/ListingManager/Product/PackageProduct.php:173
+msgid "You are missing required attributes for extending the package."
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:194
+msgid "Extending package"
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:379
+msgid "day"
+msgstr "deň"
+
+#: src/ListingManager/Product/PackageProduct.php:381
+#: src/ListingManager/Product/PackageProduct.php:569
+msgid "Unlimited"
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:384
+msgid "days"
+msgstr "dni"
+
+#: src/ListingManager/Product/PackageProduct.php:399
+msgid "Never expires."
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:403
+msgid "Package expired."
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:567
+#: templates/listing-manager/content-company.php:33
+#: templates/listing-manager/dashboard.php:82
+#: templates/listing-manager/widgets/agents.php:43
+msgid "listing"
+msgstr "ponuka"
+
+#: src/ListingManager/Product/PackageProduct.php:572
+#: src/ListingManager/Type/ListingType.php:39
+#: src/ListingManager/Utilities.php:106
+#: templates/listing-manager/content-company.php:35
+#: templates/listing-manager/dashboard.php:84
+#: templates/listing-manager/locations.php:23
+#: templates/listing-manager/widgets/agents.php:43
+msgid "listings"
+msgstr "ponuky"
+
+#: src/ListingManager/Shortcode/ListShortcode.php:20
+#, php-format
+msgid ""
+"Please <a href=\"%s?next=%s\">log in</a> before accessing this page. If you "
+"don't have an account <a href=\"%s\">register</a>."
+msgstr ""
+
+#: src/ListingManager/Shortcode/LogoutShortcode.php:24
+msgid "You have been successfully logged out."
+msgstr "Boli ste úspešne odhlásený."
+
+#: src/ListingManager/Tab/BrandingTab.php:14
+#: src/ListingManager/Tab/BrandingTab.php:51
+#: src/ListingManager/Tab/BrandingTab.php:130
+#: templates/listing-manager/tabs/branding.php:1
+msgid "Branding"
+msgstr "Fakturačné údaje"
+
+#: src/ListingManager/Tab/BrandingTab.php:57
+#: src/ListingManager/Type/ClaimType.php:59
+#: src/ListingManager/Type/ReportType.php:59
+#: templates/listing-manager/claim-form.php:18
+#: templates/listing-manager/dashboard.php:60
+#: templates/listing-manager/inquire-form.php:26
+#: templates/listing-manager/mails/claim.php:8
+#: templates/listing-manager/mails/inquire.php:8
+#: templates/listing-manager/mails/report.php:13
+#: templates/listing-manager/report-form.php:94
+#: templates/listing-manager/tabs/branding.php:6
+msgid "Name"
+msgstr "Vaše meno"
+
+#: src/ListingManager/Tab/BrandingTab.php:63
+#: templates/listing-manager/panels/branding.php:11
+#: templates/listing-manager/tabs/branding.php:12
+msgid "Slogan"
+msgstr "Slogan"
+
+#: src/ListingManager/Tab/BrandingTab.php:69
+#: src/ListingManager/Tab/CarTab.php:82
+#: templates/listing-manager/panels/branding.php:18
+#: templates/listing-manager/panels/car.php:32
+#: templates/listing-manager/tabs/branding.php:18
+#: templates/listing-manager/tabs/car.php:30
+msgid "Color"
+msgstr "Farba"
+
+#: src/ListingManager/Tab/BrandingTab.php:75
+#: templates/listing-manager/panels/branding.php:25
+#: templates/listing-manager/tabs/branding.php:24
+msgid "Logo"
+msgstr "Logo"
+
+#: src/ListingManager/Tab/CarTab.php:58
+#: templates/listing-manager/panels/car.php:4
+#: templates/listing-manager/tabs/car.php:6
+msgid "Engine"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:64
+#: templates/listing-manager/panels/car.php:11
+#: templates/listing-manager/tabs/car.php:12
+msgid "Model"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:70
+#: templates/listing-manager/panels/car.php:18
+#: templates/listing-manager/tabs/car.php:18
+msgid "Year"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:76
+#: templates/listing-manager/panels/car.php:25
+#: templates/listing-manager/tabs/car.php:24
+msgid "Mileage"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:100
+#: templates/listing-manager/tabs/car.php:1
+msgid "Car Attributes"
+msgstr ""
+
+#: src/ListingManager/Tab/ContactTab.php:14
+#: src/ListingManager/Tab/ContactTab.php:51
+#: src/ListingManager/Tab/ContactTab.php:123
+#: templates/listing-manager/tabs/contact.php:1
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/ListingManager/Tab/ContactTab.php:63
+#: src/ListingManager/Type/AgentType.php:79
+#: src/ListingManager/Type/ClaimType.php:69
+#: src/ListingManager/Type/CompanyType.php:65
+#: templates/listing-manager/agent/overview.php:17
+#: templates/listing-manager/agents.php:38
+#: templates/listing-manager/claim-form.php:28
+#: templates/listing-manager/companies.php:32
+#: templates/listing-manager/company/overview.php:17
+#: templates/listing-manager/mails/claim.php:16
+#: templates/listing-manager/panels/contact.php:11
+#: templates/listing-manager/tabs/contact.php:15
+msgid "Phone"
+msgstr "Telefón"
+
+#: src/ListingManager/Tab/ContactTab.php:69
+#: templates/listing-manager/panels/contact.php:18
+#: templates/listing-manager/tabs/contact.php:21
+msgid "Website"
+msgstr "Webová stránka"
+
+#: src/ListingManager/Tab/ContactTab.php:75
+#: src/ListingManager/Type/AgentType.php:84
+#: src/ListingManager/Type/CompanyType.php:70
+#: templates/listing-manager/companies.php:37
+#: templates/listing-manager/company/overview.php:22
+#: templates/listing-manager/panels/contact.php:25
+#: templates/listing-manager/tabs/contact.php:27
+msgid "Address"
+msgstr "Adresa"
+
+#: src/ListingManager/Tab/EventTab.php:57
+#: templates/listing-manager/panels/event.php:4
+msgid "Start Date"
+msgstr ""
+
+#: src/ListingManager/Tab/EventTab.php:63
+#: templates/listing-manager/panels/event.php:12
+msgid "Start Time"
+msgstr ""
+
+#: src/ListingManager/Tab/EventTab.php:69
+#: templates/listing-manager/panels/event.php:20
+msgid "End Date"
+msgstr ""
+
+#: src/ListingManager/Tab/EventTab.php:75
+#: templates/listing-manager/panels/event.php:28
+msgid "End Time"
+msgstr ""
+
+#: src/ListingManager/Tab/JobTab.php:58
+#: templates/listing-manager/panels/job.php:4
+msgid "Start"
+msgstr ""
+
+#: src/ListingManager/Tab/JobTab.php:70 src/ListingManager/Tab/JobTab.php:76
+#: templates/listing-manager/panels/job.php:18
+#: templates/listing-manager/tabs/job.php:18
+msgid "Position"
+msgstr ""
+
+#: src/ListingManager/Tab/JobTab.php:94
+#: templates/listing-manager/tabs/job.php:1
+msgid "Job Attributes"
+msgstr ""
+
+#: src/ListingManager/Tab/LocationTab.php:14
+#: src/ListingManager/Tab/LocationTab.php:51
+#: src/ListingManager/Tab/LocationTab.php:94
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:15
+#: templates/listing-manager/filters/geolocation.php:4
+#: templates/listing-manager/filters/geolocation.php:8
+#: templates/listing-manager/filters/locations.php:9
+#: templates/listing-manager/filters/locations.php:19
+#: templates/listing-manager/tabs/location.php:1
+msgid "Location"
+msgstr "Mapa"
+
+#: src/ListingManager/Tab/LocationTab.php:56
+msgid "Search by address"
+msgstr ""
+
+#: src/ListingManager/Tab/LocationTab.php:62
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:20
+#: templates/listing-manager/panels/location.php:14
+#: templates/listing-manager/widgets/google-map-form.php:88
+msgid "Latitude"
+msgstr "Zemepisná šírka"
+
+#: src/ListingManager/Tab/LocationTab.php:68
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:26
+#: templates/listing-manager/panels/location.php:21
+#: templates/listing-manager/widgets/google-map-form.php:101
+msgid "Longitude"
+msgstr "Zemepisná dĺžka"
+
+#: src/ListingManager/Tab/OpeningHoursTab.php:15
+#: src/ListingManager/Tab/OpeningHoursTab.php:124
+#: src/ListingManager/Type/FieldType.php:117
+#: templates/listing-manager/tabs/opening_hours.php:1
+msgid "Opening Hours"
+msgstr "Otváracie Hodiny"
+
+#: src/ListingManager/Tab/OpeningHoursTab.php:59
+#: src/ListingManager/Tab/OpeningHoursTab.php:63
+msgid "Opening hours"
+msgstr "Otváracie hodiny"
+
+#: src/ListingManager/Tab/PropertyTab.php:64
+#: templates/listing-manager/filters/year-built.php:4
+#: templates/listing-manager/filters/year-built.php:8
+#: templates/listing-manager/panels/property.php:11
+#: templates/listing-manager/tabs/property.php:12
+msgid "Year built"
+msgstr "Rok výstavby"
+
+#: src/ListingManager/Tab/PropertyTab.php:113
+#: templates/listing-manager/panels/property.php:60
+#: templates/listing-manager/tabs/property.php:62
+msgid "Lot area"
+msgstr ""
+
+#: src/ListingManager/Tab/PropertyTab.php:119
+#: templates/listing-manager/panels/property.php:67
+#: templates/listing-manager/tabs/property.php:68
+msgid "Lot dimensions"
+msgstr ""
+
+#: src/ListingManager/Tab/PropertyTab.php:137
+#: templates/listing-manager/tabs/property.php:1
+msgid "Property Attributes"
+msgstr "Nastavenie nehnuteľnosti"
+
+#: src/ListingManager/Tab/SocialTab.php:42
+#: src/ListingManager/Tab/SocialTab.php:100
+#: src/ListingManager/Tab/SocialTab.php:117
+msgid "Social"
+msgstr "Sociálne siete"
+
+#: src/ListingManager/Tab/SocialTab.php:139
+#: src/ListingManager/Type/AgentType.php:94
+#: src/ListingManager/Type/AgentType.php:104
+#: src/ListingManager/Type/CompanyType.php:74
+#: templates/listing-manager/agent/social.php:12
+#: templates/listing-manager/agents.php:54
+#: templates/listing-manager/company/social.php:12
+#: templates/listing-manager/listing-info.php:25
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/ListingManager/Tab/SocialTab.php:140
+#: src/ListingManager/Type/AgentType.php:99
+#: src/ListingManager/Type/CompanyType.php:79
+#: templates/listing-manager/agent/social.php:20
+#: templates/listing-manager/agents.php:62
+#: templates/listing-manager/company/social.php:20
+#: templates/listing-manager/listing-info.php:33
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/ListingManager/Tab/SocialTab.php:141
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: src/ListingManager/Tab/SocialTab.php:142
+msgid "Google+"
+msgstr "Google+"
+
+#: src/ListingManager/Tab/SocialTab.php:143
+#: src/ListingManager/Tab/VideoTab.php:57
+#: templates/listing-manager/panels/video.php:4
+msgid "YouTube"
+msgstr "YouTube"
+
+#: src/ListingManager/Tab/SocialTab.php:144
+#: src/ListingManager/Tab/VideoTab.php:63
+#: templates/listing-manager/panels/video.php:11
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: src/ListingManager/Tab/SocialTab.php:145
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: src/ListingManager/Tab/SocialTab.php:146
+msgid "Skype"
+msgstr "Skype"
+
+#: src/ListingManager/Tab/SocialTab.php:147
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: src/ListingManager/Tab/SocialTab.php:148
+msgid "Behance"
+msgstr "Behance"
+
+#: src/ListingManager/Tab/SocialTab.php:149
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/ListingManager/Tab/SocialTab.php:150
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/ListingManager/Tab/VideoTab.php:14
+#: src/ListingManager/Tab/VideoTab.php:51
+#: src/ListingManager/Tab/VideoTab.php:110
+#: templates/listing-manager/tabs/video.php:1
+msgid "Video"
+msgstr "Video"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:15
+msgid "Amenity"
+msgstr "Služby"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:16
+msgid "Search Amenity"
+msgstr "Vyhľadať služby"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:17
+msgid "All Amenities"
+msgstr "Všetky služby"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:18
+msgid "Parent Amenity"
+msgstr "Nadradená služba"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:19
+msgid "Parent Amenity:"
+msgstr "Nadradená služba:"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:20
+msgid "Edit Amenity"
+msgstr "Upraviť službu"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:21
+msgid "Update Amenity"
+msgstr "Aktualizovať službu"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:22
+msgid "Add New Amenity"
+msgstr "Pridať novú službu"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:23
+msgid "New Amenity"
+msgstr "Nová služba"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:25
+msgid "No amenities found."
+msgstr "Služba nebola nájdená"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:32
+msgid "amenity"
+msgstr "služby"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:61
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:69
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:15
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:23
+msgid "Font Icon"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:70
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:24
+msgid "Example: &lt;i class=\"fa fa-home\"&gt;&lt;/i&gt;"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:16
+msgid "Search Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:17
+msgid "All Contracts"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:18
+msgid "Parent Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:19
+msgid "Parent Contract:"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:20
+msgid "Edit Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:21
+msgid "Update Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:22
+msgid "Add New Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:23
+msgid "New Contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:25
+msgid "No contracts found."
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:32
+msgid "contract"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:16
+msgid "Search Location"
+msgstr "Vyhľadať mesto"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:17
+msgid "All Locations"
+msgstr "Všetky mestá"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:18
+msgid "Parent Location"
+msgstr "Vyberte kraj"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:19
+msgid "Parent Location:"
+msgstr "Vyberte kraj:"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:20
+msgid "Edit Location"
+msgstr "Upraviť mestá"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:21
+msgid "Update Location"
+msgstr "Upraviť mesto"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:22
+msgid "Add New Location"
+msgstr "Pridať nové mesto"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:23
+msgid "New Location"
+msgstr "Nové mesto"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:25
+msgid "No locations found."
+msgstr "Mesto nebolo nájdené"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:32
+msgid "location"
+msgstr "mesto"
+
+#: src/ListingManager/Type/AgentType.php:16
+#: src/ListingManager/Type/AgentType.php:22
+#: src/ListingManager/Type/AgentType.php:28
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:13
+msgid "Agents"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:18
+#: src/ListingManager/Type/AgentType.php:19
+msgid "Add New Agent"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:20
+msgid "Edit Agent"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:21
+msgid "New Agent"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:23
+msgid "View Agent"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:24
+msgid "Search Agent"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:25
+msgid "No Agents found"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:26
+msgid "No Agents Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:38
+#: templates/listing-manager/content-company.php:23
+msgid "agents"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:61
+#: src/ListingManager/Type/ClaimType.php:46
+#: src/ListingManager/Type/CompanyType.php:47
+#: src/ListingManager/Type/FieldType.php:73
+#: src/ListingManager/Type/FieldsetType.php:48
+#: src/ListingManager/Type/FormType.php:46
+#: src/ListingManager/Type/ReportType.php:46
+#: src/ListingManager/Type/ReviewRatingType.php:46
+msgid "General Options"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:74
+#: src/ListingManager/Type/CompanyType.php:60
+#: templates/listing-manager/agent/overview.php:11
+#: templates/listing-manager/agents.php:32
+#: templates/listing-manager/companies.php:26
+#: templates/listing-manager/company/overview.php:11
+msgid "Web"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:88
+#: src/ListingManager/Type/CompanyType.php:14
+#: src/ListingManager/Type/CompanyType.php:20
+#: src/ListingManager/Type/CompanyType.php:26
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:13
+msgid "Companies"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:109
+#: src/ListingManager/Type/CompanyType.php:84
+#: templates/listing-manager/agent/social.php:28
+#: templates/listing-manager/agents.php:70
+#: templates/listing-manager/company/social.php:28
+#: templates/listing-manager/listing-info.php:41
+msgid "LinkedIn"
+msgstr ""
+
+#: src/ListingManager/Type/AgentType.php:114
+#: src/ListingManager/Type/CompanyType.php:89
+#: templates/listing-manager/agent/social.php:36
+#: templates/listing-manager/agents.php:78
+#: templates/listing-manager/company/social.php:36
+#: templates/listing-manager/listing-info.php:49
+msgid "Google"
+msgstr "Google"
+
+#: src/ListingManager/Type/ClaimType.php:14
+#: src/ListingManager/Type/ClaimType.php:20
+#: src/ListingManager/Type/ClaimType.php:26
+msgid "Claims"
+msgstr "Pohľadávka"
+
+#: src/ListingManager/Type/ClaimType.php:16
+#: src/ListingManager/Type/ClaimType.php:17
+msgid "Add New Claim"
+msgstr "Pridať novú pohľadávku"
+
+#: src/ListingManager/Type/ClaimType.php:18
+msgid "Edit Claim"
+msgstr "Upraviť pohľadávku"
+
+#: src/ListingManager/Type/ClaimType.php:19
+msgid "New Claim"
+msgstr "Nová pohľadávka"
+
+#: src/ListingManager/Type/ClaimType.php:21
+msgid "View Claim"
+msgstr "Zobraziť pohľadávku"
+
+#: src/ListingManager/Type/ClaimType.php:22
+msgid "Search Claim"
+msgstr "Vyhľadať pohľadávku"
+
+#: src/ListingManager/Type/ClaimType.php:23
+msgid "No Claims found"
+msgstr "Pohľadávka nebola nájdená"
+
+#: src/ListingManager/Type/ClaimType.php:24
+msgid "No Claims Found in Trash"
+msgstr "Pohľadávka nebola nájdená v koši"
+
+#: src/ListingManager/Type/ClaimType.php:54
+#: src/ListingManager/Type/ReportType.php:54
+msgid "Listing ID"
+msgstr "ID ponuky"
+
+#: src/ListingManager/Type/ClaimType.php:74
+#: src/ListingManager/Type/ReportType.php:74
+msgid "Messsage"
+msgstr ""
+
+#: src/ListingManager/Type/ClaimType.php:91
+msgid "Payment"
+msgstr ""
+
+#: src/ListingManager/Type/ClaimType.php:92
+#: src/ListingManager/Type/ReportType.php:92
+msgid "Author"
+msgstr "Autor"
+
+#: src/ListingManager/Type/ClaimType.php:93
+#: src/ListingManager/Type/ReportType.php:93
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:36
+msgid "Date"
+msgstr "Dátum"
+
+#: src/ListingManager/Type/ClaimType.php:117
+msgid "Order found"
+msgstr ""
+
+#: src/ListingManager/Type/ClaimType.php:125
+msgid "Order not found"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:15
+#: templates/listing-manager/agent/overview.php:26
+msgid "Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:16
+#: src/ListingManager/Type/CompanyType.php:17
+msgid "Add New Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:18
+msgid "Edit Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:19
+msgid "New Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:21
+msgid "View Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:22
+msgid "Search Company"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:23
+msgid "No Companies found"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:24
+msgid "No Companies Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/CompanyType.php:36
+msgid "companies"
+msgstr "spolocnosti"
+
+#: src/ListingManager/Type/FieldType.php:15
+#: src/ListingManager/Type/FieldType.php:21
+#: src/ListingManager/Type/FieldType.php:27
+msgid "Fields"
+msgstr "Polia"
+
+#: src/ListingManager/Type/FieldType.php:16
+msgid "Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:17
+#: src/ListingManager/Type/FieldType.php:18
+msgid "Add New Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:19
+msgid "Edit Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:20
+msgid "New Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:22
+msgid "View Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:23
+msgid "Search Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:24
+msgid "No Fields found"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:25
+msgid "No Fields Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:59
+msgid "Undefined"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:80
+#: src/ListingManager/Type/FieldsetType.php:15
+msgid "Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:86
+msgid "Label"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:91
+#: src/ListingManager/Type/FieldsetType.php:56
+#: src/ListingManager/Type/FormType.php:54
+msgid "Slug"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:97
+#: src/ListingManager/Type/ReviewRatingType.php:70
+msgid "Required"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:107
+msgid "Text"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:109
+#: templates/listing-manager/mails/claim.php:21
+#: templates/listing-manager/mails/inquire.php:17
+#: templates/listing-manager/mails/report.php:9
+msgid "URL"
+msgstr "URL"
+
+#: src/ListingManager/Type/FieldType.php:110
+msgid "date"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:111
+msgid "time"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:112
+msgid "Textarea"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:113
+#: src/ListingManager/Type/FieldType.php:121
+msgid "Taxonomy"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:114
+msgid "File"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:115
+msgid "Files"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:116
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:13
+msgid "Google Map"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:14
+#: src/ListingManager/Type/FieldsetType.php:20
+#: src/ListingManager/Type/FieldsetType.php:26
+msgid "Fieldsets"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:16
+#: src/ListingManager/Type/FieldsetType.php:17
+msgid "Add New Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:18
+msgid "Edit Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:19
+msgid "New Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:21
+msgid "View Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:22
+msgid "Search Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:23
+msgid "No Fieldsets found"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:24
+msgid "No Fieldsets Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:61
+msgid "Legend"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:66
+#: src/ListingManager/Type/FormType.php:14
+#: src/ListingManager/Type/FormType.php:20
+#: src/ListingManager/Type/FormType.php:26
+msgid "Forms"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:15
+msgid "Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:16
+#: src/ListingManager/Type/FormType.php:17
+msgid "Add New Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:18
+msgid "Edit Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:19
+msgid "New Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:21
+msgid "View Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:22
+msgid "Search Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:23
+msgid "No Forms found"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:24
+msgid "No Forms Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/ListingType.php:17
+#: src/ListingManager/Type/ListingType.php:18
+msgid "Add New Listing"
+msgstr "Pridať novú ponuku"
+
+#: src/ListingManager/Type/ListingType.php:20
+msgid "New Listing"
+msgstr "Nová ponuka"
+
+#: src/ListingManager/Type/ListingType.php:22
+msgid "View Listing"
+msgstr "Zobraziť ponuku"
+
+#: src/ListingManager/Type/ListingType.php:23
+msgid "Search Listing"
+msgstr "Vyhľadať ponuku"
+
+#: src/ListingManager/Type/ListingType.php:24
+msgid "No Listings found"
+msgstr "Ponuka nebola nájdená"
+
+#: src/ListingManager/Type/ListingType.php:25
+msgid "No Listings Found in Trash"
+msgstr "Ponuka nebola nájdená v koši"
+
+#: src/ListingManager/Type/ReportType.php:14
+#: src/ListingManager/Type/ReportType.php:20
+#: src/ListingManager/Type/ReportType.php:26
+msgid "Reports"
+msgstr "Report"
+
+#: src/ListingManager/Type/ReportType.php:16
+#: src/ListingManager/Type/ReportType.php:17
+msgid "Add New Report"
+msgstr "Pridať nový report"
+
+#: src/ListingManager/Type/ReportType.php:18
+msgid "Edit Report"
+msgstr "Upraviť report"
+
+#: src/ListingManager/Type/ReportType.php:19
+msgid "New Report"
+msgstr "Nový report"
+
+#: src/ListingManager/Type/ReportType.php:21
+msgid "View Report"
+msgstr "Zobraziť report"
+
+#: src/ListingManager/Type/ReportType.php:22
+msgid "Search Report"
+msgstr "Vyhľadať report"
+
+#: src/ListingManager/Type/ReportType.php:23
+msgid "No Reports found"
+msgstr "Report nebol nájdený"
+
+#: src/ListingManager/Type/ReportType.php:24
+msgid "No Reports Found in Trash"
+msgstr "Report nebol nájdený v koši"
+
+#: src/ListingManager/Type/ReportType.php:69
+#: src/ListingManager/Type/ReportType.php:91
+msgid "Reason"
+msgstr "Dôvod"
+
+#: src/ListingManager/Type/ReviewRatingType.php:14
+#: src/ListingManager/Type/ReviewRatingType.php:15
+msgid "Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:16
+#: src/ListingManager/Type/ReviewRatingType.php:17
+msgid "Add New Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:18
+msgid "Edit Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:19
+msgid "New Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:20
+#: src/ListingManager/Type/ReviewRatingType.php:26
+msgid "Review Ratings"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:21
+msgid "View Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:22
+msgid "Search Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:23
+msgid "No Review Ratings found"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:24
+msgid "No Review Ratings Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:54
+msgid "ID"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:64
+msgid "No. of stars"
+msgstr ""
+
+#: src/ListingManager/Utilities.php:78
+msgid "Monday"
+msgstr "Pondelok"
+
+#: src/ListingManager/Utilities.php:79
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: src/ListingManager/Utilities.php:80
+msgid "Wednesday"
+msgstr "Streda"
+
+#: src/ListingManager/Utilities.php:81
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#: src/ListingManager/Utilities.php:82
+msgid "Friday"
+msgstr "Piatok"
+
+#: src/ListingManager/Utilities.php:83
+msgid "Saturday"
+msgstr "Sobota"
+
+#: src/ListingManager/Utilities.php:84
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:15
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:15
+msgid "Show agents."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:20
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:20
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:20
+#: templates/listing-manager/widgets/listings-form.php:69
+msgid "Per page"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:26
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:26
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:26
+#: templates/listing-manager/widgets/listings-form.php:55
+msgid "Columns"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:32
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:32
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:38
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:52
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:51
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:20
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:26
+msgid "CSS"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:34
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:34
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:40
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:54
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:53
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:22
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:28
+msgid "Design options"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:16
+#: templates/listing-manager/widgets/filter-form.php:29
+#: templates/listing-manager/widgets/google-map-form.php:202
+msgid "Button text"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:22
+#: templates/listing-manager/widgets/filter-form.php:42
+#: templates/listing-manager/widgets/google-map-form.php:215
+msgid "Return URL"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:28
+#: templates/listing-manager/widgets/filter-form.php:66
+#: templates/listing-manager/widgets/google-map-form.php:226
+msgid "Input titles"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:31
+#: templates/listing-manager/widgets/filter-form.php:75
+#: templates/listing-manager/widgets/google-map-form.php:235
+msgid "Labels"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:32
+#: templates/listing-manager/widgets/filter-form.php:85
+#: templates/listing-manager/widgets/google-map-form.php:245
+msgid "Placeholders"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:51
+msgid "Hide"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:60
+msgid "Filter"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:62
+msgid "Show filter."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:15
+msgid "Map showing listing posts."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:32
+#: templates/listing-manager/widgets/google-map-form.php:54
+#: templates/listing-manager/widgets/google-map-form.php:181
+msgid "Zoom"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:38
+#: templates/listing-manager/widgets/google-map-form.php:41
+msgid "Height"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:46
+msgid "Enable geolocation"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:15
+msgid "Show listings grid."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:32
+msgid "Orderby"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:37
+msgid "Event date"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:45
+#: templates/listing-manager/dashboard.php:200
+#: templates/listing-manager/listing-list.php:38
+msgid "Featured"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:15
+msgid "Show packages."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:13
+msgid "Tiles"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:15
+msgid "Show listing tiles."
+msgstr ""
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:20
+#: templates/listing-manager/widgets/tiles-form.php:54
+msgid "Layout"
+msgstr ""
+
+#: src/ListingManager/Widget/AgentWidget.php:12
+msgid "Listing Manager: Agents"
+msgstr ""
+
+#: src/ListingManager/Widget/AgentWidget.php:13
+msgid "Displays agents."
+msgstr ""
+
+#: src/ListingManager/Widget/CategoryWidget.php:12
+msgid "Listing Manager: Categories"
+msgstr ""
+
+#: src/ListingManager/Widget/CategoryWidget.php:13
+msgid "Displays categories."
+msgstr ""
+
+#: src/ListingManager/Widget/CompanyWidget.php:12
+msgid "Listing Manager: Companies"
+msgstr ""
+
+#: src/ListingManager/Widget/CompanyWidget.php:13
+msgid "Displays companies."
+msgstr ""
+
+#: src/ListingManager/Widget/CtaWidget.php:12
+msgid "Listing Manager: Call to action"
+msgstr ""
+
+#: src/ListingManager/Widget/CtaWidget.php:13
+msgid "Displays call to action."
+msgstr ""
+
+#: src/ListingManager/Widget/FilterWidget.php:12
+msgid "Listing Manager: Filter"
+msgstr ""
+
+#: src/ListingManager/Widget/FilterWidget.php:14
+msgid "Filter for filtering listings."
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapSingleWidget.php:12
+msgid "Listing Manager: Google Map Single Listing"
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapSingleWidget.php:13
+msgid ""
+"Displays Google Map for single listing. Make sure that widget is displayed "
+"at listing detail page."
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapWidget.php:12
+msgid "Listing Manager: Google Map"
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapWidget.php:13
+msgid "Displays Google map."
+msgstr ""
+
+#: src/ListingManager/Widget/InquireWidget.php:12
+msgid "Listing Manager: Inquire"
+msgstr ""
+
+#: src/ListingManager/Widget/InquireWidget.php:13
+msgid ""
+"Displays inquire form. Make sure that widget is displayed on product page."
+msgstr ""
+
+#: src/ListingManager/Widget/ListingInfoWidget.php:12
+msgid "Listing Manager: Listing Info"
+msgstr ""
+
+#: src/ListingManager/Widget/ListingInfoWidget.php:13
+msgid "Displays listing information."
+msgstr ""
+
+#: src/ListingManager/Widget/ListingWidget.php:12
+msgid "Listing Manager: Listings"
+msgstr ""
+
+#: src/ListingManager/Widget/ListingWidget.php:13
+msgid "Displays listings."
+msgstr ""
+
+#: src/ListingManager/Widget/PurchaseWidget.php:12
+msgid "Listing Manager: Purchase"
+msgstr ""
+
+#: src/ListingManager/Widget/PurchaseWidget.php:13
+msgid ""
+"Displays add to cart form. Make sure that widget is displayed on product "
+"page."
+msgstr ""
+
+#: src/ListingManager/Widget/StreamWidget.php:12
+msgid "Listing Manager: Stream"
+msgstr ""
+
+#: src/ListingManager/Widget/StreamWidget.php:13
+msgid "Displays listing stream."
+msgstr ""
+
+#: src/ListingManager/Widget/TileWidget.php:12
+msgid "Listing Manager: Tiles"
+msgstr ""
+
+#: src/ListingManager/Widget/TileWidget.php:13
+msgid "Displays listings as tiles."
+msgstr ""
+
+#: templates/listing-manager/accounts/login.php:23
+msgid "Log in"
+msgstr "Prihlásiť sa"
+
+#: templates/listing-manager/accounts/login.php:28
+#: templates/listing-manager/accounts/register.php:50
+#: templates/listing-manager/accounts/reset.php:23
+msgid "You are already logged in."
+msgstr "Už ste prihlásení."
+
+#: templates/listing-manager/accounts/password.php:9
+msgid "Old password"
+msgstr "Staré heslo"
+
+#: templates/listing-manager/accounts/password.php:14
+msgid "New password"
+msgstr "Nové heslo"
+
+#: templates/listing-manager/accounts/password.php:25
+msgid "Change Password"
+msgstr "Zmeniť heslo"
+
+#: templates/listing-manager/accounts/register.php:26
+msgid "Retype Password"
+msgstr "Zadajte heslo znovu"
+
+#: templates/listing-manager/accounts/register.php:37
+#, php-format
+msgid "I agree with <a href=\"%s\">terms & conditions</a>"
+msgstr "Súhlasím s <a href=\"%s\">obchodnými podmienkami</a>"
+
+#: templates/listing-manager/accounts/register.php:44
+msgid "Sign Up"
+msgstr "Registrovať sa"
+
+#: templates/listing-manager/accounts/register.php:57
+msgid "Registrations are not allowed."
+msgstr "Registrácie nie sú povolené."
+
+#: templates/listing-manager/accounts/reset.php:10
+msgid "Username or E-mail:"
+msgstr "Používateľské meno alebo heslo"
+
+#: templates/listing-manager/accounts/reset.php:17
+msgid "Get New Password"
+msgstr "Získať nové heslo"
+
+#: templates/listing-manager/admin/missing-purchase-code.php:8
+msgid "Dismiss this notice."
+msgstr ""
+
+#: templates/listing-manager/agent/assigned.php:21
+#: templates/listing-manager/company/assigned.php:21
+msgid "Created Items"
+msgstr ""
+
+#: templates/listing-manager/categories.php:56
+msgid "No categories found."
+msgstr ""
+
+#: templates/listing-manager/claim-form.php:4
+msgid "Post ID is missing."
+msgstr ""
+
+#: templates/listing-manager/claim-form.php:10
+msgid "You have already claimed this listing. Please, wait for admin review."
+msgstr "Už ste vytvorili ponuku. Prosím, počkajte na kontrolu administrátora."
+
+#: templates/listing-manager/claim-form.php:33
+#: templates/listing-manager/inquire-form.php:39
+msgid "Message"
+msgstr "Vaša správa"
+
+#: templates/listing-manager/claim.php:6
+msgid "I claimed it"
+msgstr ""
+
+#: templates/listing-manager/companies.php:20
+#: templates/listing-manager/company/overview.php:5
+msgid "Email"
+msgstr ""
+
+#: templates/listing-manager/content-company.php:21
+msgid "agent"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:56
+msgid "Packages Overview"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:61
+#: templates/listing-manager/listing-form-packages.php:92
+msgid "Limit"
+msgstr "Limit"
+
+#: templates/listing-manager/dashboard.php:62
+msgid "Time Interval"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:63
+msgid "Assigned Listings"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:64
+msgid "Expiration"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:97
+msgid "No packages purchased."
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:191
+msgid "Listings Overview"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:195
+msgid "All"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:196
+#: templates/listing-manager/listing-list.php:106
+msgid "Published"
+msgstr "Publikované"
+
+#: templates/listing-manager/dashboard.php:197
+#: templates/listing-manager/listing-list.php:98
+msgid "Pending"
+msgstr "Čakajúce"
+
+#: templates/listing-manager/dashboard.php:198
+#: templates/listing-manager/listing-list.php:102
+msgid "Draft"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:199
+#: templates/listing-manager/listing-list.php:110
+msgid "Private"
+msgstr ""
+
+#: templates/listing-manager/favorite.php:4
+msgid "Add to favorites"
+msgstr "Pridať do obľúbených"
+
+#: templates/listing-manager/favorite.php:8
+#: templates/listing-manager/favorite.php:14
+msgid "I Love It"
+msgstr "Toto sa mi už páči"
+
+#: templates/listing-manager/favorite.php:18
+msgid "Favorite"
+msgstr ""
+
+#: templates/listing-manager/favorites.php:5
+#: templates/listing-manager/listing-list.php:14
+#: templates/listing-manager/widgets/cta-form.php:30
+msgid "Image"
+msgstr "Obrázok"
+
+#: templates/listing-manager/favorites.php:7
+#: templates/listing-manager/listing-list.php:42
+msgid "Actions"
+msgstr ""
+
+#: templates/listing-manager/favorites.php:33
+msgid "View"
+msgstr "Zobraziť"
+
+#: templates/listing-manager/field-builder.php:2
+msgid "Front Fields Builder"
+msgstr ""
+
+#: templates/listing-manager/fields/file.php:10
+#: templates/listing-manager/fields/files.php:13
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: templates/listing-manager/fields/google_map.php:4
+#: templates/listing-manager/google-map/google-map.php:27
+msgid "Google Maps API key missing."
+msgstr ""
+
+#: templates/listing-manager/fields/google_map.php:9
+#: templates/listing-manager/panels/location.php:8
+msgid "Search"
+msgstr "Vyhľadať"
+
+#: templates/listing-manager/fields/opening-hours.php:5
+#: templates/listing-manager/panels/opening-hours.php:6
+#: templates/listing-manager/tabs/opening_hours.php:26
+msgid "Time From"
+msgstr "Čas od"
+
+#: templates/listing-manager/fields/opening-hours.php:6
+#: templates/listing-manager/panels/opening-hours.php:7
+#: templates/listing-manager/tabs/opening_hours.php:27
+msgid "Time To"
+msgstr "Čas do"
+
+#: templates/listing-manager/fields/opening-hours.php:7
+#: templates/listing-manager/panels/opening-hours.php:8
+#: templates/listing-manager/tabs/opening_hours.php:30
+msgid "Custom Text"
+msgstr "Vlastný text"
+
+#: templates/listing-manager/fields/taxonomy.php:13
+msgid "Child term"
+msgstr ""
+
+#: templates/listing-manager/fields/taxonomy.php:21
+msgid "Select"
+msgstr ""
+
+#: templates/listing-manager/filter-form.php:41
+msgid "Filter Listings"
+msgstr "Filtrovať ponuky"
+
+#: templates/listing-manager/filters/contract.php:21
+msgid "All contracts"
+msgstr ""
+
+#: templates/listing-manager/filters/event-date.php:4
+#: templates/listing-manager/filters/event-date.php:9
+msgid "Event date from"
+msgstr ""
+
+#: templates/listing-manager/filters/event-date.php:17
+#: templates/listing-manager/filters/event-date.php:22
+msgid "Event date to"
+msgstr ""
+
+#: templates/listing-manager/filters/listing-categories.php:9
+#: templates/listing-manager/filters/listing-categories.php:19
+msgid "Category"
+msgstr "Kategória"
+
+#: templates/listing-manager/filters/listing-categories.php:21
+msgid "All categories"
+msgstr "Všetky kategórie"
+
+#: templates/listing-manager/filters/locations.php:21
+msgid "All locations"
+msgstr "Všetky mestá"
+
+#: templates/listing-manager/filters/price.php:4
+#: templates/listing-manager/filters/price.php:9
+msgid "Price from"
+msgstr "Cena od"
+
+#: templates/listing-manager/filters/price.php:19
+#: templates/listing-manager/filters/price.php:24
+msgid "Price to"
+msgstr "Cena do"
+
+#: templates/listing-manager/google-map/google-map-single.php:20
+#: templates/listing-manager/tabs/location.php:9
+msgid "Get directions"
+msgstr "Vyhľadanie trasy"
+
+#: templates/listing-manager/google-map/google-map-single.php:25
+#: templates/listing-manager/panels/location.php:26
+#: templates/listing-manager/tabs/location.php:22
+msgid ""
+"You are missing Google Maps API key. You can set it under \"Customizer - "
+"Listing Manager General - Google Maps API key\""
+msgstr ""
+"Chýba vám nastavené Google Maps API key. Pre jeho nastavenie prejdite na: "
+"Vzhľad -> Prispôsobiť -> Listing Manager General -> Google Maps API key"
+
+#: templates/listing-manager/google-map/google-map.php:68
+msgid "Roadmap"
+msgstr ""
+
+#: templates/listing-manager/google-map/google-map.php:69
+msgid "Terrain"
+msgstr ""
+
+#: templates/listing-manager/google-map/google-map.php:70
+msgid "Satellite"
+msgstr ""
+
+#: templates/listing-manager/google-map/google-map.php:76
+msgid "Zoom In"
+msgstr "Priblížiť"
+
+#: templates/listing-manager/google-map/google-map.php:77
+msgid "Zoom Out"
+msgstr "Oddialiť"
+
+#: templates/listing-manager/google-map/google-map.php:83
+msgid "Current Position"
+msgstr "Aktuálna pozícia"
+
+#: templates/listing-manager/inquire-form.php:12
+msgid "Please login before posting inquire"
+msgstr "Prosím prihláste sa pred odoslaním otázky"
+
+#: templates/listing-manager/inquire-form.php:34
+msgid "Subject"
+msgstr "Predmet správy"
+
+#: templates/listing-manager/inquire-form.php:44
+msgid "Send Message"
+msgstr "Odoslať správu"
+
+#: templates/listing-manager/listing-form-packages.php:5
+msgid "Select already purchased package"
+msgstr "Vyberte si váš zakúpený balíček"
+
+#: templates/listing-manager/listing-form-packages.php:29
+msgid "of"
+msgstr "z"
+
+#: templates/listing-manager/listing-form-packages.php:41
+msgid "Extend"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:44
+#, php-format
+msgid "%s day"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:46
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:70
+msgid "Purchase new package"
+msgstr "Zakúpiť nový balíček"
+
+#: templates/listing-manager/listing-form-packages.php:99
+#: templates/listing-manager/panels/package.php:12
+msgid "Duration"
+msgstr "Trvanie"
+
+#: templates/listing-manager/listing-form.php:7
+msgid "Please select form for adding new listing"
+msgstr ""
+
+#: templates/listing-manager/listing-form.php:37
+msgid ""
+"Listing submission is allowed only for authenticated users with the "
+"membership plan."
+msgstr ""
+
+#: templates/listing-manager/listing-form.php:53
+msgid "Save"
+msgstr "Uložiť"
+
+#: templates/listing-manager/listing-form.php:59
+msgid "Listing form not found."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:23
+msgid "Membership"
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:34
+msgid "Status"
+msgstr "Stav"
+
+#: templates/listing-manager/listing-list.php:97
+msgid "Waiting for admin approval."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:101
+msgid "Package not assigned or expired."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:105
+msgid "Listing is published."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:109
+msgid "Listing date has expired (e.g. event date)."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:120
+msgid "Yes"
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:124
+msgid "No"
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:195
+msgid "No listings found. You can start by <a href=\""
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:197
+msgid "No listings found."
+msgstr ""
+
+#: templates/listing-manager/listing-remove-form.php:3
+#: templates/listing-manager/report-form.php:4
+msgid "You have to specify listing!"
+msgstr "Musíte zadať ponuku!"
+
+#: templates/listing-manager/listing-remove-form.php:16
+msgid "Delete"
+msgstr "Zmazať"
+
+#: templates/listing-manager/locations.php:26
+msgid "Show All Listings"
+msgstr "Zobraziť všetky ponuky"
+
+#: templates/listing-manager/mails/expiring.php:1
+msgid "Hi"
+msgstr ""
+
+#: templates/listing-manager/mails/expiring.php:3
+#, php-format
+msgid ""
+"your package %s is going to expire. It will expire at %s. You can extend the "
+"package by logging in."
+msgstr ""
+
+#: templates/listing-manager/mails/report.php:21
+msgid "Report reason"
+msgstr "Dôvod reportu"
+
+#: templates/listing-manager/memberships/panel.php:10
+msgid "Max. number of listings"
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:24
+msgid "Unlimited listings."
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:26
+msgid "Max. allowed listings"
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:31
+msgid "Current listings count"
+msgstr ""
+
+#: templates/listing-manager/messages/not-allowed.php:5
+msgid "You are not allowed to access this page."
+msgstr "Nemáte dostatočné oprávnenie pre prístup na túto stránku."
+
+#: templates/listing-manager/messages/not-exist.php:2
+msgid "Object does not exist."
+msgstr "Objekt nebol nájdený."
+
+#: templates/listing-manager/messages/woocommerce-not-active.php:2
+msgid "Listing Manager requires WooCoomerce to be installed."
+msgstr "Listing Manager vyžaduje nainštalovaný WooCommerce."
+
+#: templates/listing-manager/packages.php:29
+msgid "Time interval"
+msgstr "Časový interval"
+
+#: templates/listing-manager/packages.php:34
+#: templates/listing-manager/panels/package.php:4
+msgid "No. of listings"
+msgstr "Číslo ponuky"
+
+#: templates/listing-manager/packages.php:45
+#: templates/listing-manager/purchase.php:38
+msgid "Add to cart"
+msgstr "Pridať do košíka"
+
+#: templates/listing-manager/panels/branding.php:4
+msgid "Business Name"
+msgstr "Názov firmy"
+
+#: templates/listing-manager/panels/job.php:25
+#: templates/listing-manager/tabs/job.php:24
+msgid "Required skills"
+msgstr ""
+
+#: templates/listing-manager/panels/package.php:7
+msgid "Use -1 for unlimited number of listings."
+msgstr ""
+
+#: templates/listing-manager/panels/package.php:15
+msgid "Insert -1 for unlimited duration."
+msgstr ""
+
+#: templates/listing-manager/panels/package.php:20
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: templates/listing-manager/panels/package.php:27
+msgid "Exclude from pricing tables"
+msgstr ""
+
+#: templates/listing-manager/purchase.php:43
+msgid "Quantity"
+msgstr ""
+
+#: templates/listing-manager/purchase.php:49
+msgid "It is not possible to add this product into cart."
+msgstr ""
+
+#: templates/listing-manager/report-form.php:16
+#: templates/listing-manager/report-form.php:17
+msgid "It is spam"
+msgstr "Toto je SPAM!"
+
+#: templates/listing-manager/report-form.php:23
+#: templates/listing-manager/report-form.php:24
+msgid "It is nudity or pornography"
+msgstr "Nahota alebo pornografia"
+
+#: templates/listing-manager/report-form.php:30
+#: templates/listing-manager/report-form.php:31
+msgid "It humiliates somebody"
+msgstr "Ponižovanie alebo zosmiešňovanie"
+
+#: templates/listing-manager/report-form.php:37
+#: templates/listing-manager/report-form.php:38
+msgid "It is inappropriate"
+msgstr "Je to nevhodné"
+
+#: templates/listing-manager/report-form.php:44
+#: templates/listing-manager/report-form.php:45
+msgid ""
+"It insults or attacks someone based on their religion, ethnicity or sexual "
+"orientation"
+msgstr ""
+"Urážanie a útoky na základe náboženstva, etnického pôvodu alebo sexuálnu "
+"orientáciu"
+
+#: templates/listing-manager/report-form.php:51
+#: templates/listing-manager/report-form.php:52
+msgid "It advocates violence or harm to a person or animal"
+msgstr "Obhajuje násilie alebo ubližovanie osoby alebo zvieraťa"
+
+#: templates/listing-manager/report-form.php:58
+#: templates/listing-manager/report-form.php:59
+msgid "It displays someone harming themself or planning to harm themself"
+msgstr "Zobrazuje ako niekomu ubližujú, alebo plánuje si ublížiť sám"
+
+#: templates/listing-manager/report-form.php:65
+#: templates/listing-manager/report-form.php:66
+msgid "It describes buying or selling drugs, guns or regulated products"
+msgstr ""
+"Popisuje ako kupovať alebo predávať drogy, zbrane alebo iné zakázané výrobky"
+
+#: templates/listing-manager/report-form.php:73
+#: templates/listing-manager/report-form.php:74
+msgid "It is an unauthorized use of my intellectual property"
+msgstr "Jedná sa o neoprávnené použitie svojho duševného vlastníctva"
+
+#: templates/listing-manager/report-form.php:80
+#: templates/listing-manager/report-form.php:81
+msgid "Something else"
+msgstr "Niečo iné"
+
+#: templates/listing-manager/report-form.php:87
+msgid "Other reason or additional information"
+msgstr "Iný dôvod alebo dodatočné informácie"
+
+#: templates/listing-manager/report-form.php:90
+msgid "Contact to you"
+msgstr "Kontakt na vás"
+
+#: templates/listing-manager/report-form.php:103
+msgid "Submit to review"
+msgstr "Pridať hodnotenie"
+
+#: templates/listing-manager/reviews/display.php:24
+#: templates/listing-manager/reviews/field.php:13
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/listing-manager/statistics.php:8
+msgid ""
+"Listing views logging is disabled. If you want to collect stats, plase "
+"enable under \"Appearance - Customize - Listing Manager Statistics\"."
+msgstr ""
+"Zobrazenie ponuky po prihlásení je zakázané. Ak chcete zbierať štatistiky, "
+"prejdite do \"Vzhľad -> Prispôsobiť -> Štatistiky Listing Manager\" kde to "
+"viete povoliť."
+
+#: templates/listing-manager/statistics.php:15
+msgid "Total Views"
+msgstr "Celkovo zobrazení"
+
+#: templates/listing-manager/statistics.php:20
+msgid "Total Searches"
+msgstr "Celkovo vyhľadávaní"
+
+#: templates/listing-manager/statistics.php:35
+msgid "Registered Users"
+msgstr "Registrovaný užívatelia"
+
+#: templates/listing-manager/statistics.php:46
+msgid "10 most popular listings"
+msgstr "10 najhľadanejších ponúk"
+
+#: templates/listing-manager/statistics.php:54
+#: templates/listing-manager/statistics.php:82
+#: templates/listing-manager/statistics.php:110
+msgid "views"
+msgstr "zobraziť"
+
+#: templates/listing-manager/statistics.php:67
+msgid "10 most popular locations"
+msgstr "10 najhľadanejších miest"
+
+#: templates/listing-manager/statistics.php:95
+msgid "10 most popular categories"
+msgstr "10 najhľadanejších kategórií"
+
+#: templates/listing-manager/tabs/contact.php:33
+msgid "You must be logged in to see contact information."
+msgstr ""
+
+#: templates/listing-manager/tabs/job.php:6
+msgid "Starting date"
+msgstr ""
+
+#: templates/listing-manager/tabs/opening_hours.php:16
+msgid "Open"
+msgstr ""
+
+#: templates/listing-manager/tabs/opening_hours.php:18
+msgid "Closed"
+msgstr ""
+
+#: templates/listing-manager/tabs/social.php:1
+msgid "Social Networks"
+msgstr "Sociálne siete"
+
+#: templates/listing-manager/widgets/agents-form.php:40
+#: templates/listing-manager/widgets/categories-form.php:39
+#: templates/listing-manager/widgets/companies-form.php:40
+#: templates/listing-manager/widgets/cta-form.php:55
+#: templates/listing-manager/widgets/listings-form.php:41
+#: templates/listing-manager/widgets/stream-form.php:40
+#: templates/listing-manager/widgets/tiles-form.php:40
+msgid "Classes"
+msgstr ""
+
+#: templates/listing-manager/widgets/agents-form.php:54
+#: templates/listing-manager/widgets/companies-form.php:54
+#: templates/listing-manager/widgets/stream-form.php:54
+msgid "Count"
+msgstr ""
+
+#: templates/listing-manager/widgets/cta-form.php:69
+msgid "Action title"
+msgstr ""
+
+#: templates/listing-manager/widgets/cta-form.php:83
+msgid "Action link"
+msgstr ""
+
+#: templates/listing-manager/widgets/filter-form.php:60
+#: templates/listing-manager/widgets/google-map-form.php:143
+msgid "Autosubmit"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:83
+msgid "GPS Position"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:111
+msgid "Options"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:120
+msgid "Show all markers"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:131
+msgid "Show filter"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:155
+msgid "Live Filter"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:159
+msgid "Toolbar"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:169
+msgid "Map types"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:197
+msgid "Filter Options"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:251
+msgid "Filter Fields"
+msgstr ""
+
+#~ msgid ""
+#~ "Package has been added into cart. Please purchase it before your listing "
+#~ "will be published."
+#~ msgstr ""
+#~ "Balíček bol pridaný do košíku. Prosím zakúpte ho skôr ako bude vaša "
+#~ "ponuka zverejnená."
+
+#~ msgid "Listing Manager Tabs"
+#~ msgstr "Karty Listing Manager"
+
+#~ msgid "Hide Single"
+#~ msgstr "Skryť jednotlivo"
+
+#~ msgid ""
+#~ "Check which tabs should be hidden on product single page when product "
+#~ "type is set to \"Listing\"."
+#~ msgstr ""
+#~ "Skontrolujte, či karty, ktoré by mali byť skryté v zobrazení produktu, sú "
+#~ "nastavené na \"Ponuku\"."
+
+#~ msgid "Create"
+#~ msgstr "Vytvoriť"
+
+#~ msgid "Add Package"
+#~ msgstr "Pridať balík"
+
+#~ msgid "Package expired"
+#~ msgstr "Balíček vypršal"
+
+#~ msgid "Unable to send an e-mail."
+#~ msgstr "E-mail nemožno odoslať."
+
+#~ msgid "Please check inbox for more information."
+#~ msgstr ""
+#~ "Prosím skontrolujte si e-mailovú schránku pre získanie viac informácií."
+
+#~ msgid "Time"
+#~ msgstr "Čas"
+
+#~ msgid "You have been successfully logged in."
+#~ msgstr "Boli ste úspešne prihlásený."
+
+#~ msgid "Rent"
+#~ msgstr "Na prenájom"
+
+#~ msgid "Sale"
+#~ msgstr "Na predaj"
+
+#~ msgid "Sold"
+#~ msgstr "Predané"
+
+#~ msgid "Not selected"
+#~ msgstr "Vyberte si"

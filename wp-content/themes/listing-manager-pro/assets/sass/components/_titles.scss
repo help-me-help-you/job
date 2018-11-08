@@ -1,0 +1,268 @@
+.page-title {
+	background-image: linear-gradient(to bottom, rgba($color-black, .05), transparent 60px);
+	margin: 0 -1200px;
+	padding: 30px 1200px;
+	position: relative;
+
+	.page-template-page-map & {
+		display: none;
+	}
+
+	&.product-title {
+		margin-bottom: 30px;
+		padding-top: 100px;
+
+		h1 {
+			color: $color-black-medium;
+		}
+	}
+
+	@media (max-width: $tablet) {
+		width: 100%;
+	}
+
+	h1 {
+		color: $color-primary;
+		display: inline-block;
+		font-size: 28px;
+		font-weight: 400;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+
+		@media (max-width: $tablet) {
+			font-size: 22px;
+		}
+
+		span {
+			display: block;
+		}
+
+		.verified {
+			clear: both;
+			left: 0;
+			position: absolute;
+			top: -37px;
+
+			.silk {
+				color: $color-primary;
+				font-size: 24px;
+				margin: 0 2px 0 0;
+				vertical-align: middle;
+			}
+
+			span {
+				color: rgba($color-black, .5);
+				display: inline-block;
+				font-size: 13px;
+				font-weight: 400;
+			}
+		}
+	}
+
+	p {
+		color: rgba($color-black, .5);
+		font-size: 14px;
+		line-height: 1.7;
+		margin: 0;
+	}
+
+	.product-rating {
+		color: $color-primary;
+		display: inline-block;
+		font-size: 14px;
+		margin: 0 0 0 20px;
+		vertical-align: middle;
+	}
+
+	.actions {
+		float: right;
+
+		@media (max-width: $tablet) {
+			@include susy-clearfix();
+
+			clear: both;
+			float: none;			
+			margin: 20px 0 0 0;
+			
+			> div {
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+	.listing-manager-report, .listing-manager-claim, .listing-manager-favorite, .listing-manager-compare {
+		float: right;
+		margin: 0 0 0 15px;
+
+		@media (max-width: $tablet) {
+			float: left;
+		}
+
+		.button {
+			background-color: #fff;
+			box-shadow: 0 1px 2px rgba(#000, .12);
+			color: rgba($color-black, .6);
+			font-weight: 400;
+			height: auto;
+			line-height: 1;
+			padding: 12px 20px;
+
+			&:hover {
+				background-color: darken(#fff, 2%) !important;
+				color: $color-primary;
+			}
+		}
+	}
+
+	.listing-manager-compare {
+		.button {
+			color: $color-primary;
+			cursor: pointer;
+			padding: 8px 10px;
+
+			&:after {
+				-webkit-font-smoothing: antialiased;
+				content: '\e923';
+				font-family: 'Silk';
+				font-size: 20px;
+			}
+		}
+
+		span {
+			display: none;
+		}
+	}
+
+	.listing-manager-claim {
+		.button {
+			color: $color-primary;
+			cursor: pointer;
+			font-size: 0;
+			padding: 8px 10px;
+
+			&:after {
+				-webkit-font-smoothing: antialiased;
+				content: '\e925';
+				font-family: 'Silk';
+				font-size: 20px;
+			}
+		}
+	}
+
+	.listing-manager-report {
+		.button {
+			color: $color-primary;
+			cursor: pointer;
+			padding: 8px 10px;
+
+			&:after {
+				-webkit-font-smoothing: antialiased;
+				content: '\e924';
+				font-family: 'Silk';
+				font-size: 20px;
+			}
+		}
+
+		span {
+			display: none;
+		}
+	}
+
+	.listing-manager-favorite {
+		.button {
+			color: $color-primary;
+			cursor: pointer;
+			padding: 8px 10px;
+
+			&:after {
+				-webkit-font-smoothing: antialiased;
+				content: '\e910';
+				font-family: 'Silk';
+				font-size: 20px;
+			}
+
+			&.marked {
+				&:after {
+					content: '\e90f';
+				}
+			}
+
+			span {
+				display: none;
+			}
+		}
+	}
+}
+
+.page-header {
+	margin: 0;
+	padding: 40px 0;
+	text-align: center;
+
+	h2 {
+		font-size: 24px;
+		font-weight: 400;
+		margin: 0;
+	}
+
+	p {
+		color: rgba($color-black, .5);
+		font-size: 15px;
+		line-height: 1.7;
+		margin: 10px auto 0 auto;
+		width: 60%;
+
+		@media (max-width: $tablet) {
+			width: 100%;
+		}
+	}
+}
+
+.so-panel {
+	.widget-title {
+		font-size: 24px;
+		font-weight: 400;
+		margin: 0 0 0 0;
+		padding: 40px 0 0 0;
+		text-align: center;
+	}
+
+	.description {
+		color: rgba($color-black, .5);
+		font-size: 15px;
+		line-height: 1.7;
+		margin: 10px auto 60px auto;
+		padding: 0;
+		text-align: center;
+		width: 60%;
+
+		@media (max-width: $tablet) {
+			width: 100%;
+		}
+	}
+}
+
+.page-title-map {
+	background-color: rgba(#000, .03);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+
+	&:after {
+		background-image: linear-gradient(to top, $color-body-background 10px, rgba(#fff, 0));		
+		bottom: 0;
+		content: '';
+		display: block;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}

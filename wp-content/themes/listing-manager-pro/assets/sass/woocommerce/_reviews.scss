@@ -1,0 +1,140 @@
+.commentlist {
+    margin: 0;
+    padding: 0;
+}
+
+.woocommerce #reviews #comments h2 {
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 18px;
+    margin: 0 0 25px 0;
+    padding: 0 0 25px 0;
+}
+
+.woocommerce .star-rating {
+    color: $color-primary;
+}
+
+.woocommerce #reviews #comments ol.commentlist li {
+    border-bottom: 1px solid #f4f4f4;
+    float: none;
+    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
+    width: 100%;
+
+    &:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    height: 36px;
+    padding: 2px;
+    width: 36px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+    font-size: 13px;
+
+    strong {
+        color: $color-black;
+    }
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    border: 0;
+    border-radius: 0;
+    padding: 7px 15px 0 15px;
+
+    .description, p {
+        color: rgba($color-black, .7); 
+        line-height: 24px;
+    }
+}
+
+#review_form_wrapper, #respond {
+    background-color: #fff;
+    border: 1px solid rgba($color-black, .08);
+    border-radius: 3px;
+    padding: 20px;
+
+    .comment-form-author {
+        float: left;
+        width: 48%;
+    }
+
+    .comment-form-email {
+        float: right;
+        width: 48%;
+    }
+
+    .form-submit {
+        float: right;
+        margin: 15px 0 0 0 !important;
+    }
+}
+
+.woocommerce #reviews h3 {
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 18px;
+    margin: 0 -25px 25px -25px;
+    padding: 0 25px 25px 25px;
+}
+
+.woocommerce #review_form #respond .form-submit input {
+    @extend .button, .button-primary;
+}
+
+.woocommerce #reviews #comment {
+    height: 120px;
+}
+
+.listing-manager-ratings {
+    border-top: 1px solid rgba($color-black, .06);
+    margin: 25px 0 0 0;
+    padding: 15px 0 0 0;
+}
+
+.listing-manager-ratings-rating .br-theme-css-stars .br-widget a,
+.comment-form-ratings .br-theme-css-stars .br-widget a {
+    margin: 0;
+
+    &:after {
+        color: rgba($color-black, .08);
+        content: '\e913';
+        font-family: 'Silk';
+        font-size: 18px;
+        vertical-align: top;
+    }
+
+    &.br-active:after, &.br-selected:after {
+        color: $color-primary;
+    }
+}
+
+.listing-manager-ratings, .comment-form-ratings {
+    @include susy-clearfix();
+}
+
+.listing-manager-ratings-rating, .comment-form-rating {
+    @media (min-width: $tablet) {
+        @include span(4 of 12);
+
+        &:nth-child(3n) {
+            @include last();
+        }        
+    }    
+
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+
+    label {
+        color: rgba($color-black, .5) !important;
+        float: left;
+        margin: 0 20px 0 0;
+        width: 70px;
+    }
+}

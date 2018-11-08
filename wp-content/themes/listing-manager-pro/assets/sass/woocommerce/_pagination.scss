@@ -1,0 +1,41 @@
+.woocommerce nav.woocommerce-pagination {
+    margin: 40px 0;
+    
+    .page-numbers {
+        border: 0;
+
+        li {
+            background-color: rgba(#000, .04);
+            border: 0;
+            border-radius: 2px;
+            height: 40px;
+            margin: 0 12px;
+            width: 40px;
+
+            a {
+                color: rgba($color-black, .7);
+                font-weight: 400;
+                line-height: 40px;
+                padding: 0;
+                transition: background-color .2s ease;
+
+                &:hover {
+                    background-color: rgba(#000, .03);
+                }
+            }
+
+            span.current {
+                background-color: $color-primary;
+                color: #fff;
+                font-weight: 400;
+                line-height: 40px;
+                padding: 0;
+            }
+
+            .fa {
+                color: rgba($color-black, .5);
+                font-size: 10px;
+            }
+        }
+    }
+}

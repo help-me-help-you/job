@@ -1,0 +1,18 @@
+.listing-manager-field {
+  margin: 0 0 15px 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.listing-manager-field-label {
+  color: $color-black-light;
+  margin: 0 0 3px 0;
+}
+
+.listing-manager-field-value {
+  color: $color-black;
+  font-size: 14px;
+  font-weight: 400;
+}

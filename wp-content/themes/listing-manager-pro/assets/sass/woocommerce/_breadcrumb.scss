@@ -1,0 +1,40 @@
+.woocommerce .woocommerce-breadcrumb {
+	color: rgba($color-black, .5) !important;
+	font-size: 12px;
+	margin: 8px 0 -24px 0;
+	position: relative;
+	z-index: 99;
+
+	a {
+		color: rgba($color-black, .5) !important;
+		text-decoration: none;
+	}
+
+	.separator {
+		font-size: 10px;
+		margin: 0 15px;
+		vertical-align: middle;
+	}
+
+	@media (max-width: $tablet) {
+		.single-product & {
+			display: none;
+		}
+	}
+
+	.has-main-top & {
+		background-color: rgba($color-header-background, .9);
+		margin: 0 -1200px;
+		padding: 9px 1170px;
+		top: -500px;
+		width: 100%;
+	}
+
+	.single-product & {
+		margin-bottom: -100px;		
+	}
+}
+
+.page-template-page-map.woocommerce .woocommerce-breadcrumb {
+	display: none;
+}

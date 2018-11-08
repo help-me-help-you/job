@@ -1,0 +1,197 @@
+.footer-wrapper {
+    background-color: #fff;
+    color: $color-black-light;
+    margin: 40px 0 0 0;
+}
+
+.footer {
+    @include container($width-page);
+
+    box-sizing: border-box;
+    padding: 0 15px;
+
+    .widgettitle {
+        color: $color-black;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 0 25px 0;
+    }
+
+    .contact {
+        margin: 6px 0 0 0;
+    }
+}
+
+.footer-top {
+    @include susy-clearfix();
+
+    background-color: rgba(#fff, .04);
+    border-top: 1px solid rgba(#000, .04);
+    margin: 0 -1200px;
+    padding: 60px 1200px;
+
+    .menu {
+        @include susy-clearfix();
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 48%;
+
+            &:nth-child(2n) {
+                float: right;
+            }
+
+            &:last-child {
+                a {
+                    border-bottom: 0;
+                }
+            }
+
+            a {
+                border-bottom: 1px solid rgba(#fff, .04);
+                color: $color-black-light;
+                display: block;
+                font-size: 13px;
+                padding: 10px 0;
+
+                &:before {
+                    background-color: $color-primary;
+                    color: $color-primary;
+                    content: '';
+                    display: inline-block;
+                    font-size: 8px;
+                    height: 1px;
+                    margin: 0 12px 0 0;
+                    vertical-align: 4px;
+                    width: 7px;
+                }
+
+                i {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.footer-top-first,
+.footer-top-second,
+.footer-top-third {
+    @media (max-width: $tablet) {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: $tablet) {
+        @include span(3 of 9);
+    }
+}
+
+.footer-top-third {
+    @media (min-width: $tablet) {
+        @include last();
+    }
+}
+
+.footer-bottom {
+    @include susy-clearfix();
+
+    background-color: rgba(#000, .01);
+    border-top: 1px solid rgba(#000, .04);
+    color: $color-black-light;
+    margin: 0 -1200px;
+    padding: 20px 1200px;
+
+    .menu {
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 0 0 30px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        a {
+            border: 0;
+            color: $color-black-light;
+            line-height: 30px;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        .fa {
+            background-color: rgba(#000, .04);
+            border-radius: 50%;
+            color: rgba($color-black, .4);
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            transition: all .2s ease;
+            width: 30px;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.footer-inner {
+    @include susy-clearfix();
+    font-size: 13px;
+
+    p {
+        color: $color-black-light;
+        line-height: 24px;
+        margin: 0 0 10px 0;
+    }
+
+    .widget {
+        margin: 0;
+        padding: 0;
+    }
+
+    .textwidget {
+        line-height: 30px;
+    }
+
+    #menu-social {
+        a {
+            display: block;
+            height: 30px;
+        }
+
+        li {
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.footer-left {
+    float: left;
+
+    @media (max-width: $tablet) {
+        float: none;
+    }
+}
+
+.footer-right {
+    float: right;
+
+    @media (max-width: $tablet) {
+        float: none;
+        margin: 15px 0 0 0;
+    }
+}

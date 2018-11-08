@@ -1,0 +1,246 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Listing Manager Pro\n"
+"POT-Creation-Date: 2017-05-29 10:53+0200\n"
+"PO-Revision-Date: 2016-05-18 13:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: fabfile.py\n"
+"X-Poedit-SearchPathExcluded-2: gulpfile.js\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: 404.php:4
+msgid "404"
+msgstr ""
+
+#: 404.php:5
+msgid "Page not found"
+msgstr ""
+
+#: comments.php:17 comments.php:35
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:18 comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:47
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Comment"
+msgstr ""
+
+#: comments.php:51
+msgid "Name"
+msgstr ""
+
+#: comments.php:52
+msgid "Email"
+msgstr ""
+
+#: comments.php:53
+msgid "Website"
+msgstr ""
+
+#: functions.php:75 functions.php:190
+msgid "Primary"
+msgstr ""
+
+#: functions.php:76
+msgid "Topbar Left"
+msgstr ""
+
+#: functions.php:77
+msgid "Topbar Right"
+msgstr ""
+
+#: functions.php:78
+msgid "Main Top"
+msgstr ""
+
+#: functions.php:79
+msgid "Content Top"
+msgstr ""
+
+#: functions.php:80
+msgid "Product"
+msgstr ""
+
+#: functions.php:81
+msgid "Page Map"
+msgstr ""
+
+#: functions.php:82
+msgid "Header Minimal"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer First"
+msgstr ""
+
+#: functions.php:84
+msgid "Footer Second"
+msgstr ""
+
+#: functions.php:85
+msgid "Footer Third"
+msgstr ""
+
+#: functions.php:86
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:87
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:191
+msgid "Authenticated"
+msgstr ""
+
+#: functions.php:229
+msgid "Read More"
+msgstr ""
+
+#: functions.php:496
+msgid "Previous"
+msgstr ""
+
+#: functions.php:497
+msgid "Next"
+msgstr ""
+
+#: functions.php:511
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:517
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: functions.php:523
+msgid "One Click"
+msgstr ""
+
+#: functions.php:546
+msgid "Type the phrase"
+msgstr ""
+
+#: functions.php:548
+msgid "Max. value"
+msgstr ""
+
+#: functions.php:550
+msgid "Min. value"
+msgstr ""
+
+#: functions.php:615
+msgid "Listing Manager Pro General"
+msgstr ""
+
+#: functions.php:625
+msgid "Style"
+msgstr ""
+
+#: functions.php:630
+msgid "Pink (Default)"
+msgstr ""
+
+#: functions.php:631
+msgid "Blue"
+msgstr ""
+
+#: functions.php:632
+msgid "Turquoise"
+msgstr ""
+
+#: functions.php:633
+msgid "Purple"
+msgstr ""
+
+#: functions.php:634
+msgid "Green"
+msgstr ""
+
+#: header-minimal.php:79 header.php:95
+msgid "Submit Listing"
+msgstr ""
+
+#: templates/content-comment.php:17
+msgid "Reply"
+msgstr ""
+
+#: templates/content-comment.php:30
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/content-page-title.php:7
+msgid "Search Results"
+msgstr ""
+
+#: templates/content-page-title.php:14
+msgid "Listings"
+msgstr ""
+
+#: templates/content-page-title.php:25
+msgid "Search for"
+msgstr ""
+
+#: templates/content-page-title.php:29
+msgid "Recent news from"
+msgstr ""
+
+#: templates/content-page-title.php:36
+msgid "Verified listing"
+msgstr ""
+
+#: templates/content-post.php:32
+msgid "Post Pages:"
+msgstr ""
+
+#: templates/content-post.php:40
+msgid "Tags"
+msgstr ""
+
+#: templates/content-product-loop-options.php:15
+msgid "Remove from compare"
+msgstr ""
+
+#: templates/content-product-loop-options.php:17
+msgid "Add to compare"
+msgstr ""
+
+#: templates/content-product-loop-options.php:27
+msgid "Add to favorites"
+msgstr ""
+
+#: templates/content-product-loop-options.php:36
+msgid "Claim listing"
+msgstr ""
+
+#: templates/content-product-loop-options.php:45
+msgid "Report listing"
+msgstr ""

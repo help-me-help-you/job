@@ -1,0 +1,257 @@
+.listing-manager-settings-error {
+    position: relative;
+}
+
+/************************************************************
+ * Listing Manager icon
+ ************************************************************/
+.toplevel_page_listing-manager .wp-menu-image:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    content: '\e900';
+    font-family: 'Listing-Manager';
+    font-size: 17px;
+    line-height: 20px;
+}
+
+/************************************************************
+ * WooCommerce tabs icons
+ ************************************************************/
+.location_options a:before {
+    content: '\f230' !important;
+}
+
+.contact_options a:before {
+    content: '\f336' !important;
+}
+
+.opening_hours_options a:before {
+    content: '\e00e' !important;
+}
+
+.branding_options a:before {
+    content: '\f309' !important;
+}
+
+.event_options a:before {
+    content: '\f488' !important;
+}
+
+.social_options a:before {
+    content: '\f325' !important;
+}
+
+.opening_hours_options a:before {
+    content: '\f469' !important;
+}
+
+.general_options.general_tab {
+    display: block !important;
+}
+
+/************************************************************
+ * Filter Widget
+ ************************************************************/
+.listing-manager-filter-fields li {
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    cursor: move;
+}
+
+.listing-manager-filter-fields li.invisible {
+    opacity: .4;
+}
+
+.listing-manager-filter-fields li p {
+    font-size: 12px;
+    margin: 7px 15px;
+}
+
+.listing-manager-filter-fields li i {
+    font-size: 10px;
+    margin: 0 5px 0 0;
+}
+
+.listing-manager-filter-fields li .visibility {
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+
+.listing-manager-filter-fields li .visibility i {
+    cursor: pointer;
+    font-size: 15px;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    top: 2px;
+}
+
+.listing-manager-filter-fields li .visibility .field-visibility {
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.listing-manager-filter-fields li .visibility .field-visibility:before {
+    display: none;
+}
+
+.listing-manager_page_listings .tablenav,
+.listing-manager_page_packages .tablenav {
+    display: none;
+}
+
+.listing-manager_page_listings .row-action .inline,
+.listing-manager_page_packages .row-action .inline {
+    display: none;
+}
+
+/************************************************************
+ * WP Listings Tables
+ ************************************************************/
+table.wp-list-table .column-thumb {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+table.wp-list-table td.column-thumb img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle;
+}
+
+/************************************************************
+ * Statistics
+ ************************************************************/
+.statistics-wrapper {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+    margin: 15px 0 0 0;
+    padding: 50px;
+}
+
+.statistics-items {
+    margin: 0 0 50px 0;
+    overflow: hidden;
+}
+
+.statistics-item {
+    border-right: 1px solid rgba(0, 0, 0, .04);
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 45px;
+    text-align: center;
+    width: 20%;
+}
+
+.statistics-item:last-child {
+     border-right: 0;
+}
+
+.statistics-item strong,
+.statistics-item span {
+    display: block;
+    line-height: 1;
+}
+
+.statistics-item strong {
+    color: rgba(0 , 0, 0, .5);
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.statistics-item span {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.statistics-tables {
+    overflow: hidden;
+    margin: 0 -15px;
+}
+
+.statistics-table {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 15px;
+    width: 33%;
+}
+
+.statistics-table table {
+    width: 100%;
+}
+
+.statistics-table th {
+    background-color: rgba(0, 0, 0, .04);
+    font-weight: 400;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.statistics-table td {
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+    padding: 12px 16px;
+    white-space: nowrap;
+}
+
+.statistics-table td.min-width {
+    width: 1px;
+}
+
+.statistics-table td a {
+    display: block;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/************************************************************
+ * Opening hours
+ ************************************************************/
+#opening_hours {
+    padding: 12px;
+}
+
+.woocommerce_options_panel table.opening-hours {
+    width: 100%;
+}
+
+.woocommerce_options_panel table.opening-hours p.form-field {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.woocommerce_options_panel table.opening-hours input {
+    width: 100%;
+}
+
+.woocommerce_options_panel table.opening-hours thead,
+.woocommerce_options_panel table.opening-hours th,
+.woocommerce_options_panel table.opening-hours td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+/************************************************************
+ * Fields
+ ************************************************************/
+.listing-manager-fields {
+    margin: 0 0 30px 0;
+}
+
+.listing-manager-fields .title {
+    white-space: nowrap;
+    width: 120px;
+}
+
+.listing-manager-fields ul {
+    margin: 0;
+    padding: 0;
+}

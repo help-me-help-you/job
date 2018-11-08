@@ -1,0 +1,48 @@
+.product .button.listing-manager-favorite-add {
+    background-color: transparent;
+    border-radius: 0;
+    color: $color-primary;
+    font-size: 15px;
+    height: 54px;
+    margin: -48px 0 0 0 !important;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    transition: background-color .2s ease;
+    width: 54px;
+
+    &:after {
+        -webkit-font-smoothing: antialiased;
+        color: $color-gray;
+        content: '\f08a';
+        display: block;
+        font-family: 'FontAwesome';
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        top: 50%;
+    }
+
+    &.marked {
+        color: $color-primary;
+
+        &:after {
+            content: '\f004';
+            color: $color-primary;
+        }
+
+        &:hover {
+            background-color: transparent !important;
+        }
+    }
+
+    span {
+        display: block;
+        margin: 0;
+        text-indent: -9999px;
+    }
+
+    &:hover {
+        background-color: transparent !important;
+    }
+}

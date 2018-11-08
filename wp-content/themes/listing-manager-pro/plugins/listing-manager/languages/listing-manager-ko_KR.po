@@ -1,0 +1,2952 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"POT-Creation-Date: 2017-05-22 10:40+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../../plugins/listing-manager/languages\n"
+"X-Poedit-SearchPath-0: listing-manager.pot\n"
+
+#: src/ListingManager/Admin/MenuAdmin.php:20
+#: src/ListingManager/Logic/MembershipLogic.php:79
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:14
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:14
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:61
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:14
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:14
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:14
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:14
+msgid "Listing Manager"
+msgstr "Listing Manager"
+
+#: src/ListingManager/Admin/MenuAdmin.php:21
+#: src/ListingManager/Logic/FilterLogic.php:90
+#: src/ListingManager/Tab/LocationTab.php:75
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:14
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:24
+msgid "Locations"
+msgstr "지역"
+
+#: src/ListingManager/Admin/MenuAdmin.php:22
+#: src/ListingManager/Logic/SubmissionLogic.php:88
+#: src/ListingManager/Tab/AmenityTab.php:37
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:14
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:24
+#: templates/listing-manager/tabs/amenities.php:4
+msgid "Amenities"
+msgstr "편의사양"
+
+#: src/ListingManager/Admin/MenuAdmin.php:23
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:14
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:24
+msgid "Contracts"
+msgstr "계약 방식"
+
+#: src/ListingManager/Customization/EventCustomization.php:14
+msgid "Listing Manager Events"
+msgstr "Listing Manager 이벤트"
+
+#: src/ListingManager/Customization/EventCustomization.php:26
+msgid "Unpublish passed events"
+msgstr "전달 된 이벤트 게시 취소"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:14
+msgid "Listing Manager General"
+msgstr "Listing Manager 일반"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:27
+msgid "Purchase code"
+msgstr ""
+
+#: src/ListingManager/Customization/GeneralCustomization.php:41
+#: src/ListingManager/Customization/GoogleMapCustomization.php:48
+#: templates/listing-manager/widgets/google-map-form.php:67
+msgid "Style"
+msgstr "스타일"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:45
+msgid "None"
+msgstr "없음"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:46
+#: templates/listing-manager/widgets/google-map-form.php:73
+msgid "Default"
+msgstr "기본값"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:59
+msgid "Automatically login user after registration"
+msgstr "등록 후 자동 로그인"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:73
+msgid "Inquire for authenticated"
+msgstr "인증을 요청하십시오."
+
+#: src/ListingManager/Customization/GeneralCustomization.php:87
+msgid "Contact information for authenticated"
+msgstr "인증 된 연락처 정보"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:101
+msgid "Autocomplete"
+msgstr "자동 완성"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:115
+msgid "Allow order featured"
+msgstr "추천 주문 허용"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:128
+msgid "Long Distance Unit"
+msgstr "장거리 유닛"
+
+#: src/ListingManager/Customization/GeneralCustomization.php:131
+msgid "Example: \"mi\" or \"km\""
+msgstr "예 : 'mi'또는 'km'"
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:15
+msgid "Listing Manager Google Maps"
+msgstr "지도 관리자 Google지도"
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:28
+msgid "Google Maps API Key"
+msgstr "Google지도 API 키"
+
+#: src/ListingManager/Customization/GoogleMapCustomization.php:31
+msgid ""
+"Get an API key from <a href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key\">here</a>"
+msgstr ""
+"<a href=\"https://developers.google.com/maps/documentation/javascript/get-"
+"api-key\"> 여기 </a>에서 API 키 가져 오기"
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:17
+msgid "Listing Manager Micropayments"
+msgstr "Listing Manager Micropayments"
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:19
+msgid "Create new WooCommerce products with product type Micropayment."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:31
+msgid "Feature Listing"
+msgstr "기능 리스팅"
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:35
+msgid "Assign micropayment product type for featuring a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:47
+msgid "Publish Listing"
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:51
+msgid "Assign micropayment product type for publishing a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:63
+msgid "Claim Listing"
+msgstr "소유권 클레임 리스팅"
+
+#: src/ListingManager/Customization/MicropaymentCustomization.php:67
+msgid "Assign micropayment product type for claiming a listing."
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:14
+msgid "Listing Manager Notifications"
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:26
+msgid "Expiring package"
+msgstr ""
+
+#: src/ListingManager/Customization/NotificationCustomization.php:27
+msgid ""
+"How many hours before the package expiration the notification should be send."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:17
+msgid "Listing Manager Pages"
+msgstr "Listing Manager 페이지"
+
+#: src/ListingManager/Customization/PageCustomization.php:30
+#: src/ListingManager/Product/ListingProduct.php:50
+#: src/ListingManager/Type/ListingType.php:15
+#: src/ListingManager/Type/ListingType.php:21
+#: src/ListingManager/Type/ListingType.php:27
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:13
+#: templates/listing-manager/agent/overview.php:35
+#: templates/listing-manager/statistics.php:25
+msgid "Listings"
+msgstr "리스팅"
+
+#: src/ListingManager/Customization/PageCustomization.php:33
+msgid ""
+"Separate page for listings. WooCommerce regular products and listings will "
+"be displayed at different pages. Please do not forget to visit \"Settings - "
+"Permalinks\" after changing this value."
+msgstr ""
+"리스팅 용으로 별도의 페이지. WooCommerce 일반 제품 및 리스팅은 다른 페이지에 "
+"표시됩니다. 이 값을 변경 한 후 \"설정 - 퍼머 링크\"를 반드시 방문하십시오."
+
+#: src/ListingManager/Customization/PageCustomization.php:45
+msgid "Listings Page Title"
+msgstr "리스팅 페이지 제목"
+
+#: src/ListingManager/Customization/PageCustomization.php:59
+msgid "Dashboard"
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:62
+msgid "Page containing [listing_manager_dashboard] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:75
+msgid "Add Listing"
+msgstr "리스팅 추가"
+
+#: src/ListingManager/Customization/PageCustomization.php:79
+msgid "Page containing [listing_manager_add] shortcode."
+msgstr "[listing_manager_add] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:91
+msgid "List Listings"
+msgstr "리스트 리스팅"
+
+#: src/ListingManager/Customization/PageCustomization.php:95
+msgid "Page containing [listing_manager_list] shortcode."
+msgstr "[listing_manager_list] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:107
+msgid "Remove Listing"
+msgstr "리스팅 삭제"
+
+#: src/ListingManager/Customization/PageCustomization.php:111
+msgid "Page containing [listing_manager_remove] shortcode."
+msgstr "[listing_manager_remove] 단축 코드가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:123
+#: src/ListingManager/Type/ListingType.php:19
+msgid "Edit Listing"
+msgstr "리스팅 편집"
+
+#: src/ListingManager/Customization/PageCustomization.php:127
+msgid "Page containing [listing_manager_edit] shortcode."
+msgstr "[listing_manager_edit] 단축 코드가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:139
+msgid "Terms &amp; Conditions"
+msgstr "이용 약관 & amp; 정황"
+
+#: src/ListingManager/Customization/PageCustomization.php:154
+#: src/ListingManager/Type/ClaimType.php:15
+#: templates/listing-manager/claim.php:11
+msgid "Claim"
+msgstr "클레임"
+
+#: src/ListingManager/Customization/PageCustomization.php:158
+msgid "Page containing [listing_manager_claim] shortcode."
+msgstr "[listing_manager_claim] 단축 코드가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:170
+#: src/ListingManager/Type/ReportType.php:15
+#: templates/listing-manager/report.php:4
+msgid "Report"
+msgstr "보고서"
+
+#: src/ListingManager/Customization/PageCustomization.php:174
+msgid "Page containing [listing_manager_report] shortcode."
+msgstr "[listing_manager_report] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:186
+msgid "Login"
+msgstr "로그인"
+
+#: src/ListingManager/Customization/PageCustomization.php:190
+msgid "Page containing [listing_manager_login] shortcode."
+msgstr "[listing_manager_login] 단축 코드가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:202
+msgid "After login"
+msgstr "로그인 후"
+
+#: src/ListingManager/Customization/PageCustomization.php:206
+msgid "User will be redirected at this page after successful login."
+msgstr "로그인 성공 후이 페이지에서 사용자가 리디렉션됩니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:218
+msgid "After listing creation"
+msgstr "리스팅 생성 후"
+
+#: src/ListingManager/Customization/PageCustomization.php:222
+msgid "User will be redirected at this page after successful listing creation."
+msgstr "리스팅 작성을 완료하면이 페이지에서 사용자가 리디렉션됩니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:235
+msgid "Register"
+msgstr "레지스터"
+
+#: src/ListingManager/Customization/PageCustomization.php:239
+msgid "Page containing [listing_manager_register] shortcode."
+msgstr "[listing_manager_register] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:251
+msgid "After register"
+msgstr "등록 후"
+
+#: src/ListingManager/Customization/PageCustomization.php:255
+msgid "User will be redirected at this page after successful registration."
+msgstr "등록이 성공적으로 완료되면이 페이지에서 사용자가 리디렉션됩니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:267
+msgid "Reset password"
+msgstr "암호를 재설정"
+
+#: src/ListingManager/Customization/PageCustomization.php:271
+msgid "Page containing [listing_manager_reset_password] shortcode."
+msgstr "[listing_manager_reset_password] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:283
+msgid "Change password"
+msgstr "비밀번호 변경"
+
+#: src/ListingManager/Customization/PageCustomization.php:287
+msgid "Page containing [listing_manager_change_password] shortcode."
+msgstr "[listing_manager_change_password] shortcode가 포함 된 페이지입니다."
+
+#: src/ListingManager/Customization/PageCustomization.php:299
+msgid "Favorites"
+msgstr ""
+
+#: src/ListingManager/Customization/PageCustomization.php:303
+msgid "Page containing [listing_manager_favorites] shortcode."
+msgstr ""
+
+#: src/ListingManager/Customization/StatisticCustomization.php:14
+msgid "Listing Manager Statistics"
+msgstr "리스팅 매니저 통계"
+
+#: src/ListingManager/Customization/StatisticCustomization.php:27
+msgid "Enable Search Query Logging"
+msgstr "검색 쿼리 로깅 사용"
+
+#: src/ListingManager/Customization/StatisticCustomization.php:41
+msgid "Enable Listing Views Logging"
+msgstr "로깅 리스팅보기 사용 설정"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:14
+msgid "Listing Manager Submission"
+msgstr "Listing Manager 제출"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:27
+#: src/ListingManager/Type/FieldType.php:102
+msgid "Type"
+msgstr "유형"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:31
+msgid "Free"
+msgstr "무료"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:32
+#: src/ListingManager/Product/PackageProduct.php:35
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:13
+#: templates/listing-manager/statistics.php:30
+msgid "Packages"
+msgstr "패키지"
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:33
+msgid "Memberships"
+msgstr ""
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:35
+msgid ""
+"Select if you want to use free for all front end submission, package system "
+"or memberships (WooCommerce Memberships plugin required)."
+msgstr ""
+
+#: src/ListingManager/Customization/SubmissionCustomization.php:47
+msgid "Review before"
+msgstr "우선 리뷰 작성"
+
+#: src/ListingManager/Logic/ClaimLogic.php:24
+msgid "Listing is already verified."
+msgstr "리스팅이 이미 확인되었습니다."
+
+#: src/ListingManager/Logic/ClaimLogic.php:32
+#: src/ListingManager/Logic/ClaimLogic.php:91
+msgid "You already claimed this listing."
+msgstr "이미 이 업체 정보를 클레임 걸었습니다."
+
+#: src/ListingManager/Logic/ClaimLogic.php:43
+#: src/ListingManager/Logic/FavoriteLogic.php:45
+#: src/ListingManager/Logic/FavoriteLogic.php:109
+msgid "Listing ID is missing."
+msgstr "리스팅 ID가 없습니다."
+
+#: src/ListingManager/Logic/ClaimLogic.php:133
+msgid "Message has been successfully sent. Please, wait for admin review."
+msgstr "메시지가 성공적으로 전송되었습니다. 관리자 검토를 기다리십시오."
+
+#: src/ListingManager/Logic/ClaimLogic.php:135
+#: src/ListingManager/Logic/InquireLogic.php:73
+#: src/ListingManager/Logic/ReportLogic.php:69
+msgid "Unable to send a message."
+msgstr "메시지를 보낼 수 없습니다."
+
+#: src/ListingManager/Logic/ClaimLogic.php:159
+#: src/ListingManager/Product/ListingProduct.php:111
+msgid "Verified"
+msgstr "확인 됨"
+
+#: src/ListingManager/Logic/CronLogic.php:93
+msgid "Your package is going to expire"
+msgstr ""
+
+#: src/ListingManager/Logic/FavoriteLogic.php:19
+#: src/ListingManager/Logic/FavoriteLogic.php:64
+msgid "You need to log in at first."
+msgstr "먼저 로그인해야합니다."
+
+#: src/ListingManager/Logic/FavoriteLogic.php:39
+msgid "No listings found in favorites."
+msgstr "즐겨 찾기에 리스팅이 없습니다."
+
+#: src/ListingManager/Logic/FavoriteLogic.php:80
+msgid "This is not listing ID."
+msgstr "이것은 리스팅 ID가 아닙니다."
+
+#: src/ListingManager/Logic/FavoriteLogic.php:102
+msgid "Listing is already in list"
+msgstr "리스팅이 이미 리스팅에 있습니다."
+
+#: src/ListingManager/Logic/FilterLogic.php:32
+msgid "Sort by event date"
+msgstr "이벤트 날짜순 정렬"
+
+#: src/ListingManager/Logic/FilterLogic.php:84
+#: src/ListingManager/Logic/SubmissionLogic.php:37
+#: src/ListingManager/Type/ClaimType.php:89
+#: src/ListingManager/Type/FormType.php:59
+#: src/ListingManager/Type/ReportType.php:89
+#: src/ListingManager/Type/ReviewRatingType.php:59
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:35
+#: templates/listing-manager/favorites.php:6
+#: templates/listing-manager/filters/title.php:4
+#: templates/listing-manager/filters/title.php:8
+#: templates/listing-manager/listing-list.php:18
+#: templates/listing-manager/widgets/agents-form.php:15
+#: templates/listing-manager/widgets/categories-form.php:14
+#: templates/listing-manager/widgets/companies-form.php:15
+#: templates/listing-manager/widgets/cta-form.php:17
+#: templates/listing-manager/widgets/filter-form.php:16
+#: templates/listing-manager/widgets/google-map-form.php:28
+#: templates/listing-manager/widgets/google-map-single-form.php:13
+#: templates/listing-manager/widgets/inquire-form.php:13
+#: templates/listing-manager/widgets/listing-info-form.php:13
+#: templates/listing-manager/widgets/listings-form.php:16
+#: templates/listing-manager/widgets/purchase-form.php:13
+#: templates/listing-manager/widgets/stream-form.php:15
+#: templates/listing-manager/widgets/tiles-form.php:15
+msgid "Title"
+msgstr "회사명"
+
+#: src/ListingManager/Logic/FilterLogic.php:85
+#: src/ListingManager/Logic/SubmissionLogic.php:43
+#: templates/listing-manager/filters/description.php:4
+#: templates/listing-manager/filters/description.php:8
+#: templates/listing-manager/widgets/agents-form.php:28
+#: templates/listing-manager/widgets/categories-form.php:27
+#: templates/listing-manager/widgets/companies-form.php:28
+#: templates/listing-manager/widgets/cta-form.php:43
+#: templates/listing-manager/widgets/google-map-single-form.php:26
+#: templates/listing-manager/widgets/inquire-form.php:26
+#: templates/listing-manager/widgets/listing-info-form.php:26
+#: templates/listing-manager/widgets/listings-form.php:29
+#: templates/listing-manager/widgets/purchase-form.php:26
+#: templates/listing-manager/widgets/stream-form.php:28
+#: templates/listing-manager/widgets/tiles-form.php:28
+msgid "Description"
+msgstr "상세설명"
+
+#: src/ListingManager/Logic/FilterLogic.php:86
+#: templates/listing-manager/filters/keyword.php:4
+#: templates/listing-manager/filters/keyword.php:19
+msgid "Keyword"
+msgstr "키워드"
+
+#: src/ListingManager/Logic/FilterLogic.php:87
+#: templates/listing-manager/filters/distance.php:4
+#: templates/listing-manager/filters/distance.php:10
+msgid "Distance"
+msgstr "거리"
+
+#: src/ListingManager/Logic/FilterLogic.php:88
+msgid "Price"
+msgstr "가격"
+
+#: src/ListingManager/Logic/FilterLogic.php:89
+#: templates/listing-manager/widgets/google-map-form.php:193
+msgid "Geolocation"
+msgstr "지오로케이션"
+
+#: src/ListingManager/Logic/FilterLogic.php:91
+#: src/ListingManager/Logic/SubmissionLogic.php:95
+msgid "Categories"
+msgstr "브랜드"
+
+#: src/ListingManager/Logic/FilterLogic.php:92
+msgid "Event Date"
+msgstr "이벤트 날짜"
+
+#: src/ListingManager/Logic/FilterLogic.php:95
+#: src/ListingManager/Tab/PropertyTab.php:58
+#: templates/listing-manager/filters/reference.php:4
+#: templates/listing-manager/filters/reference.php:8
+#: templates/listing-manager/panels/property.php:4
+#: templates/listing-manager/tabs/property.php:6
+msgid "Reference"
+msgstr "등록번호"
+
+#: src/ListingManager/Logic/FilterLogic.php:96
+msgid "Year Built"
+msgstr "건축 년도"
+
+#: src/ListingManager/Logic/FilterLogic.php:97
+#: src/ListingManager/Tab/JobTab.php:64
+#: src/ListingManager/Tab/PropertyTab.php:71
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:15
+#: templates/listing-manager/filters/contract.php:4
+#: templates/listing-manager/filters/contract.php:19
+#: templates/listing-manager/panels/job.php:11
+#: templates/listing-manager/tabs/job.php:12
+#: templates/listing-manager/tabs/property.php:20
+msgid "Contract"
+msgstr "이용계약 방식"
+
+#: src/ListingManager/Logic/FilterLogic.php:98
+#: src/ListingManager/Tab/PropertyTab.php:77
+#: templates/listing-manager/filters/rooms.php:4
+#: templates/listing-manager/filters/rooms.php:8
+#: templates/listing-manager/panels/property.php:18
+#: templates/listing-manager/tabs/property.php:26
+msgid "Rooms"
+msgstr "객실"
+
+#: src/ListingManager/Logic/FilterLogic.php:99
+#: src/ListingManager/Tab/PropertyTab.php:83
+#: templates/listing-manager/filters/bathrooms.php:4
+#: templates/listing-manager/filters/bathrooms.php:8
+#: templates/listing-manager/panels/property.php:25
+#: templates/listing-manager/tabs/property.php:32
+msgid "Bathrooms"
+msgstr "욕실"
+
+#: src/ListingManager/Logic/FilterLogic.php:100
+#: src/ListingManager/Tab/PropertyTab.php:89
+#: templates/listing-manager/filters/bedrooms.php:4
+#: templates/listing-manager/filters/bedrooms.php:8
+#: templates/listing-manager/panels/property.php:32
+#: templates/listing-manager/tabs/property.php:38
+msgid "Bedrooms"
+msgstr "침실"
+
+#: src/ListingManager/Logic/FilterLogic.php:101
+#: src/ListingManager/Tab/PropertyTab.php:95
+#: templates/listing-manager/filters/garages.php:4
+#: templates/listing-manager/filters/garages.php:8
+#: templates/listing-manager/panels/property.php:39
+#: templates/listing-manager/tabs/property.php:44
+msgid "Garages"
+msgstr "주차"
+
+#: src/ListingManager/Logic/FilterLogic.php:102
+#: src/ListingManager/Tab/PropertyTab.php:101
+#: templates/listing-manager/filters/parking-slots.php:4
+#: templates/listing-manager/filters/parking-slots.php:8
+#: templates/listing-manager/panels/property.php:46
+#: templates/listing-manager/tabs/property.php:50
+msgid "Parking slots"
+msgstr "주차 댓수"
+
+#: src/ListingManager/Logic/FilterLogic.php:103
+#: src/ListingManager/Tab/PropertyTab.php:107
+#: templates/listing-manager/filters/home-area.php:4
+#: templates/listing-manager/filters/home-area.php:8
+#: templates/listing-manager/panels/property.php:53
+#: templates/listing-manager/tabs/property.php:56
+msgid "Home area"
+msgstr "대상 지역"
+
+#: src/ListingManager/Logic/InquireLogic.php:29
+msgid "Message from enquire form"
+msgstr "문의 양식의 메시지"
+
+#: src/ListingManager/Logic/InquireLogic.php:71
+msgid "Message has been successfully sent."
+msgstr "메시지가 성공적으로 전송되었습니다."
+
+#: src/ListingManager/Logic/MembershipLogic.php:57
+msgid "Please select membership plan."
+msgstr ""
+
+#: src/ListingManager/Logic/MembershipLogic.php:67
+msgid "Your membership max. number of listings plan is reached."
+msgstr ""
+
+#: src/ListingManager/Logic/MenuLogic.php:15
+msgid "Archive Pages"
+msgstr ""
+
+#: src/ListingManager/Logic/MenuLogic.php:16
+msgid "Archive Page"
+msgstr ""
+
+#: src/ListingManager/Logic/ReportLogic.php:67
+msgid "Listing was reported. Please, wait for admin review."
+msgstr "리스팅이보고되었습니다. 관리자 검토를 기다리십시오."
+
+#: src/ListingManager/Logic/ReviewLogic.php:49
+msgid "Submit Review"
+msgstr ""
+
+#: src/ListingManager/Logic/StatisticLogic.php:90
+#: templates/listing-manager/statistics.php:2
+msgid "Statistics"
+msgstr "통계"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:15
+msgid "General"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:16
+#: src/ListingManager/Tab/PropertyTab.php:14
+#: src/ListingManager/Tab/PropertyTab.php:52
+msgid "Property"
+msgstr "숙박시설"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:17
+#: src/ListingManager/Tab/EventTab.php:14
+#: src/ListingManager/Tab/EventTab.php:51
+msgid "Event"
+msgstr "행사"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:18
+#: src/ListingManager/Tab/CarTab.php:14 src/ListingManager/Tab/CarTab.php:52
+msgid "Car"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:19
+#: src/ListingManager/Tab/JobTab.php:14 src/ListingManager/Tab/JobTab.php:52
+msgid "Job"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:32
+msgid "General Information"
+msgstr "일반 정보"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:50
+msgid "Featured Image"
+msgstr "주요 이미지"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:60
+#: src/ListingManager/Logic/SubmissionLogic.php:65
+msgid "Gallery"
+msgstr "갤러리"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:75
+msgid "Taxonomies"
+msgstr "검색/정렬 기준"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:81
+msgid "Tags"
+msgstr "태그"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:106
+msgid "Price Options"
+msgstr "가격 옵션"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:112
+msgid "Regular Price"
+msgstr "일반가"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:118
+msgid "Sale Price"
+msgstr "할인가"
+
+#: src/ListingManager/Logic/SubmissionLogic.php:145
+msgid "Listing has been successfully removed."
+msgstr "업체 정보가 성공적으로 삭제되었습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:147
+msgid "An error occurred when removing listing."
+msgstr "리스팅을 삭제하는 중에 오류가 발생했습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:160
+msgid "You are not allowed to do this."
+msgstr "당신은 이것을 할 수 없습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:165
+msgid "You are not owner of this listing."
+msgstr "이 업체 정보의 소유자가 아닙니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:172
+msgid "Attachment does not exist."
+msgstr "첨부 파일이 없습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:177
+msgid "You are not an owner of this attachment file."
+msgstr "이 첨부 파일의 소유자가 아닙니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:182
+msgid "Attachment has been successfully removed."
+msgstr "첨부 파일이 성공적으로 제거되었습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:229
+msgid "There was an error when removing an attachment."
+msgstr "첨부 파일을 제거 할 때 오류가 발생했습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:280
+msgid "Please select the package."
+msgstr "패키지를 선택하십시오."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:320
+msgid "No enough available listings for the selected package."
+msgstr "선택한 패키지에 사용할 수있는 리스팅이 충분하지 않습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:337
+#: src/ListingManager/Logic/UserLogic.php:236
+#: src/ListingManager/Logic/UserLogic.php:340
+msgid "You have been successfully registered."
+msgstr "귀하는 성공적으로 등록되었습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:341
+msgid "Empty Listing Title"
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:368
+#, php-format
+msgid ""
+"Package has been added into <a href=\"%s\">cart</a>. Please purchase it "
+"before your listing will be published."
+msgstr ""
+
+#: src/ListingManager/Logic/SubmissionLogic.php:432
+msgid "Listing has been successfully updated."
+msgstr "리스팅이 성공적으로 업데이트되었습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:435
+msgid "Listing has been successfully added."
+msgstr "리스팅이 성공적으로 추가되었습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:444
+msgid "There was an error when saving the listing."
+msgstr "업체 정보를 저장할 때 오류가 발생했습니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:520
+msgid "Field is required."
+msgstr "입력란은 필수 항목입니다."
+
+#: src/ListingManager/Logic/SubmissionLogic.php:615
+msgid "No fields defined."
+msgstr "정의 된 필드가 없습니다."
+
+#: src/ListingManager/Logic/UserLogic.php:28
+msgid "Create New Account <a href=\""
+msgstr "새 계정 만들기 <a href = \""
+
+#: src/ListingManager/Logic/UserLogic.php:30
+msgid "Create New Account"
+msgstr "새 계정을 만들"
+
+#: src/ListingManager/Logic/UserLogic.php:46
+#: templates/listing-manager/accounts/login.php:10
+#: templates/listing-manager/accounts/register.php:11
+msgid "Username"
+msgstr "사용자 ID"
+
+#: src/ListingManager/Logic/UserLogic.php:52
+#: src/ListingManager/Tab/ContactTab.php:57
+#: src/ListingManager/Type/AgentType.php:69
+#: src/ListingManager/Type/ClaimType.php:64
+#: src/ListingManager/Type/CompanyType.php:55
+#: src/ListingManager/Type/FieldType.php:108
+#: src/ListingManager/Type/ReportType.php:64
+#: templates/listing-manager/accounts/register.php:16
+#: templates/listing-manager/agent/overview.php:5
+#: templates/listing-manager/agents.php:26
+#: templates/listing-manager/claim-form.php:23
+#: templates/listing-manager/inquire-form.php:30
+#: templates/listing-manager/mails/claim.php:12
+#: templates/listing-manager/mails/inquire.php:12
+#: templates/listing-manager/mails/report.php:17
+#: templates/listing-manager/panels/contact.php:4
+#: templates/listing-manager/report-form.php:98
+#: templates/listing-manager/tabs/contact.php:9
+msgid "E-mail"
+msgstr "이메일"
+
+#: src/ListingManager/Logic/UserLogic.php:58
+#: templates/listing-manager/accounts/login.php:15
+#: templates/listing-manager/accounts/register.php:21
+msgid "Password"
+msgstr "암호"
+
+#: src/ListingManager/Logic/UserLogic.php:64
+#: templates/listing-manager/accounts/password.php:19
+msgid "Retype password"
+msgstr "암호 다시 입력"
+
+#: src/ListingManager/Logic/UserLogic.php:73
+#, php-format
+msgid "I accept <a href=\"%s\" target=\"_blank\">terms and conditions</a>"
+msgstr "<a href=\"%s\" target=\"_blank\"> 이용 약관 </a>에 동의합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:102
+msgid "All fields are required."
+msgstr "모든 분야가 요구됩니다."
+
+#: src/ListingManager/Logic/UserLogic.php:107
+msgid "New and retyped password are not same."
+msgstr "새 암호와 다시 입력 한 암호가 같지 않습니다."
+
+#: src/ListingManager/Logic/UserLogic.php:114
+msgid "Your old password is not correct."
+msgstr "이전 암호가 올바르지 않습니다."
+
+#: src/ListingManager/Logic/UserLogic.php:119
+msgid "Your password has been successfully changed."
+msgstr "비밀번호가 변경되었습니다."
+
+#: src/ListingManager/Logic/UserLogic.php:136
+msgid "Login and password are required."
+msgstr "로그인과 비밀번호가 필요합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:193
+msgid "Username and e-mail are required."
+msgstr "사용자 ID와 이메일이 필요합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:199
+msgid "Username already exists."
+msgstr "사용자 ID가 이미 존재합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:205
+msgid "Email already exists."
+msgstr "이메일이 이미 존재합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:210
+#: src/ListingManager/Logic/UserLogic.php:222
+#: src/ListingManager/Logic/UserLogic.php:297
+msgid "Passwords must be same."
+msgstr "암호는 동일해야합니다."
+
+#: src/ListingManager/Logic/UserLogic.php:217
+#: src/ListingManager/Logic/UserLogic.php:306
+msgid "You must agree terms &amp; conditions."
+msgstr "이용 약관에 동의해야합니다. & amp; 정황."
+
+#: src/ListingManager/Logic/UserLogic.php:282
+msgid "Username already exists. Please choose another one."
+msgstr "사용자 ID가 이미 존재합니다. 다른 것을 선택하십시오."
+
+#: src/ListingManager/Logic/UserLogic.php:290
+msgid "E-mail address already exists. Please choose another one."
+msgstr "이메일 주소가 이미 있습니다. 다른 것을 선택하십시오."
+
+#: src/ListingManager/Product/ListingProduct.php:21
+#: src/ListingManager/Type/ClaimType.php:90
+#: src/ListingManager/Type/ListingType.php:16
+#: src/ListingManager/Type/ReportType.php:90
+msgid "Listing"
+msgstr "리스팅"
+
+#: src/ListingManager/Product/ListingProduct.php:97
+msgid "Purchasable"
+msgstr "구매할 수 있는"
+
+#: src/ListingManager/Product/ListingProduct.php:124
+#: src/ListingManager/Utilities.php:43
+msgid "Not set"
+msgstr "설정되지 않음"
+
+#: src/ListingManager/Product/ListingProduct.php:140
+#: src/ListingManager/Type/AgentType.php:17
+msgid "Agent"
+msgstr "에이전트"
+
+#: src/ListingManager/Product/MicropaymentProduct.php:29
+msgid "Micropayment"
+msgstr "소액 결제"
+
+#: src/ListingManager/Product/MicropaymentProduct.php:39
+msgid "Micropayments"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:71
+msgid "Featuring listing"
+msgstr "리스팅 기능"
+
+#: src/ListingManager/Product/MicropaymentProduct.php:74
+msgid "Claim listing"
+msgstr "소유권 클레임 리스팅"
+
+#: src/ListingManager/Product/MicropaymentProduct.php:77
+msgid "Publish listing"
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:159
+msgid "Feature payment has been successfully added to cart."
+msgstr "기능 지불이 장바구니에 성공적으로 추가되었습니다."
+
+#: src/ListingManager/Product/MicropaymentProduct.php:193
+msgid "Publish payment has been successfully added to cart."
+msgstr ""
+
+#: src/ListingManager/Product/MicropaymentProduct.php:222
+msgid "Claim payment has been successfully added to cart."
+msgstr "지불 청구가 장바구니에 성공적으로 추가되었습니다."
+
+#: src/ListingManager/Product/PackageProduct.php:25
+#: src/ListingManager/Tab/PackageTab.php:14
+#: templates/listing-manager/listing-list.php:29
+msgid "Package"
+msgstr "패키지"
+
+#: src/ListingManager/Product/PackageProduct.php:139
+msgid "You are not allowed to purchase more than one package in single order."
+msgstr "단일 주문으로 하나 이상의 패키지를 구매할 수 없습니다."
+
+#: src/ListingManager/Product/PackageProduct.php:173
+msgid "You are missing required attributes for extending the package."
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:194
+msgid "Extending package"
+msgstr ""
+
+#: src/ListingManager/Product/PackageProduct.php:379
+msgid "day"
+msgstr "일"
+
+#: src/ListingManager/Product/PackageProduct.php:381
+#: src/ListingManager/Product/PackageProduct.php:569
+msgid "Unlimited"
+msgstr "무제한"
+
+#: src/ListingManager/Product/PackageProduct.php:384
+msgid "days"
+msgstr "일"
+
+#: src/ListingManager/Product/PackageProduct.php:399
+msgid "Never expires."
+msgstr "기간만료 없음(영구)"
+
+#: src/ListingManager/Product/PackageProduct.php:403
+msgid "Package expired."
+msgstr "패키지가 사용기간이 만료되었습니다."
+
+#: src/ListingManager/Product/PackageProduct.php:567
+#: templates/listing-manager/content-company.php:33
+#: templates/listing-manager/dashboard.php:82
+#: templates/listing-manager/widgets/agents.php:43
+msgid "listing"
+msgstr "리스팅"
+
+#: src/ListingManager/Product/PackageProduct.php:572
+#: src/ListingManager/Type/ListingType.php:39
+#: src/ListingManager/Utilities.php:106
+#: templates/listing-manager/content-company.php:35
+#: templates/listing-manager/dashboard.php:84
+#: templates/listing-manager/locations.php:23
+#: templates/listing-manager/widgets/agents.php:43
+msgid "listings"
+msgstr "리스팅"
+
+#: src/ListingManager/Shortcode/ListShortcode.php:20
+#, php-format
+msgid ""
+"Please <a href=\"%s?next=%s\">log in</a> before accessing this page. If you "
+"don't have an account <a href=\"%s\">register</a>."
+msgstr ""
+
+#: src/ListingManager/Shortcode/LogoutShortcode.php:24
+msgid "You have been successfully logged out."
+msgstr "당신은 성공적으로 로그 아웃되었습니다."
+
+#: src/ListingManager/Tab/BrandingTab.php:14
+#: src/ListingManager/Tab/BrandingTab.php:51
+#: src/ListingManager/Tab/BrandingTab.php:130
+#: templates/listing-manager/tabs/branding.php:1
+msgid "Branding"
+msgstr "브랜딩"
+
+#: src/ListingManager/Tab/BrandingTab.php:57
+#: src/ListingManager/Type/ClaimType.php:59
+#: src/ListingManager/Type/ReportType.php:59
+#: templates/listing-manager/claim-form.php:18
+#: templates/listing-manager/dashboard.php:60
+#: templates/listing-manager/inquire-form.php:26
+#: templates/listing-manager/mails/claim.php:8
+#: templates/listing-manager/mails/inquire.php:8
+#: templates/listing-manager/mails/report.php:13
+#: templates/listing-manager/report-form.php:94
+#: templates/listing-manager/tabs/branding.php:6
+msgid "Name"
+msgstr "이름"
+
+#: src/ListingManager/Tab/BrandingTab.php:63
+#: templates/listing-manager/panels/branding.php:11
+#: templates/listing-manager/tabs/branding.php:12
+msgid "Slogan"
+msgstr "슬로건"
+
+#: src/ListingManager/Tab/BrandingTab.php:69
+#: src/ListingManager/Tab/CarTab.php:82
+#: templates/listing-manager/panels/branding.php:18
+#: templates/listing-manager/panels/car.php:32
+#: templates/listing-manager/tabs/branding.php:18
+#: templates/listing-manager/tabs/car.php:30
+msgid "Color"
+msgstr "색깔"
+
+#: src/ListingManager/Tab/BrandingTab.php:75
+#: templates/listing-manager/panels/branding.php:25
+#: templates/listing-manager/tabs/branding.php:24
+msgid "Logo"
+msgstr "심벌 마크"
+
+#: src/ListingManager/Tab/CarTab.php:58
+#: templates/listing-manager/panels/car.php:4
+#: templates/listing-manager/tabs/car.php:6
+msgid "Engine"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:64
+#: templates/listing-manager/panels/car.php:11
+#: templates/listing-manager/tabs/car.php:12
+msgid "Model"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:70
+#: templates/listing-manager/panels/car.php:18
+#: templates/listing-manager/tabs/car.php:18
+msgid "Year"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:76
+#: templates/listing-manager/panels/car.php:25
+#: templates/listing-manager/tabs/car.php:24
+msgid "Mileage"
+msgstr ""
+
+#: src/ListingManager/Tab/CarTab.php:100
+#: templates/listing-manager/tabs/car.php:1
+msgid "Car Attributes"
+msgstr ""
+
+#: src/ListingManager/Tab/ContactTab.php:14
+#: src/ListingManager/Tab/ContactTab.php:51
+#: src/ListingManager/Tab/ContactTab.php:123
+#: templates/listing-manager/tabs/contact.php:1
+msgid "Contact"
+msgstr "연락처"
+
+#: src/ListingManager/Tab/ContactTab.php:63
+#: src/ListingManager/Type/AgentType.php:79
+#: src/ListingManager/Type/ClaimType.php:69
+#: src/ListingManager/Type/CompanyType.php:65
+#: templates/listing-manager/agent/overview.php:17
+#: templates/listing-manager/agents.php:38
+#: templates/listing-manager/claim-form.php:28
+#: templates/listing-manager/companies.php:32
+#: templates/listing-manager/company/overview.php:17
+#: templates/listing-manager/mails/claim.php:16
+#: templates/listing-manager/panels/contact.php:11
+#: templates/listing-manager/tabs/contact.php:15
+msgid "Phone"
+msgstr "전화"
+
+#: src/ListingManager/Tab/ContactTab.php:69
+#: templates/listing-manager/panels/contact.php:18
+#: templates/listing-manager/tabs/contact.php:21
+msgid "Website"
+msgstr "웹 사이트"
+
+#: src/ListingManager/Tab/ContactTab.php:75
+#: src/ListingManager/Type/AgentType.php:84
+#: src/ListingManager/Type/CompanyType.php:70
+#: templates/listing-manager/companies.php:37
+#: templates/listing-manager/company/overview.php:22
+#: templates/listing-manager/panels/contact.php:25
+#: templates/listing-manager/tabs/contact.php:27
+msgid "Address"
+msgstr "주소"
+
+#: src/ListingManager/Tab/EventTab.php:57
+#: templates/listing-manager/panels/event.php:4
+msgid "Start Date"
+msgstr "시작일"
+
+#: src/ListingManager/Tab/EventTab.php:63
+#: templates/listing-manager/panels/event.php:12
+msgid "Start Time"
+msgstr "시작 시간"
+
+#: src/ListingManager/Tab/EventTab.php:69
+#: templates/listing-manager/panels/event.php:20
+msgid "End Date"
+msgstr "종료일"
+
+#: src/ListingManager/Tab/EventTab.php:75
+#: templates/listing-manager/panels/event.php:28
+msgid "End Time"
+msgstr "종료 시간"
+
+#: src/ListingManager/Tab/JobTab.php:58
+#: templates/listing-manager/panels/job.php:4
+msgid "Start"
+msgstr ""
+
+#: src/ListingManager/Tab/JobTab.php:70 src/ListingManager/Tab/JobTab.php:76
+#: templates/listing-manager/panels/job.php:18
+#: templates/listing-manager/tabs/job.php:18
+msgid "Position"
+msgstr ""
+
+#: src/ListingManager/Tab/JobTab.php:94
+#: templates/listing-manager/tabs/job.php:1
+msgid "Job Attributes"
+msgstr ""
+
+#: src/ListingManager/Tab/LocationTab.php:14
+#: src/ListingManager/Tab/LocationTab.php:51
+#: src/ListingManager/Tab/LocationTab.php:94
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:15
+#: templates/listing-manager/filters/geolocation.php:4
+#: templates/listing-manager/filters/geolocation.php:8
+#: templates/listing-manager/filters/locations.php:9
+#: templates/listing-manager/filters/locations.php:19
+#: templates/listing-manager/tabs/location.php:1
+msgid "Location"
+msgstr "지역"
+
+#: src/ListingManager/Tab/LocationTab.php:56
+msgid "Search by address"
+msgstr ""
+
+#: src/ListingManager/Tab/LocationTab.php:62
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:20
+#: templates/listing-manager/panels/location.php:14
+#: templates/listing-manager/widgets/google-map-form.php:88
+msgid "Latitude"
+msgstr "위도"
+
+#: src/ListingManager/Tab/LocationTab.php:68
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:26
+#: templates/listing-manager/panels/location.php:21
+#: templates/listing-manager/widgets/google-map-form.php:101
+msgid "Longitude"
+msgstr "경도"
+
+#: src/ListingManager/Tab/OpeningHoursTab.php:15
+#: src/ListingManager/Tab/OpeningHoursTab.php:124
+#: src/ListingManager/Type/FieldType.php:117
+#: templates/listing-manager/tabs/opening_hours.php:1
+msgid "Opening Hours"
+msgstr "업무 시간"
+
+#: src/ListingManager/Tab/OpeningHoursTab.php:59
+#: src/ListingManager/Tab/OpeningHoursTab.php:63
+msgid "Opening hours"
+msgstr "오픈 시간"
+
+#: src/ListingManager/Tab/PropertyTab.php:64
+#: templates/listing-manager/filters/year-built.php:4
+#: templates/listing-manager/filters/year-built.php:8
+#: templates/listing-manager/panels/property.php:11
+#: templates/listing-manager/tabs/property.php:12
+msgid "Year built"
+msgstr "건축 된 해"
+
+#: src/ListingManager/Tab/PropertyTab.php:113
+#: templates/listing-manager/panels/property.php:60
+#: templates/listing-manager/tabs/property.php:62
+msgid "Lot area"
+msgstr "전체 면적"
+
+#: src/ListingManager/Tab/PropertyTab.php:119
+#: templates/listing-manager/panels/property.php:67
+#: templates/listing-manager/tabs/property.php:68
+msgid "Lot dimensions"
+msgstr "전체 치수"
+
+#: src/ListingManager/Tab/PropertyTab.php:137
+#: templates/listing-manager/tabs/property.php:1
+msgid "Property Attributes"
+msgstr "숙박시설 속성"
+
+#: src/ListingManager/Tab/SocialTab.php:42
+#: src/ListingManager/Tab/SocialTab.php:100
+#: src/ListingManager/Tab/SocialTab.php:117
+msgid "Social"
+msgstr "SNS"
+
+#: src/ListingManager/Tab/SocialTab.php:139
+#: src/ListingManager/Type/AgentType.php:94
+#: src/ListingManager/Type/AgentType.php:104
+#: src/ListingManager/Type/CompanyType.php:74
+#: templates/listing-manager/agent/social.php:12
+#: templates/listing-manager/agents.php:54
+#: templates/listing-manager/company/social.php:12
+#: templates/listing-manager/listing-info.php:25
+msgid "Facebook"
+msgstr "페이스 북"
+
+#: src/ListingManager/Tab/SocialTab.php:140
+#: src/ListingManager/Type/AgentType.php:99
+#: src/ListingManager/Type/CompanyType.php:79
+#: templates/listing-manager/agent/social.php:20
+#: templates/listing-manager/agents.php:62
+#: templates/listing-manager/company/social.php:20
+#: templates/listing-manager/listing-info.php:33
+msgid "Twitter"
+msgstr "트위터"
+
+#: src/ListingManager/Tab/SocialTab.php:141
+msgid "Linkedin"
+msgstr "링크드 인"
+
+#: src/ListingManager/Tab/SocialTab.php:142
+msgid "Google+"
+msgstr "Google+"
+
+#: src/ListingManager/Tab/SocialTab.php:143
+#: src/ListingManager/Tab/VideoTab.php:57
+#: templates/listing-manager/panels/video.php:4
+msgid "YouTube"
+msgstr "YouTube"
+
+#: src/ListingManager/Tab/SocialTab.php:144
+#: src/ListingManager/Tab/VideoTab.php:63
+#: templates/listing-manager/panels/video.php:11
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: src/ListingManager/Tab/SocialTab.php:145
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: src/ListingManager/Tab/SocialTab.php:146
+msgid "Skype"
+msgstr "Skype"
+
+#: src/ListingManager/Tab/SocialTab.php:147
+msgid "Dribbble"
+msgstr "드리블"
+
+#: src/ListingManager/Tab/SocialTab.php:148
+msgid "Behance"
+msgstr "비핸스"
+
+#: src/ListingManager/Tab/SocialTab.php:149
+msgid "Instagram"
+msgstr "인스타그램"
+
+#: src/ListingManager/Tab/SocialTab.php:150
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/ListingManager/Tab/VideoTab.php:14
+#: src/ListingManager/Tab/VideoTab.php:51
+#: src/ListingManager/Tab/VideoTab.php:110
+#: templates/listing-manager/tabs/video.php:1
+msgid "Video"
+msgstr "비디오"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:15
+msgid "Amenity"
+msgstr "편의시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:16
+msgid "Search Amenity"
+msgstr "편의시설 검색"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:17
+msgid "All Amenities"
+msgstr "모든 편의 시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:18
+msgid "Parent Amenity"
+msgstr "상위 편의 시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:19
+msgid "Parent Amenity:"
+msgstr "상위 편의 시설 :"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:20
+msgid "Edit Amenity"
+msgstr "편의시설 편집"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:21
+msgid "Update Amenity"
+msgstr "업데이트 편의 시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:22
+msgid "Add New Amenity"
+msgstr "새로운 편의시설 추가"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:23
+msgid "New Amenity"
+msgstr "새로운 편의시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:25
+msgid "No amenities found."
+msgstr "시설을 찾지 못했습니다."
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:32
+msgid "amenity"
+msgstr "편의시설"
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:61
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:69
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:15
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:23
+msgid "Font Icon"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/AmenityTaxonomy.php:70
+#: src/ListingManager/Taxonomy/CategoryTaxonomy.php:24
+msgid "Example: &lt;i class=\"fa fa-home\"&gt;&lt;/i&gt;"
+msgstr ""
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:16
+msgid "Search Contract"
+msgstr "이용계약 방식 검색"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:17
+msgid "All Contracts"
+msgstr "모든 이용계약 방식"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:18
+msgid "Parent Contract"
+msgstr "상위 이용계약 방식"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:19
+msgid "Parent Contract:"
+msgstr "상위 이용계약 방식 :"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:20
+msgid "Edit Contract"
+msgstr "이용계약 방식 편집"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:21
+msgid "Update Contract"
+msgstr "이용계약 방식 갱신"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:22
+msgid "Add New Contract"
+msgstr "새 이용계약 방식 추가"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:23
+msgid "New Contract"
+msgstr "신규 이용계약 방식"
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:25
+msgid "No contracts found."
+msgstr "이용계약 방식을 찾을 수 없습니다."
+
+#: src/ListingManager/Taxonomy/ContractTaxonomy.php:32
+msgid "contract"
+msgstr "이용계약 방식"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:16
+msgid "Search Location"
+msgstr "지역 검색"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:17
+msgid "All Locations"
+msgstr "모든 지역"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:18
+msgid "Parent Location"
+msgstr "종속 지역"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:19
+msgid "Parent Location:"
+msgstr "종속 지역 :"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:20
+msgid "Edit Location"
+msgstr "지역 편집"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:21
+msgid "Update Location"
+msgstr "지역 업데이트"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:22
+msgid "Add New Location"
+msgstr "새 지역 추가"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:23
+msgid "New Location"
+msgstr "새 지역"
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:25
+msgid "No locations found."
+msgstr "지역을 찾지 못했습니다."
+
+#: src/ListingManager/Taxonomy/LocationTaxonomy.php:32
+msgid "location"
+msgstr "지역"
+
+#: src/ListingManager/Type/AgentType.php:16
+#: src/ListingManager/Type/AgentType.php:22
+#: src/ListingManager/Type/AgentType.php:28
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:13
+msgid "Agents"
+msgstr "에이전트"
+
+#: src/ListingManager/Type/AgentType.php:18
+#: src/ListingManager/Type/AgentType.php:19
+msgid "Add New Agent"
+msgstr "새 에이전트 추가"
+
+#: src/ListingManager/Type/AgentType.php:20
+msgid "Edit Agent"
+msgstr "에이전트 편집"
+
+#: src/ListingManager/Type/AgentType.php:21
+msgid "New Agent"
+msgstr "새로운 에이전트"
+
+#: src/ListingManager/Type/AgentType.php:23
+msgid "View Agent"
+msgstr "에이전트보기"
+
+#: src/ListingManager/Type/AgentType.php:24
+msgid "Search Agent"
+msgstr "검색 에이전트"
+
+#: src/ListingManager/Type/AgentType.php:25
+msgid "No Agents found"
+msgstr "에이전트가 없습니다."
+
+#: src/ListingManager/Type/AgentType.php:26
+msgid "No Agents Found in Trash"
+msgstr "휴지통에 에이전트가 없습니다."
+
+#: src/ListingManager/Type/AgentType.php:38
+#: templates/listing-manager/content-company.php:23
+msgid "agents"
+msgstr "에이전트"
+
+#: src/ListingManager/Type/AgentType.php:61
+#: src/ListingManager/Type/ClaimType.php:46
+#: src/ListingManager/Type/CompanyType.php:47
+#: src/ListingManager/Type/FieldType.php:73
+#: src/ListingManager/Type/FieldsetType.php:48
+#: src/ListingManager/Type/FormType.php:46
+#: src/ListingManager/Type/ReportType.php:46
+#: src/ListingManager/Type/ReviewRatingType.php:46
+msgid "General Options"
+msgstr "일반 옵션"
+
+#: src/ListingManager/Type/AgentType.php:74
+#: src/ListingManager/Type/CompanyType.php:60
+#: templates/listing-manager/agent/overview.php:11
+#: templates/listing-manager/agents.php:32
+#: templates/listing-manager/companies.php:26
+#: templates/listing-manager/company/overview.php:11
+msgid "Web"
+msgstr "웹/홈페이지"
+
+#: src/ListingManager/Type/AgentType.php:88
+#: src/ListingManager/Type/CompanyType.php:14
+#: src/ListingManager/Type/CompanyType.php:20
+#: src/ListingManager/Type/CompanyType.php:26
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:13
+msgid "Companies"
+msgstr "회사"
+
+#: src/ListingManager/Type/AgentType.php:109
+#: src/ListingManager/Type/CompanyType.php:84
+#: templates/listing-manager/agent/social.php:28
+#: templates/listing-manager/agents.php:70
+#: templates/listing-manager/company/social.php:28
+#: templates/listing-manager/listing-info.php:41
+msgid "LinkedIn"
+msgstr "링크드 인"
+
+#: src/ListingManager/Type/AgentType.php:114
+#: src/ListingManager/Type/CompanyType.php:89
+#: templates/listing-manager/agent/social.php:36
+#: templates/listing-manager/agents.php:78
+#: templates/listing-manager/company/social.php:36
+#: templates/listing-manager/listing-info.php:49
+msgid "Google"
+msgstr "Google"
+
+#: src/ListingManager/Type/ClaimType.php:14
+#: src/ListingManager/Type/ClaimType.php:20
+#: src/ListingManager/Type/ClaimType.php:26
+msgid "Claims"
+msgstr "클레임"
+
+#: src/ListingManager/Type/ClaimType.php:16
+#: src/ListingManager/Type/ClaimType.php:17
+msgid "Add New Claim"
+msgstr "새 소유권 클레임 추가"
+
+#: src/ListingManager/Type/ClaimType.php:18
+msgid "Edit Claim"
+msgstr "소유권 클레임 수정"
+
+#: src/ListingManager/Type/ClaimType.php:19
+msgid "New Claim"
+msgstr "새 클레임"
+
+#: src/ListingManager/Type/ClaimType.php:21
+msgid "View Claim"
+msgstr "소유권 클레임보기"
+
+#: src/ListingManager/Type/ClaimType.php:22
+msgid "Search Claim"
+msgstr "검색 클레임"
+
+#: src/ListingManager/Type/ClaimType.php:23
+msgid "No Claims found"
+msgstr "클레임을 찾을 수 없음"
+
+#: src/ListingManager/Type/ClaimType.php:24
+msgid "No Claims Found in Trash"
+msgstr "휴지통에서 클레임을 찾을 수 없음"
+
+#: src/ListingManager/Type/ClaimType.php:54
+#: src/ListingManager/Type/ReportType.php:54
+msgid "Listing ID"
+msgstr "리스팅 ID"
+
+#: src/ListingManager/Type/ClaimType.php:74
+#: src/ListingManager/Type/ReportType.php:74
+msgid "Messsage"
+msgstr "대화"
+
+#: src/ListingManager/Type/ClaimType.php:91
+msgid "Payment"
+msgstr "지불"
+
+#: src/ListingManager/Type/ClaimType.php:92
+#: src/ListingManager/Type/ReportType.php:92
+msgid "Author"
+msgstr "저자"
+
+#: src/ListingManager/Type/ClaimType.php:93
+#: src/ListingManager/Type/ReportType.php:93
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:36
+msgid "Date"
+msgstr "날짜"
+
+#: src/ListingManager/Type/ClaimType.php:117
+msgid "Order found"
+msgstr "찾은 주문"
+
+#: src/ListingManager/Type/ClaimType.php:125
+msgid "Order not found"
+msgstr "주문을 찾을 수 없음"
+
+#: src/ListingManager/Type/CompanyType.php:15
+#: templates/listing-manager/agent/overview.php:26
+msgid "Company"
+msgstr "회사"
+
+#: src/ListingManager/Type/CompanyType.php:16
+#: src/ListingManager/Type/CompanyType.php:17
+msgid "Add New Company"
+msgstr "새 회사 추가"
+
+#: src/ListingManager/Type/CompanyType.php:18
+msgid "Edit Company"
+msgstr "회사 편집"
+
+#: src/ListingManager/Type/CompanyType.php:19
+msgid "New Company"
+msgstr "새 회사"
+
+#: src/ListingManager/Type/CompanyType.php:21
+msgid "View Company"
+msgstr "회사보기"
+
+#: src/ListingManager/Type/CompanyType.php:22
+msgid "Search Company"
+msgstr "회사 검색"
+
+#: src/ListingManager/Type/CompanyType.php:23
+msgid "No Companies found"
+msgstr "회사 없음"
+
+#: src/ListingManager/Type/CompanyType.php:24
+msgid "No Companies Found in Trash"
+msgstr "휴지통에 있는 회사 없음"
+
+#: src/ListingManager/Type/CompanyType.php:36
+msgid "companies"
+msgstr "회사"
+
+#: src/ListingManager/Type/FieldType.php:15
+#: src/ListingManager/Type/FieldType.php:21
+#: src/ListingManager/Type/FieldType.php:27
+msgid "Fields"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:16
+msgid "Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:17
+#: src/ListingManager/Type/FieldType.php:18
+msgid "Add New Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:19
+msgid "Edit Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:20
+msgid "New Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:22
+msgid "View Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:23
+msgid "Search Field"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:24
+msgid "No Fields found"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:25
+msgid "No Fields Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:59
+msgid "Undefined"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:80
+#: src/ListingManager/Type/FieldsetType.php:15
+msgid "Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:86
+msgid "Label"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:91
+#: src/ListingManager/Type/FieldsetType.php:56
+#: src/ListingManager/Type/FormType.php:54
+msgid "Slug"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:97
+#: src/ListingManager/Type/ReviewRatingType.php:70
+msgid "Required"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:107
+msgid "Text"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:109
+#: templates/listing-manager/mails/claim.php:21
+#: templates/listing-manager/mails/inquire.php:17
+#: templates/listing-manager/mails/report.php:9
+msgid "URL"
+msgstr "URL"
+
+#: src/ListingManager/Type/FieldType.php:110
+msgid "date"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:111
+msgid "time"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:112
+msgid "Textarea"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:113
+#: src/ListingManager/Type/FieldType.php:121
+msgid "Taxonomy"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:114
+msgid "File"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:115
+msgid "Files"
+msgstr ""
+
+#: src/ListingManager/Type/FieldType.php:116
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:13
+msgid "Google Map"
+msgstr "구글지도"
+
+#: src/ListingManager/Type/FieldsetType.php:14
+#: src/ListingManager/Type/FieldsetType.php:20
+#: src/ListingManager/Type/FieldsetType.php:26
+msgid "Fieldsets"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:16
+#: src/ListingManager/Type/FieldsetType.php:17
+msgid "Add New Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:18
+msgid "Edit Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:19
+msgid "New Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:21
+msgid "View Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:22
+msgid "Search Fieldset"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:23
+msgid "No Fieldsets found"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:24
+msgid "No Fieldsets Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:61
+msgid "Legend"
+msgstr ""
+
+#: src/ListingManager/Type/FieldsetType.php:66
+#: src/ListingManager/Type/FormType.php:14
+#: src/ListingManager/Type/FormType.php:20
+#: src/ListingManager/Type/FormType.php:26
+msgid "Forms"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:15
+msgid "Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:16
+#: src/ListingManager/Type/FormType.php:17
+msgid "Add New Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:18
+msgid "Edit Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:19
+msgid "New Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:21
+msgid "View Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:22
+msgid "Search Form"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:23
+msgid "No Forms found"
+msgstr ""
+
+#: src/ListingManager/Type/FormType.php:24
+msgid "No Forms Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/ListingType.php:17
+#: src/ListingManager/Type/ListingType.php:18
+msgid "Add New Listing"
+msgstr "새 리스팅 추가"
+
+#: src/ListingManager/Type/ListingType.php:20
+msgid "New Listing"
+msgstr "새 리스팅"
+
+#: src/ListingManager/Type/ListingType.php:22
+msgid "View Listing"
+msgstr "리스팅보기"
+
+#: src/ListingManager/Type/ListingType.php:23
+msgid "Search Listing"
+msgstr "검색 리스팅"
+
+#: src/ListingManager/Type/ListingType.php:24
+msgid "No Listings found"
+msgstr "발견 된 리스팅이 없습니다"
+
+#: src/ListingManager/Type/ListingType.php:25
+msgid "No Listings Found in Trash"
+msgstr "휴지통에 리스팅이 없습니다"
+
+#: src/ListingManager/Type/ReportType.php:14
+#: src/ListingManager/Type/ReportType.php:20
+#: src/ListingManager/Type/ReportType.php:26
+msgid "Reports"
+msgstr "보고서"
+
+#: src/ListingManager/Type/ReportType.php:16
+#: src/ListingManager/Type/ReportType.php:17
+msgid "Add New Report"
+msgstr "새 보고서 추가"
+
+#: src/ListingManager/Type/ReportType.php:18
+msgid "Edit Report"
+msgstr "보고서 편집"
+
+#: src/ListingManager/Type/ReportType.php:19
+msgid "New Report"
+msgstr "새 보고서"
+
+#: src/ListingManager/Type/ReportType.php:21
+msgid "View Report"
+msgstr "보고서보기"
+
+#: src/ListingManager/Type/ReportType.php:22
+msgid "Search Report"
+msgstr "검색 보고서"
+
+#: src/ListingManager/Type/ReportType.php:23
+msgid "No Reports found"
+msgstr "보고서가 없습니다."
+
+#: src/ListingManager/Type/ReportType.php:24
+msgid "No Reports Found in Trash"
+msgstr "휴지통에 보고서가 없습니다."
+
+#: src/ListingManager/Type/ReportType.php:69
+#: src/ListingManager/Type/ReportType.php:91
+msgid "Reason"
+msgstr "이유"
+
+#: src/ListingManager/Type/ReviewRatingType.php:14
+#: src/ListingManager/Type/ReviewRatingType.php:15
+msgid "Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:16
+#: src/ListingManager/Type/ReviewRatingType.php:17
+msgid "Add New Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:18
+msgid "Edit Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:19
+msgid "New Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:20
+#: src/ListingManager/Type/ReviewRatingType.php:26
+msgid "Review Ratings"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:21
+msgid "View Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:22
+msgid "Search Review Rating"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:23
+msgid "No Review Ratings found"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:24
+msgid "No Review Ratings Found in Trash"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:54
+msgid "ID"
+msgstr ""
+
+#: src/ListingManager/Type/ReviewRatingType.php:64
+msgid "No. of stars"
+msgstr ""
+
+#: src/ListingManager/Utilities.php:78
+msgid "Monday"
+msgstr "월요일"
+
+#: src/ListingManager/Utilities.php:79
+msgid "Tuesday"
+msgstr "화요일"
+
+#: src/ListingManager/Utilities.php:80
+msgid "Wednesday"
+msgstr "수요일"
+
+#: src/ListingManager/Utilities.php:81
+msgid "Thursday"
+msgstr "목요일"
+
+#: src/ListingManager/Utilities.php:82
+msgid "Friday"
+msgstr "금요일"
+
+#: src/ListingManager/Utilities.php:83
+msgid "Saturday"
+msgstr "토요일"
+
+#: src/ListingManager/Utilities.php:84
+msgid "Sunday"
+msgstr "일요일"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:15
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:15
+msgid "Show agents."
+msgstr "에이전트 보이기"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:20
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:20
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:20
+#: templates/listing-manager/widgets/listings-form.php:69
+msgid "Per page"
+msgstr "페이지 당"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:26
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:26
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:26
+#: templates/listing-manager/widgets/listings-form.php:55
+msgid "Columns"
+msgstr "열"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:32
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:32
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:38
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:52
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:51
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:20
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:26
+msgid "CSS"
+msgstr "CSS"
+
+#: src/ListingManager/VisualComposer/AgentVisualComposer.php:34
+#: src/ListingManager/VisualComposer/CompanyVisualComposer.php:34
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:40
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:54
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:53
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:22
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:28
+msgid "Design options"
+msgstr "디자인 옵션"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:16
+#: templates/listing-manager/widgets/filter-form.php:29
+#: templates/listing-manager/widgets/google-map-form.php:202
+msgid "Button text"
+msgstr "버튼 텍스트"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:22
+#: templates/listing-manager/widgets/filter-form.php:42
+#: templates/listing-manager/widgets/google-map-form.php:215
+msgid "Return URL"
+msgstr "URL 반환"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:28
+#: templates/listing-manager/widgets/filter-form.php:66
+#: templates/listing-manager/widgets/google-map-form.php:226
+msgid "Input titles"
+msgstr "제목을 입력하세요"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:31
+#: templates/listing-manager/widgets/filter-form.php:75
+#: templates/listing-manager/widgets/google-map-form.php:235
+msgid "Labels"
+msgstr "레이블"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:32
+#: templates/listing-manager/widgets/filter-form.php:85
+#: templates/listing-manager/widgets/google-map-form.php:245
+msgid "Placeholders"
+msgstr "자리 표시 자"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:51
+msgid "Hide"
+msgstr "숨기기"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:60
+msgid "Filter"
+msgstr "필터"
+
+#: src/ListingManager/VisualComposer/FilterVisualComposer.php:62
+msgid "Show filter."
+msgstr "필터 표시."
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:15
+msgid "Map showing listing posts."
+msgstr "리스팅을 표시하는지도."
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:32
+#: templates/listing-manager/widgets/google-map-form.php:54
+#: templates/listing-manager/widgets/google-map-form.php:181
+msgid "Zoom"
+msgstr "줌"
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:38
+#: templates/listing-manager/widgets/google-map-form.php:41
+msgid "Height"
+msgstr "높이"
+
+#: src/ListingManager/VisualComposer/GoogleMapVisualComposer.php:46
+msgid "Enable geolocation"
+msgstr "지오로케이션 좌표 사용"
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:15
+msgid "Show listings grid."
+msgstr "그리드 리스팅 표시."
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:32
+msgid "Orderby"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:37
+msgid "Event date"
+msgstr ""
+
+#: src/ListingManager/VisualComposer/ListingVisualComposer.php:45
+#: templates/listing-manager/dashboard.php:200
+#: templates/listing-manager/listing-list.php:38
+msgid "Featured"
+msgstr "추천 (Featured)"
+
+#: src/ListingManager/VisualComposer/PackageVisualComposer.php:15
+msgid "Show packages."
+msgstr "패키지 보여주기."
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:13
+msgid "Tiles"
+msgstr "타일"
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:15
+msgid "Show listing tiles."
+msgstr "리스팅 타일을 표시합니다."
+
+#: src/ListingManager/VisualComposer/TileVisualComposer.php:20
+#: templates/listing-manager/widgets/tiles-form.php:54
+msgid "Layout"
+msgstr "레이아웃"
+
+#: src/ListingManager/Widget/AgentWidget.php:12
+msgid "Listing Manager: Agents"
+msgstr ""
+
+#: src/ListingManager/Widget/AgentWidget.php:13
+msgid "Displays agents."
+msgstr "에이전트를 표시합니다."
+
+#: src/ListingManager/Widget/CategoryWidget.php:12
+msgid "Listing Manager: Categories"
+msgstr ""
+
+#: src/ListingManager/Widget/CategoryWidget.php:13
+msgid "Displays categories."
+msgstr ""
+
+#: src/ListingManager/Widget/CompanyWidget.php:12
+msgid "Listing Manager: Companies"
+msgstr ""
+
+#: src/ListingManager/Widget/CompanyWidget.php:13
+msgid "Displays companies."
+msgstr "회사를 표시합니다."
+
+#: src/ListingManager/Widget/CtaWidget.php:12
+msgid "Listing Manager: Call to action"
+msgstr ""
+
+#: src/ListingManager/Widget/CtaWidget.php:13
+msgid "Displays call to action."
+msgstr ""
+
+#: src/ListingManager/Widget/FilterWidget.php:12
+msgid "Listing Manager: Filter"
+msgstr ""
+
+#: src/ListingManager/Widget/FilterWidget.php:14
+msgid "Filter for filtering listings."
+msgstr "리스트 필터링을 위한 필터"
+
+#: src/ListingManager/Widget/GoogleMapSingleWidget.php:12
+msgid "Listing Manager: Google Map Single Listing"
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapSingleWidget.php:13
+msgid ""
+"Displays Google Map for single listing. Make sure that widget is displayed "
+"at listing detail page."
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapWidget.php:12
+msgid "Listing Manager: Google Map"
+msgstr ""
+
+#: src/ListingManager/Widget/GoogleMapWidget.php:13
+msgid "Displays Google map."
+msgstr "Google지도를 표시합니다."
+
+#: src/ListingManager/Widget/InquireWidget.php:12
+msgid "Listing Manager: Inquire"
+msgstr ""
+
+#: src/ListingManager/Widget/InquireWidget.php:13
+msgid ""
+"Displays inquire form. Make sure that widget is displayed on product page."
+msgstr ""
+
+#: src/ListingManager/Widget/ListingInfoWidget.php:12
+msgid "Listing Manager: Listing Info"
+msgstr ""
+
+#: src/ListingManager/Widget/ListingInfoWidget.php:13
+msgid "Displays listing information."
+msgstr ""
+
+#: src/ListingManager/Widget/ListingWidget.php:12
+msgid "Listing Manager: Listings"
+msgstr ""
+
+#: src/ListingManager/Widget/ListingWidget.php:13
+msgid "Displays listings."
+msgstr ""
+
+#: src/ListingManager/Widget/PurchaseWidget.php:12
+msgid "Listing Manager: Purchase"
+msgstr ""
+
+#: src/ListingManager/Widget/PurchaseWidget.php:13
+msgid ""
+"Displays add to cart form. Make sure that widget is displayed on product "
+"page."
+msgstr ""
+
+#: src/ListingManager/Widget/StreamWidget.php:12
+msgid "Listing Manager: Stream"
+msgstr ""
+
+#: src/ListingManager/Widget/StreamWidget.php:13
+msgid "Displays listing stream."
+msgstr ""
+
+#: src/ListingManager/Widget/TileWidget.php:12
+msgid "Listing Manager: Tiles"
+msgstr ""
+
+#: src/ListingManager/Widget/TileWidget.php:13
+msgid "Displays listings as tiles."
+msgstr ""
+
+#: templates/listing-manager/accounts/login.php:23
+msgid "Log in"
+msgstr "로그인"
+
+#: templates/listing-manager/accounts/login.php:28
+#: templates/listing-manager/accounts/register.php:50
+#: templates/listing-manager/accounts/reset.php:23
+msgid "You are already logged in."
+msgstr "귀하는 이미 로그인하셨습니다."
+
+#: templates/listing-manager/accounts/password.php:9
+msgid "Old password"
+msgstr "기존 비밀번호"
+
+#: templates/listing-manager/accounts/password.php:14
+msgid "New password"
+msgstr "새 비밀번호"
+
+#: templates/listing-manager/accounts/password.php:25
+msgid "Change Password"
+msgstr "비밀번호 변경"
+
+#: templates/listing-manager/accounts/register.php:26
+msgid "Retype Password"
+msgstr "비밀번호 다시 입력"
+
+#: templates/listing-manager/accounts/register.php:37
+#, php-format
+msgid "I agree with <a href=\"%s\">terms & conditions</a>"
+msgstr "<a href=\"%s\"> 이용 약관 </a>에 동의합니다."
+
+#: templates/listing-manager/accounts/register.php:44
+msgid "Sign Up"
+msgstr "가입하기"
+
+#: templates/listing-manager/accounts/register.php:57
+msgid "Registrations are not allowed."
+msgstr "신규등록이 허용되어 있지 않습니다."
+
+#: templates/listing-manager/accounts/reset.php:10
+msgid "Username or E-mail:"
+msgstr "아이디 또는 이메일:"
+
+#: templates/listing-manager/accounts/reset.php:17
+msgid "Get New Password"
+msgstr "새 암호 얻기"
+
+#: templates/listing-manager/admin/missing-purchase-code.php:8
+msgid "Dismiss this notice."
+msgstr ""
+
+#: templates/listing-manager/agent/assigned.php:21
+#: templates/listing-manager/company/assigned.php:21
+msgid "Created Items"
+msgstr "아이템 생성"
+
+#: templates/listing-manager/categories.php:56
+msgid "No categories found."
+msgstr ""
+
+#: templates/listing-manager/claim-form.php:4
+msgid "Post ID is missing."
+msgstr "Post ID가 없습니다."
+
+#: templates/listing-manager/claim-form.php:10
+msgid "You have already claimed this listing. Please, wait for admin review."
+msgstr "이미 이 리스팅에 클레임 거셨습니다. 관리자 검토를 기다리십시오."
+
+#: templates/listing-manager/claim-form.php:33
+#: templates/listing-manager/inquire-form.php:39
+msgid "Message"
+msgstr "메시지"
+
+#: templates/listing-manager/claim.php:6
+msgid "I claimed it"
+msgstr "제가 클레임 걸었습니다."
+
+#: templates/listing-manager/companies.php:20
+#: templates/listing-manager/company/overview.php:5
+msgid "Email"
+msgstr "이메일"
+
+#: templates/listing-manager/content-company.php:21
+msgid "agent"
+msgstr "에이전트"
+
+#: templates/listing-manager/dashboard.php:56
+msgid "Packages Overview"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:61
+#: templates/listing-manager/listing-form-packages.php:92
+msgid "Limit"
+msgstr "한도/제한"
+
+#: templates/listing-manager/dashboard.php:62
+msgid "Time Interval"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:63
+msgid "Assigned Listings"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:64
+msgid "Expiration"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:97
+msgid "No packages purchased."
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:191
+msgid "Listings Overview"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:195
+msgid "All"
+msgstr ""
+
+#: templates/listing-manager/dashboard.php:196
+#: templates/listing-manager/listing-list.php:106
+msgid "Published"
+msgstr "게시 됨"
+
+#: templates/listing-manager/dashboard.php:197
+#: templates/listing-manager/listing-list.php:98
+msgid "Pending"
+msgstr "대기중인"
+
+#: templates/listing-manager/dashboard.php:198
+#: templates/listing-manager/listing-list.php:102
+msgid "Draft"
+msgstr "초안"
+
+#: templates/listing-manager/dashboard.php:199
+#: templates/listing-manager/listing-list.php:110
+msgid "Private"
+msgstr ""
+
+#: templates/listing-manager/favorite.php:4
+msgid "Add to favorites"
+msgstr "즐겨찾기에 추가"
+
+#: templates/listing-manager/favorite.php:8
+#: templates/listing-manager/favorite.php:14
+msgid "I Love It"
+msgstr "정말 마음에 듭니다!"
+
+#: templates/listing-manager/favorite.php:18
+msgid "Favorite"
+msgstr ""
+
+#: templates/listing-manager/favorites.php:5
+#: templates/listing-manager/listing-list.php:14
+#: templates/listing-manager/widgets/cta-form.php:30
+msgid "Image"
+msgstr "이미지"
+
+#: templates/listing-manager/favorites.php:7
+#: templates/listing-manager/listing-list.php:42
+msgid "Actions"
+msgstr "액션"
+
+#: templates/listing-manager/favorites.php:33
+msgid "View"
+msgstr "보기"
+
+#: templates/listing-manager/field-builder.php:2
+msgid "Front Fields Builder"
+msgstr "Front Field 빌더"
+
+#: templates/listing-manager/fields/file.php:10
+#: templates/listing-manager/fields/files.php:13
+msgid "Remove"
+msgstr "삭제"
+
+#: templates/listing-manager/fields/google_map.php:4
+#: templates/listing-manager/google-map/google-map.php:27
+msgid "Google Maps API key missing."
+msgstr "Google지도 API 키가 누락되었습니다."
+
+#: templates/listing-manager/fields/google_map.php:9
+#: templates/listing-manager/panels/location.php:8
+msgid "Search"
+msgstr "검색"
+
+#: templates/listing-manager/fields/opening-hours.php:5
+#: templates/listing-manager/panels/opening-hours.php:6
+#: templates/listing-manager/tabs/opening_hours.php:26
+msgid "Time From"
+msgstr "오픈"
+
+#: templates/listing-manager/fields/opening-hours.php:6
+#: templates/listing-manager/panels/opening-hours.php:7
+#: templates/listing-manager/tabs/opening_hours.php:27
+msgid "Time To"
+msgstr "클로즈"
+
+#: templates/listing-manager/fields/opening-hours.php:7
+#: templates/listing-manager/panels/opening-hours.php:8
+#: templates/listing-manager/tabs/opening_hours.php:30
+msgid "Custom Text"
+msgstr "사용자 정의 텍스트"
+
+#: templates/listing-manager/fields/taxonomy.php:13
+msgid "Child term"
+msgstr ""
+
+#: templates/listing-manager/fields/taxonomy.php:21
+msgid "Select"
+msgstr ""
+
+#: templates/listing-manager/filter-form.php:41
+msgid "Filter Listings"
+msgstr "리스팅 필터링"
+
+#: templates/listing-manager/filters/contract.php:21
+msgid "All contracts"
+msgstr "모든 이용계약 방식"
+
+#: templates/listing-manager/filters/event-date.php:4
+#: templates/listing-manager/filters/event-date.php:9
+msgid "Event date from"
+msgstr "이벤트 개시일 :"
+
+#: templates/listing-manager/filters/event-date.php:17
+#: templates/listing-manager/filters/event-date.php:22
+msgid "Event date to"
+msgstr "이벤트 만료일 :"
+
+#: templates/listing-manager/filters/listing-categories.php:9
+#: templates/listing-manager/filters/listing-categories.php:19
+msgid "Category"
+msgstr "브랜드"
+
+#: templates/listing-manager/filters/listing-categories.php:21
+msgid "All categories"
+msgstr "모든 브랜드"
+
+#: templates/listing-manager/filters/locations.php:21
+msgid "All locations"
+msgstr "모든 지역"
+
+#: templates/listing-manager/filters/price.php:4
+#: templates/listing-manager/filters/price.php:9
+msgid "Price from"
+msgstr "시작가"
+
+#: templates/listing-manager/filters/price.php:19
+#: templates/listing-manager/filters/price.php:24
+msgid "Price to"
+msgstr "최고가"
+
+#: templates/listing-manager/google-map/google-map-single.php:20
+#: templates/listing-manager/tabs/location.php:9
+msgid "Get directions"
+msgstr "길 찾기"
+
+#: templates/listing-manager/google-map/google-map-single.php:25
+#: templates/listing-manager/panels/location.php:26
+#: templates/listing-manager/tabs/location.php:22
+msgid ""
+"You are missing Google Maps API key. You can set it under \"Customizer - "
+"Listing Manager General - Google Maps API key\""
+msgstr ""
+"Google Maps API 키가 누락되었습니다. \"Customizer - Listing Manager General "
+"- Google Maps API 키\"에서 설정할 수 있습니다."
+
+#: templates/listing-manager/google-map/google-map.php:68
+msgid "Roadmap"
+msgstr "로드맵"
+
+#: templates/listing-manager/google-map/google-map.php:69
+msgid "Terrain"
+msgstr "지형"
+
+#: templates/listing-manager/google-map/google-map.php:70
+msgid "Satellite"
+msgstr "위성"
+
+#: templates/listing-manager/google-map/google-map.php:76
+msgid "Zoom In"
+msgstr "확대"
+
+#: templates/listing-manager/google-map/google-map.php:77
+msgid "Zoom Out"
+msgstr "축소"
+
+#: templates/listing-manager/google-map/google-map.php:83
+msgid "Current Position"
+msgstr "현재 위치"
+
+#: templates/listing-manager/inquire-form.php:12
+msgid "Please login before posting inquire"
+msgstr "게시하기 전에 로그인하십시오."
+
+#: templates/listing-manager/inquire-form.php:34
+msgid "Subject"
+msgstr "제목"
+
+#: templates/listing-manager/inquire-form.php:44
+msgid "Send Message"
+msgstr "문자 보내기"
+
+#: templates/listing-manager/listing-form-packages.php:5
+msgid "Select already purchased package"
+msgstr "이미 구매한 패키지 선택"
+
+#: templates/listing-manager/listing-form-packages.php:29
+msgid "of"
+msgstr "의"
+
+#: templates/listing-manager/listing-form-packages.php:41
+msgid "Extend"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:44
+#, php-format
+msgid "%s day"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:46
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: templates/listing-manager/listing-form-packages.php:70
+msgid "Purchase new package"
+msgstr "새 패키지 구매"
+
+#: templates/listing-manager/listing-form-packages.php:99
+#: templates/listing-manager/panels/package.php:12
+msgid "Duration"
+msgstr "기간"
+
+#: templates/listing-manager/listing-form.php:7
+msgid "Please select form for adding new listing"
+msgstr ""
+
+#: templates/listing-manager/listing-form.php:37
+msgid ""
+"Listing submission is allowed only for authenticated users with the "
+"membership plan."
+msgstr ""
+
+#: templates/listing-manager/listing-form.php:53
+msgid "Save"
+msgstr "저장"
+
+#: templates/listing-manager/listing-form.php:59
+msgid "Listing form not found."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:23
+msgid "Membership"
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:34
+msgid "Status"
+msgstr "상태"
+
+#: templates/listing-manager/listing-list.php:97
+msgid "Waiting for admin approval."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:101
+msgid "Package not assigned or expired."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:105
+msgid "Listing is published."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:109
+msgid "Listing date has expired (e.g. event date)."
+msgstr ""
+
+#: templates/listing-manager/listing-list.php:120
+msgid "Yes"
+msgstr "예"
+
+#: templates/listing-manager/listing-list.php:124
+msgid "No"
+msgstr "아니오"
+
+#: templates/listing-manager/listing-list.php:195
+msgid "No listings found. You can start by <a href=\""
+msgstr "리스팅이 없습니다. <a href = \""
+
+#: templates/listing-manager/listing-list.php:197
+msgid "No listings found."
+msgstr "리스팅이 없습니다."
+
+#: templates/listing-manager/listing-remove-form.php:3
+#: templates/listing-manager/report-form.php:4
+msgid "You have to specify listing!"
+msgstr "리스팅을 지정해야합니다!"
+
+#: templates/listing-manager/listing-remove-form.php:16
+msgid "Delete"
+msgstr "삭제"
+
+#: templates/listing-manager/locations.php:26
+msgid "Show All Listings"
+msgstr "모든 리스팅보기"
+
+#: templates/listing-manager/mails/expiring.php:1
+msgid "Hi"
+msgstr ""
+
+#: templates/listing-manager/mails/expiring.php:3
+#, php-format
+msgid ""
+"your package %s is going to expire. It will expire at %s. You can extend the "
+"package by logging in."
+msgstr ""
+
+#: templates/listing-manager/mails/report.php:21
+msgid "Report reason"
+msgstr "보고서 이유"
+
+#: templates/listing-manager/memberships/panel.php:10
+msgid "Max. number of listings"
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:24
+msgid "Unlimited listings."
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:26
+msgid "Max. allowed listings"
+msgstr ""
+
+#: templates/listing-manager/memberships/plans.php:31
+msgid "Current listings count"
+msgstr ""
+
+#: templates/listing-manager/messages/not-allowed.php:5
+msgid "You are not allowed to access this page."
+msgstr "이 페이지에 액세스 할 수 없습니다."
+
+#: templates/listing-manager/messages/not-exist.php:2
+msgid "Object does not exist."
+msgstr "개체가 존재하지 않습니다."
+
+#: templates/listing-manager/messages/woocommerce-not-active.php:2
+msgid "Listing Manager requires WooCoomerce to be installed."
+msgstr "Listing Manager는 WooCoomerce를 설치해야합니다."
+
+#: templates/listing-manager/packages.php:29
+msgid "Time interval"
+msgstr "시간 간격"
+
+#: templates/listing-manager/packages.php:34
+#: templates/listing-manager/panels/package.php:4
+msgid "No. of listings"
+msgstr "홍보 가능 인원"
+
+#: templates/listing-manager/packages.php:45
+#: templates/listing-manager/purchase.php:38
+msgid "Add to cart"
+msgstr "장바구니에 담기"
+
+#: templates/listing-manager/panels/branding.php:4
+msgid "Business Name"
+msgstr "회사명"
+
+#: templates/listing-manager/panels/job.php:25
+#: templates/listing-manager/tabs/job.php:24
+msgid "Required skills"
+msgstr ""
+
+#: templates/listing-manager/panels/package.php:7
+msgid "Use -1 for unlimited number of listings."
+msgstr "무제한 수의 리스팅에는 -1을 사용하십시오."
+
+#: templates/listing-manager/panels/package.php:15
+msgid "Insert -1 for unlimited duration."
+msgstr "무제한 기간 동안 -1을 삽입하십시오."
+
+#: templates/listing-manager/panels/package.php:20
+msgid "CSS Class"
+msgstr "CSS 클래스"
+
+#: templates/listing-manager/panels/package.php:27
+msgid "Exclude from pricing tables"
+msgstr "가격 책정 테이블에서 제외"
+
+#: templates/listing-manager/purchase.php:43
+msgid "Quantity"
+msgstr ""
+
+#: templates/listing-manager/purchase.php:49
+msgid "It is not possible to add this product into cart."
+msgstr ""
+
+#: templates/listing-manager/report-form.php:16
+#: templates/listing-manager/report-form.php:17
+msgid "It is spam"
+msgstr "스팸입니다."
+
+#: templates/listing-manager/report-form.php:23
+#: templates/listing-manager/report-form.php:24
+msgid "It is nudity or pornography"
+msgstr "누드 또는 음란물입니다."
+
+#: templates/listing-manager/report-form.php:30
+#: templates/listing-manager/report-form.php:31
+msgid "It humiliates somebody"
+msgstr "타인을 음해하는 글입니다."
+
+#: templates/listing-manager/report-form.php:37
+#: templates/listing-manager/report-form.php:38
+msgid "It is inappropriate"
+msgstr "부적절합니다."
+
+#: templates/listing-manager/report-form.php:44
+#: templates/listing-manager/report-form.php:45
+msgid ""
+"It insults or attacks someone based on their religion, ethnicity or sexual "
+"orientation"
+msgstr "종교, 인종 또는 성적 취향에 따라 누군가를 모욕하거나 공격합니다."
+
+#: templates/listing-manager/report-form.php:51
+#: templates/listing-manager/report-form.php:52
+msgid "It advocates violence or harm to a person or animal"
+msgstr "사람이나 동물에 대한 폭력이나 피해를 옹호합니다."
+
+#: templates/listing-manager/report-form.php:58
+#: templates/listing-manager/report-form.php:59
+msgid "It displays someone harming themself or planning to harm themself"
+msgstr "자신을 해치거나 스스로 해를 끼칠 사람을 나타냅니다."
+
+#: templates/listing-manager/report-form.php:65
+#: templates/listing-manager/report-form.php:66
+msgid "It describes buying or selling drugs, guns or regulated products"
+msgstr "마약, 총 또는 규제 제품의 매매에 대해 설명합니다."
+
+#: templates/listing-manager/report-form.php:73
+#: templates/listing-manager/report-form.php:74
+msgid "It is an unauthorized use of my intellectual property"
+msgstr "내 지적 재산권을 무단으로 사용하는 행위입니다."
+
+#: templates/listing-manager/report-form.php:80
+#: templates/listing-manager/report-form.php:81
+msgid "Something else"
+msgstr "다른 것"
+
+#: templates/listing-manager/report-form.php:87
+msgid "Other reason or additional information"
+msgstr "기타 이유 또는 추가 정보"
+
+#: templates/listing-manager/report-form.php:90
+msgid "Contact to you"
+msgstr "연락하기"
+
+#: templates/listing-manager/report-form.php:103
+msgid "Submit to review"
+msgstr "검토를 위해 제출"
+
+#: templates/listing-manager/reviews/display.php:24
+#: templates/listing-manager/reviews/field.php:13
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/listing-manager/statistics.php:8
+msgid ""
+"Listing views logging is disabled. If you want to collect stats, plase "
+"enable under \"Appearance - Customize - Listing Manager Statistics\"."
+msgstr ""
+"리스팅 뷰 로깅이 비활성화되었습니다. 통계를 수집하려면 \"모양 - 사용자 정의 "
+"- 리스팅 관리자 통계\"에서 활성화하십시오."
+
+#: templates/listing-manager/statistics.php:15
+msgid "Total Views"
+msgstr "총 조회수"
+
+#: templates/listing-manager/statistics.php:20
+msgid "Total Searches"
+msgstr "총 검색 수"
+
+#: templates/listing-manager/statistics.php:35
+msgid "Registered Users"
+msgstr "등록 된 사용자"
+
+#: templates/listing-manager/statistics.php:46
+msgid "10 most popular listings"
+msgstr "가장 인기있는 10 가지 리스팅"
+
+#: templates/listing-manager/statistics.php:54
+#: templates/listing-manager/statistics.php:82
+#: templates/listing-manager/statistics.php:110
+msgid "views"
+msgstr "views"
+
+#: templates/listing-manager/statistics.php:67
+msgid "10 most popular locations"
+msgstr "가장 인기있는 10개 지역"
+
+#: templates/listing-manager/statistics.php:95
+msgid "10 most popular categories"
+msgstr "10 개의 가장 인기있는 브랜드"
+
+#: templates/listing-manager/tabs/contact.php:33
+msgid "You must be logged in to see contact information."
+msgstr "연락처 정보를 보려면 로그인해야합니다."
+
+#: templates/listing-manager/tabs/job.php:6
+msgid "Starting date"
+msgstr ""
+
+#: templates/listing-manager/tabs/opening_hours.php:16
+msgid "Open"
+msgstr "열기"
+
+#: templates/listing-manager/tabs/opening_hours.php:18
+msgid "Closed"
+msgstr "닫기"
+
+#: templates/listing-manager/tabs/social.php:1
+msgid "Social Networks"
+msgstr "소셜 네트워크"
+
+#: templates/listing-manager/widgets/agents-form.php:40
+#: templates/listing-manager/widgets/categories-form.php:39
+#: templates/listing-manager/widgets/companies-form.php:40
+#: templates/listing-manager/widgets/cta-form.php:55
+#: templates/listing-manager/widgets/listings-form.php:41
+#: templates/listing-manager/widgets/stream-form.php:40
+#: templates/listing-manager/widgets/tiles-form.php:40
+msgid "Classes"
+msgstr "클래스"
+
+#: templates/listing-manager/widgets/agents-form.php:54
+#: templates/listing-manager/widgets/companies-form.php:54
+#: templates/listing-manager/widgets/stream-form.php:54
+msgid "Count"
+msgstr "카운트"
+
+#: templates/listing-manager/widgets/cta-form.php:69
+msgid "Action title"
+msgstr ""
+
+#: templates/listing-manager/widgets/cta-form.php:83
+msgid "Action link"
+msgstr ""
+
+#: templates/listing-manager/widgets/filter-form.php:60
+#: templates/listing-manager/widgets/google-map-form.php:143
+msgid "Autosubmit"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:83
+msgid "GPS Position"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:111
+msgid "Options"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:120
+msgid "Show all markers"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:131
+msgid "Show filter"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:155
+msgid "Live Filter"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:159
+msgid "Toolbar"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:169
+msgid "Map types"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:197
+msgid "Filter Options"
+msgstr ""
+
+#: templates/listing-manager/widgets/google-map-form.php:251
+msgid "Filter Fields"
+msgstr ""
+
+#~ msgid ""
+#~ "Select if you want to use free for all front end submission or the "
+#~ "package system."
+#~ msgstr ""
+#~ "모든 프런트 엔드 제출 또는 패키지 시스템에 무료를 사용하려면 선택하십시오."
+
+#~ msgid "Field Builder"
+#~ msgstr "필드 빌더"
+
+#~ msgid "Fetching your customizations from database."
+#~ msgstr "데이터베이스에서 사용자 정의를 가져 오는 중."
+
+#~ msgid "It looks like that you don't have any customizations, yet."
+#~ msgstr "아직 사용자 정의가없는 것 같습니다."
+
+#~ msgid "Available Field Types"
+#~ msgstr "사용 가능한 필드 유형"
+
+#~ msgid ""
+#~ "Text, email, URL, file, files, date, time, textarea and opening hours."
+#~ msgstr ""
+#~ "텍스트, 이메일, URL, 파일, 파일, 날짜, 시간, 텍스트 영역 및 영업 시간."
+
+#~ msgid "Getting Custom Field"
+#~ msgstr "사용자 정의 필드 가져 오기"
+
+#~ msgid ""
+#~ "In most cases you will be fine by using simple line of code below to "
+#~ "fetch the data from database. Use this command in your theme on front end "
+#~ "site."
+#~ msgstr ""
+#~ "대부분의 경우 데이터베이스에서 데이터를 가져 오는 간단한 코드 행을 사용하"
+#~ "면 문제가 없습니다. 프런트 엔드 사이트의 테마에서이 명령을 사용하십시오."
+
+#~ msgid "Removing Customizations"
+#~ msgstr "사용자 지정 항목 제거"
+
+#~ msgid ""
+#~ "All settings are stored inside database table TABLE_PREFIX_options under "
+#~ "listing_manager_field_builder option. So if you are looking for removing "
+#~ "your settings just navigate into database and remove this row from table."
+#~ msgstr ""
+#~ "모든 설정은 listing_manager_field_builder 옵션 아래의 데이터베이스 테이블 "
+#~ "TABLE_PREFIX_options에 저장됩니다. 따라서 설정 제거를 원하면 데이터베이스"
+#~ "로 이동하여 테이블에서이 행을 제거하십시오."
+
+#~ msgid "Back End Custom Fields"
+#~ msgstr "백 엔드 사용자 정의 필드"
+
+#~ msgid ""
+#~ "You can add custom fields on backend in two ways. First option is to "
+#~ "download third party like ACF or you can write custom WooCommerce hooks "
+#~ "to add support for additional plugins."
+#~ msgstr ""
+#~ "두 가지 방법으로 백엔드에 사용자 정의 필드를 추가 할 수 있습니다. 첫 번째 "
+#~ "옵션은 ACF와 같은 제 3자를 다운로드하거나 사용자 정의 WooCommerce 후크를 "
+#~ "작성하여 추가 플러그인에 대한 지원을 추가 할 수 있습니다."
+
+#~ msgid "Advanced Custom Fields"
+#~ msgstr "고급 사용자 정의 필드"
+
+#~ msgid "Mastering Custom Fields"
+#~ msgstr "사용자 정의 필드 마스터링"
+
+#~ msgid ""
+#~ "Package has been added into cart. Please purchase it before your listing "
+#~ "will be published."
+#~ msgstr ""
+#~ "패키지가 장바구니에 추가되었습니다. 리스팅을 게시하기 전에 먼저 구입하십시"
+#~ "오."
+
+#~ msgid "Listing Manager Tabs"
+#~ msgstr "Listing Manager 탭"
+
+#~ msgid "Hide Single"
+#~ msgstr "싱글 숨기기"
+
+#~ msgid ""
+#~ "Check which tabs should be hidden on product single page when product "
+#~ "type is set to \"Listing\"."
+#~ msgstr ""
+#~ "제품 유형이 \"리스팅\"으로 설정된 경우 제품 단일 페이지에서 숨길 탭을 선택"
+#~ "하십시오."
+
+#~ msgid "Listing Manager Agents"
+#~ msgstr "리스트 매니저 에이전트"
+
+#~ msgid "Listing Manager Companies"
+#~ msgstr "Listing Manager 기업"
+
+#~ msgid "Listing Manager Filter"
+#~ msgstr "Listing Manager 필터"
+
+#~ msgid "Listing Manager Google Map"
+#~ msgstr "리스트 매니저 Google지도"
+
+#~ msgid "Create"
+#~ msgstr "생성"
+
+#~ msgid "Add Package"
+#~ msgstr "패키지 추가"

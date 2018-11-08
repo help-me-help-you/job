@@ -1,0 +1,164 @@
+.single-company .post-content {
+  > img {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0 25px 0 0;
+    width: 274px;
+  }
+}
+
+.single-company .post-social-simple,
+.company .post-social-simple {
+  margin: 20px 0 0 0;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+
+    &:after {
+      color: rgba($color-black, .2);
+      content: '/';
+      font-size: 10px;
+      margin: 0 15px;
+      vertical-align: middle;
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    color: rgba($color-black, .7);
+  }
+}
+
+.single-company .post-social-simple {
+  border-bottom: 1px solid rgba(#000, .06);
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+.single-company .post-overview,
+.company .post-overview {
+  margin: 20px 0 0 0;
+
+  dl {
+    color: rgba($color-black, .7);
+    margin: 0;
+    line-height: 30px;
+  }
+
+  dt {
+    color: rgba($color-black, .5);
+    float: left;
+    line-height: 30px;
+    width: 120px;
+  }
+}
+
+
+.company {
+  @include susy-clearfix();
+
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba($color-black, .08);
+  margin: 0 0 25px 0;
+  padding: 25px;
+
+  .post-thumbnail {
+    float: left;
+    margin: 0 25px 0 0;
+
+    img {
+      display: block;
+      height: auto;
+      width: 274px;
+    }
+  }
+
+  .post-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    padding: 0;
+
+    a {
+      color: $color-black;
+    }
+  }
+
+  .post-subtitle {
+    color: rgba($color-black, .5);
+    font-size: 14px;
+    margin: 0 0 ;
+    padding: 0;
+  }
+}
+
+.companies-small-wrapper {
+  clear: both;
+}
+
+.company-small {
+  border-bottom: 1px solid rgba(#000, .06);
+  margin: 0 0 12px 0;
+  padding: 0 0 12px 0;
+  position: relative;
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.company-small-thumbnail {
+  display: inline-block;
+  margin: 0 12px 0 0;
+  vertical-align: middle;
+
+  img {
+    display: block;
+    height: auto;
+    width: 42px;
+  }
+}
+
+.company-small-content {
+  display: inline-block;
+  vertical-align: middle;
+
+  h3 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: $color-black-light;
+
+      &:after {
+        color: $color-primary;
+        content: '\e906';
+        font-family: 'Silk';
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 8px;
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "IcoMoonType": "selection",
+    "icons": [
+        {
+            "icon": {
+                "paths": [
+                    "M358.161 769.046l14.075 14.075c38.738 38.738 38.738 38.738 85.31 85.31 46.356 46.356 46.356 46.356 84.986 84.986 30.904 30.904 30.904 30.904 38.63 38.63 56.204 56.204 146.841 35.336 172.748-39.685l282.212-817.213c28.278-81.885-43.376-156.019-126.268-129.775l-835.972 264.672c-77.018 24.384-98.545 116.177-42.006 172.716l218.291 218.291 125.27-125.27-218.291-218.291c36.803 36.803 20.701 105.463-29.791 121.449l835.972-264.672c-56.349 17.84-113.78-41.578-94.659-96.948l-282.212 817.213c16.814-48.689 83.655-64.078 119.976-27.757-7.726-7.726-7.726-7.726-38.63-38.63-38.63-38.63-38.63-38.63-84.986-84.986-46.572-46.572-46.572-46.572-85.31-85.31l-14.075-14.075-125.27 125.27z"
+                ],
+                "attrs": [
+                    {}
+                ],
+                "width": 1071,
+                "isMulticolor": false,
+                "isMulticolor2": false,
+                "grid": 0,
+                "tags": [
+                    "logo"
+                ]
+            },
+            "attrs": [
+                {}
+            ],
+            "properties": {
+                "order": 2,
+                "id": 0,
+                "name": "logo",
+                "prevSize": 32,
+                "code": 59648
+            },
+            "setIdx": 0,
+            "setId": 0,
+            "iconIdx": 0
+        }
+    ],
+    "height": 1024,
+    "metadata": {
+        "name": "Listing-Manager"
+    },
+    "preferences": {
+        "showGlyphs": true,
+        "showCodes": true,
+        "showQuickUse": true,
+        "showQuickUse2": true,
+        "showSVGs": true,
+        "fontPref": {
+            "prefix": "listing-manager-",
+            "metadata": {
+                "fontFamily": "Listing-Manager",
+                "majorVersion": 1,
+                "minorVersion": 0
+            },
+            "metrics": {
+                "emSize": 1024,
+                "baseline": 6.25,
+                "whitespace": 50
+            },
+            "embed": false,
+            "noie8": true,
+            "ie7": false,
+            "showSelector": true,
+            "selector": "class",
+            "showMetrics": true,
+            "showMetadata": false,
+            "classSelector": ".icon-listing-manager"
+        },
+        "imagePref": {
+            "prefix": "icon-",
+            "png": true,
+            "useClassSelector": true,
+            "color": 0,
+            "bgColor": 16777215
+        },
+        "historySize": 100
+    }
+}

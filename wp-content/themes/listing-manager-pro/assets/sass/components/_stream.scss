@@ -1,0 +1,148 @@
+.listing-manager-stream-wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.listing-manager-stream {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  margin: 0 -15px;
+  padding: 0;
+  position: relative;
+
+  @media (max-width: $mobile) {
+    display: block;
+  }
+}
+
+.listing-manager-stream-item {
+  @include susy-clearfix();
+
+  background-color: #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px rgba(#000, .08);
+  display: block;
+  margin: 0 15px 20px 15px;
+  padding: 13px 13px;
+  position: relative;
+  transition: all .2s ease;
+  width: calc(25% - 30px);
+
+  @media (max-width: $mobile) {
+    width: auto;
+  }
+
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    width: calc(50% - 30px);
+  }
+
+  &:hover {
+    box-shadow: 0 0 16px rgba(#000, .16);
+  }
+}
+
+.listing-manager-stream-meta {
+  display: table;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+  width: 100%;
+}
+
+.listing-manager-stream-item-content {
+  font-size: 13px;
+
+  i {
+    border: 1px solid rgba(#000, .06);
+    border-radius: 50%;
+    color: $color-primary;
+    font-size: 20px;
+    height: 32px;
+    line-height: 30px;
+    vertical-align: middle;
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    top: 164px;
+    width: 32px;
+  }
+
+  span {
+    vertical-align: middle;
+  }
+}
+
+.listing-manager-stream-item-category {
+  margin: 0 0 4px 0;
+}
+
+.listing-manager-stream-item-location {
+  color: rgba($color-black, .7);
+  font-size: 12px;
+}
+
+.listing-manager-stream-item-cell {
+  display: table-cell;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &.title {
+    font-weight: 500;
+    max-width: 120px;
+
+    a {
+      color: $color-black;
+    }
+  }
+
+  &.price, &.date {
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  &.date {
+    font-weight: 400;
+    opacity: .5;
+    padding-right: 25px;
+  }
+
+  &.price {
+    color: rgba($color-black, .3);
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+.listing-manager-stream-item-thumbnail {
+  margin: 0 -13px 15px -13px;
+
+  img {
+    display: block;
+    height: auto;
+  }
+
+  a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100px;
+  }
+}
+
+.listing-manager-stream-item-excerpt {
+  display: none;
+  height: 64px;
+  overflow: hidden;
+  padding-top: 0;
+
+  p {
+    color: rgba($color-black, .5);
+    line-height: 20px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Listing Manager",
+  "type": "wordpress-plugin",
+  "require": {
+    "symfony/class-loader": "3.3.*",
+    "webdevstudios/cmb2": "v2.2.*",
+    "doctrine/annotations": "1.4",
+    "tgmpa/tgm-plugin-activation": "^2.6"
+  },
+  "autoload": {
+    "exclude-from-classmap": ["src/ListingManager/ProductType/", "src/ListingManager/Customization/CheckboxMultipleControlCustomization"],
+    "files": ["vendor/webdevstudios/cmb2/init.php", "vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php"],
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
